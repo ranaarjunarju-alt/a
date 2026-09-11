@@ -1,5 +1,7 @@
 # ElevenLabs request: field-by-field origin, transformations and native boundary
 
+> **Follow-up correction:** the formerly unidentified `libcapcut.so` container is now mapped to Zoin/Komprese and its intended speech-library outputs. See [Zoin/native deep analysis](ZOIN-NATIVE-DEEP-ANALYSIS.md). The older unknown-loader discussion below is superseded; payload decompression is not yet completed.
+
 ## Result and scope
 
 This report traces **where the request data comes from**, rather than just listing API keys. APK: `com.lemon.lvoverseas` 19.6.0; verified SHA-256 `46bb98a05a6c3be31a4557e08668a249fa759b9d140eedadbed38c3b4738452f`.

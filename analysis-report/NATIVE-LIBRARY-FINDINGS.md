@@ -1,5 +1,7 @@
 # Native libraries: complete inventory and focused TTS findings
 
+> **Follow-up correction:** the formerly unidentified `libcapcut.so` container is now mapped to Zoin/Komprese and its intended speech-library outputs. See [Zoin/native deep analysis](ZOIN-NATIVE-DEEP-ANALYSIS.md). The older unknown-loader discussion below is superseded; payload decompression is not yet completed.
+
 ## Coverage
 
 Every `.so` file under APK `lib/` was read and SHA-256 hashed, without executing it.

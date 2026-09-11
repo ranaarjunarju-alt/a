@@ -1,0 +1,93 @@
+{
+  "basis": "Metadata and header validation only; decompressed payloads not recovered",
+  "headers": [
+    {
+      "path": "lib/arm64-v8a/libcapcut.so",
+      "magic_hex": "7f4b4f4d",
+      "version_word": 1,
+      "header_crc32_stored": 2583214201,
+      "header_crc32_calculated": 2583214201,
+      "header_crc32_matches": true
+    },
+    {
+      "path": "lib/armeabi-v7a/libcapcut.so",
+      "magic_hex": "7f4b4f4d",
+      "version_word": 1,
+      "header_crc32_stored": 2583214201,
+      "header_crc32_calculated": 2583214201,
+      "header_crc32_matches": true
+    }
+  ],
+  "declared_payloads": [
+    {
+      "abi": "armeabi-v7a",
+      "name": "libonetex.so",
+      "beginOffset": 6564808,
+      "endOffset": 11223788,
+      "offsetInFile": 0,
+      "fileLength": 4658980,
+      "alignedFileLength": 4658980,
+      "checkNumber": 1396576587,
+      "compressedName": "libcapcut_1.so",
+      "relativePath": "libonetex.so",
+      "expected_crc32_from_check_number": 1391917607
+    },
+    {
+      "abi": "armeabi-v7a",
+      "name": "libspeechspg.so",
+      "beginOffset": 0,
+      "endOffset": 6564808,
+      "offsetInFile": 0,
+      "fileLength": 6564808,
+      "alignedFileLength": 6564808,
+      "checkNumber": 2094404258,
+      "compressedName": "libcapcut_1.so",
+      "relativePath": "libspeechspg.so",
+      "expected_crc32_from_check_number": 2087839450
+    },
+    {
+      "abi": "arm64-v8a",
+      "name": "libonetex.so",
+      "beginOffset": 8726560,
+      "endOffset": 15233416,
+      "offsetInFile": 0,
+      "fileLength": 6506856,
+      "alignedFileLength": 6506856,
+      "checkNumber": 2234619001,
+      "compressedName": "libcapcut_1.so",
+      "relativePath": "libonetex.so",
+      "expected_crc32_from_check_number": 2228112145
+    },
+    {
+      "abi": "arm64-v8a",
+      "name": "libspeechspg.so",
+      "beginOffset": 0,
+      "endOffset": 8726560,
+      "offsetInFile": 0,
+      "fileLength": 8726560,
+      "alignedFileLength": 8726560,
+      "checkNumber": 3678770750,
+      "compressedName": "libcapcut_1.so",
+      "relativePath": "libspeechspg.so",
+      "expected_crc32_from_check_number": 3670044190
+    }
+  ],
+  "declared_blocks": [
+    {
+      "abi": "armeabi-v7a",
+      "blockName": "libcapcut.so",
+      "blockCompressedName": "libcapcut_1.so",
+      "blockBeginOffset": 0,
+      "blockEndOffset": 2447947,
+      "totalDecompressedLength": 11223788
+    },
+    {
+      "abi": "arm64-v8a",
+      "blockName": "libcapcut.so",
+      "blockCompressedName": "libcapcut_1.so",
+      "blockBeginOffset": 0,
+      "blockEndOffset": 2331059,
+      "totalDecompressedLength": 15233416
+    }
+  ]
+}
