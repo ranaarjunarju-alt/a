@@ -16,7 +16,6 @@ import kotlin.TuplesKt;
 import kotlin.collections.MapsKt__MapsKt;
 import kotlin.jvm.internal.Intrinsics;
 import kotlin.jvm.internal.Ref$ObjectRef;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 /* loaded from: classes16.dex */
@@ -43,7 +42,7 @@ public final class TempStaticsNetInterceptor implements Interceptor {
 
     /* JADX WARN: Type inference failed for: r0v17, types: [T, com.vega.launcher.network.interceptors.TempStaticsNetInterceptor$intercept$1] */
     @Override // com.bytedance.retrofit2.intercept.Interceptor
-    public final SsResponse<?> intercept(Interceptor.Chain chain) throws JSONException {
+    public final SsResponse<?> intercept(Interceptor.Chain chain) {
         Intrinsics.checkNotNullParameter(chain, "");
         Request request = chain.request();
         Intrinsics.checkNotNullExpressionValue(request, "");
@@ -87,7 +86,7 @@ public final class TempStaticsNetInterceptor implements Interceptor {
                 final Ref$ObjectRef ref$ObjectRef = new Ref$ObjectRef();
                 ref$ObjectRef.element = new Observer() { // from class: com.vega.launcher.network.interceptors.TempStaticsNetInterceptor.intercept.1
                     @Override // java.util.Observer
-                    public final void update(Observable observable, Object obj) throws JSONException {
+                    public final void update(Observable observable, Object obj) {
                         String regionSource2 = CronetDataStorageAccess.getRegionSource();
                         String userRegion2 = CronetDataStorageAccess.getUserRegion();
                         Intrinsics.checkNotNull(userRegion2);
