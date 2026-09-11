@@ -7,7 +7,7 @@ on:
       - scripts/analyze_apk_tts.py
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   inspect:
     runs-on: ubuntu-latest
@@ -36,3 +36,10 @@ jobs:
           name: apk-tts-static-analysis
           path: analysis-report/
           retention-days: 7
+      - name: Save text evidence to this session branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis-report/report.md analysis-report/inventory.json analysis-report/manifest-summary.json analysis-report/tts-call-references.json analysis-report/tts-class-candidates.json analysis-report/hostname-candidates.json
+          git diff --cached --quiet || git commit -m "Save APK TTS static evidence"
+          git push origin HEAD:arena/01a090c6-a
