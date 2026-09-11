@@ -38,4 +38,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add analysis-report/deep-source analysis-report/deep-evidence
           git diff --cached --quiet || git commit -m 'Save deeper TTS framework and network static evidence'
+          git pull --rebase origin arena/01a090c6-a
           git push origin HEAD:arena/01a090c6-a
