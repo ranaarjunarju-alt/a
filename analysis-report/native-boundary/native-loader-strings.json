@@ -1,0 +1,322 @@
+[
+  {
+    "path": "lib/arm64-v8a/libDex2cPro.so",
+    "count": 43,
+    "sample": [
+      {
+        "file_offset": 1616,
+        "text": "libNPDex2c.so"
+      },
+      {
+        "file_offset": 1657,
+        "text": "libDex2cPro.so"
+      },
+      {
+        "file_offset": 453374,
+        "text": "Lcom/bytedance/bdinstall/IEncryptor$DefaultEncryptor;"
+      },
+      {
+        "file_offset": 453428,
+        "text": "Lcom/bytedance/bdinstall/IEncryptor;"
+      },
+      {
+        "file_offset": 464246,
+        "text": "Lcom/bytedance/frameworks/encryptor/EncryptorUtil;"
+      },
+      {
+        "file_offset": 467115,
+        "text": "Lcom/bytedance/mpaas/IEncryptor;"
+      },
+      {
+        "file_offset": 510867,
+        "text": "Lcom/vega/launcher/init/config/AppPropertyImpl$Companion$storage$2;"
+      },
+      {
+        "file_offset": 510935,
+        "text": "Lcom/vega/launcher/init/config/AppPropertyImpl$Companion;"
+      },
+      {
+        "file_offset": 510993,
+        "text": "Lcom/vega/launcher/init/config/AppPropertyImpl$addUsingLocation$1;"
+      },
+      {
+        "file_offset": 511060,
+        "text": "Lcom/vega/launcher/init/config/AppPropertyImpl$initUsingLocationProperty$2;"
+      },
+      {
+        "file_offset": 511136,
+        "text": "Lcom/vega/launcher/init/config/AppPropertyImpl$removeUsingLocation$1;"
+      },
+      {
+        "file_offset": 511206,
+        "text": "Lcom/vega/launcher/init/config/AppPropertyImpl;"
+      },
+      {
+        "file_offset": 577990,
+        "text": "getEncryptor"
+      },
+      {
+        "file_offset": 617933,
+        "text": "setEncryptor"
+      },
+      {
+        "file_offset": 714614,
+        "text": "com/vega/launcher/init/config/AppPropertyImpl$Companion"
+      },
+      {
+        "file_offset": 738428,
+        "text": "(Lcom/bytedance/bdinstall/INetworkClient;Ljava/lang/String;Lorg/json/JSONObject;ZLcom/bytedance/bdinstall/IEncryptor;Z)Lorg/json/JSONObject;"
+      },
+      {
+        "file_offset": 745280,
+        "text": "com/vega/launcher/init/config/AppPropertyImpl$removeUsingLocation$1"
+      },
+      {
+        "file_offset": 761711,
+        "text": "()Lcom/vega/launcher/init/config/AppPropertyImpl$Companion$storage$2;"
+      },
+      {
+        "file_offset": 769963,
+        "text": "()Lcom/vega/launcher/init/config/AppPropertyImpl$Companion;"
+      },
+      {
+        "file_offset": 803783,
+        "text": "com/vega/launcher/init/config/AppPropertyImpl"
+      },
+      {
+        "file_offset": 819414,
+        "text": "(Ljava/lang/String;ZLcom/bytedance/bdinstall/IEncryptor;)[B"
+      },
+      {
+        "file_offset": 824786,
+        "text": "()Lcom/vega/launcher/init/config/AppPropertyImpl$addUsingLocation$1;"
+      },
+      {
+        "file_offset": 831957,
+        "text": "(Ljava/lang/String;ZLcom/bytedance/bdinstall/IEncryptor;)Ljava/lang/String;"
+      },
+      {
+        "file_offset": 849763,
+        "text": "()Lcom/bytedance/mpaas/IEncryptor;"
+      },
+      {
+        "file_offset": 849980,
+        "text": "com/bytedance/mpaas/IEncryptor"
+      },
+      {
+        "file_offset": 865580,
+        "text": "(Ljava/lang/Object;)Lcom/bytedance/bdinstall/IEncryptor;"
+      },
+      {
+        "file_offset": 868766,
+        "text": "(Ljava/lang/Object;)Lcom/bytedance/mpaas/IEncryptor;"
+      },
+      {
+        "file_offset": 871059,
+        "text": "com/vega/launcher/init/config/AppPropertyImpl$Companion$storage$2"
+      },
+      {
+        "file_offset": 871486,
+        "text": "()Lcom/vega/launcher/init/config/AppPropertyImpl$removeUsingLocation$1;"
+      },
+      {
+        "file_offset": 872067,
+        "text": "com/bytedance/bdinstall/IEncryptor"
+      },
+      {
+        "file_offset": 912965,
+        "text": "(Lcom/bytedance/bdinstall/INetworkClient;Ljava/lang/String;ZLcom/bytedance/bdinstall/IEncryptor;ZLjava/util/HashMap;)Z"
+      },
+      {
+        "file_offset": 948992,
+        "text": "com/vega/launcher/init/config/AppPropertyImpl$addUsingLocation$1"
+      },
+      {
+        "file_offset": 963020,
+        "text": "()Lcom/vega/launcher/init/config/AppPropertyImpl$initUsingLocationProperty$2;"
+      },
+      {
+        "file_offset": 1030294,
+        "text": "com/bytedance/frameworks/encryptor/EncryptorUtil"
+      },
+      {
+        "file_offset": 1034195,
+        "text": "com/vega/launcher/init/config/AppPropertyImpl$initUsingLocationProperty$2"
+      },
+      {
+        "file_offset": 1040977,
+        "text": "com/bytedance/bdinstall/IEncryptor$DefaultEncryptor"
+      },
+      {
+        "file_offset": 1072766,
+        "text": "(Lcom/bytedance/mpaas/IEncryptor;)Lcom/bytedance/applog/InitConfig;"
+      },
+      {
+        "file_offset": 2641237,
+        "text": "NPDex2c"
+      },
+      {
+        "file_offset": 2641433,
+        "text": "LNPDex2c$1;"
+      },
+      {
+        "file_offset": 2641445,
+        "text": "LNPDex2c$2;"
+      },
+      {
+        "file_offset": 2641457,
+        "text": "LNPDex2c;"
+      },
+      {
+        "file_offset": 2649173,
+        "text": "NPDex2c$1"
+      },
+      {
+        "file_offset": 2649183,
+        "text": "NPDex2c$2"
+      }
+    ]
+  },
+  {
+    "path": "lib/arm64-v8a/libEncryptor.so",
+    "count": 1,
+    "sample": [
+      {
+        "file_offset": 1416,
+        "text": "libEncryptor.so"
+      }
+    ]
+  },
+  {
+    "path": "lib/arm64-v8a/libNPDex2c.so",
+    "count": 1,
+    "sample": [
+      {
+        "file_offset": 19893,
+        "text": "libNPDex2c.so"
+      }
+    ]
+  },
+  {
+    "path": "lib/arm64-v8a/libcccreator.so",
+    "count": 2,
+    "sample": [
+      {
+        "file_offset": 29947755,
+        "text": "19TEFFmpegIOEncryptor"
+      },
+      {
+        "file_offset": 29947777,
+        "text": "22TEFFmpegXORIOEncryptor"
+      }
+    ]
+  },
+  {
+    "path": "lib/arm64-v8a/libmiddle-bridge.so",
+    "count": 15,
+    "sample": [
+      {
+        "file_offset": 21558066,
+        "text": "N8CryptoPP18PK_EncryptorFilterE"
+      },
+      {
+        "file_offset": 21558098,
+        "text": "<REDACTED_LONG_LITERAL>"
+      },
+      {
+        "file_offset": 21558267,
+        "text": "<REDACTED_LONG_LITERAL>"
+      },
+      {
+        "file_offset": 21558440,
+        "text": "N8CryptoPP13AlgorithmImplINS_16TF_EncryptorBaseENS_5TF_ESINS_3RSAENS_8PKCS1v15EiEEEE"
+      },
+      {
+        "file_offset": 21558525,
+        "text": "N8CryptoPP16PK_FinalTemplateINS_16TF_EncryptorImplINS_22TF_CryptoSchemeOptionsINS_5TF_ESINS_3RSAENS_8PKCS1v15EiEES4_NS_28PKCS_EncryptionPaddingSchemeEEEEEEE"
+      },
+      {
+        "file_offset": 21558682,
+        "text": "N8CryptoPP16TF_EncryptorImplINS_22TF_CryptoSchemeOptionsINS_5TF_ESINS_3RSAENS_8PKCS1v15EiEES3_NS_28PKCS_EncryptionPaddingSchemeEEEEE"
+      },
+      {
+        "file_offset": 21558815,
+        "text": "N8CryptoPP19TF_CryptoSystemBaseINS_12PK_EncryptorENS_7TF_BaseINS_26RandomizedTrapdoorFunctionENS_34PK_EncryptionMessageEncodingMethodEEEEE"
+      },
+      {
+        "file_offset": 21558954,
+        "text": "N8CryptoPP30PK_FixedLengthCryptoSystemImplINS_12PK_EncryptorEEE"
+      },
+      {
+        "file_offset": 22809612,
+        "text": "N8CryptoPP12PK_EncryptorE"
+      },
+      {
+        "file_offset": 22824008,
+        "text": "N8CryptoPP16TF_EncryptorBaseE"
+      },
+      {
+        "file_offset": 22827362,
+        "text": "<REDACTED_LONG_LITERAL>"
+      },
+      {
+        "file_offset": 22827523,
+        "text": "<REDACTED_LONG_LITERAL>"
+      },
+      {
+        "file_offset": 22827688,
+        "text": "N8CryptoPP13AlgorithmImplINS_16TF_EncryptorBaseENS_5TF_ESINS_3RSAENS_4OAEPINS_4SHA1ENS_10P1363_MGF1EEEiEEEE"
+      },
+      {
+        "file_offset": 22830274,
+        "text": "N8CryptoPP16PK_FinalTemplateINS_16TF_EncryptorImplINS_22TF_CryptoSchemeOptionsINS_5TF_ESINS_3RSAENS_4OAEPINS_4SHA1ENS_10P1363_MGF1EEEiEES4_S8_EEEEEE"
+      },
+      {
+        "file_offset": 22830423,
+        "text": "N8CryptoPP16TF_EncryptorImplINS_22TF_CryptoSchemeOptionsINS_5TF_ESINS_3RSAENS_4OAEPINS_4SHA1ENS_10P1363_MGF1EEEiEES3_S7_EEEE"
+      }
+    ]
+  },
+  {
+    "path": "lib/arm64-v8a/libres_pool.so",
+    "count": 9,
+    "sample": [
+      {
+        "file_offset": 8508879,
+        "text": "N8CryptoPP12PK_EncryptorE"
+      },
+      {
+        "file_offset": 8540343,
+        "text": "N8CryptoPP16TF_EncryptorBaseE"
+      },
+      {
+        "file_offset": 8540838,
+        "text": "N8CryptoPP19TF_CryptoSystemBaseINS_12PK_EncryptorENS_7TF_BaseINS_26RandomizedTrapdoorFunctionENS_34PK_EncryptionMessageEncodingMethodEEEEE"
+      },
+      {
+        "file_offset": 8540977,
+        "text": "N8CryptoPP30PK_FixedLengthCryptoSystemImplINS_12PK_EncryptorEEE"
+      },
+      {
+        "file_offset": 8544627,
+        "text": "<REDACTED_LONG_LITERAL>"
+      },
+      {
+        "file_offset": 8544788,
+        "text": "<REDACTED_LONG_LITERAL>"
+      },
+      {
+        "file_offset": 8544953,
+        "text": "N8CryptoPP13AlgorithmImplINS_16TF_EncryptorBaseENS_5TF_ESINS_3RSAENS_4OAEPINS_4SHA1ENS_10P1363_MGF1EEEiEEEE"
+      },
+      {
+        "file_offset": 8547539,
+        "text": "N8CryptoPP16PK_FinalTemplateINS_16TF_EncryptorImplINS_22TF_CryptoSchemeOptionsINS_5TF_ESINS_3RSAENS_4OAEPINS_4SHA1ENS_10P1363_MGF1EEEiEES4_S8_EEEEEE"
+      },
+      {
+        "file_offset": 8547688,
+        "text": "N8CryptoPP16TF_EncryptorImplINS_22TF_CryptoSchemeOptionsINS_5TF_ESINS_3RSAENS_4OAEPINS_4SHA1ENS_10P1363_MGF1EEEiEES3_S7_EEEE"
+      }
+    ]
+  }
+]
