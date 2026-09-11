@@ -1,0 +1,3144 @@
+{
+  "scope": "All assets <=80MB and arm64-v8a native libraries; ASCII keyword heuristic, not native disassembly",
+  "framework_path_candidates": [
+    "META-INF/services/com.lynx.animax.service.IAutoRegisterAnimaXService",
+    "META-INF/services/com.lynx.tasm.service.IServiceProvider",
+    "META-INF/services/com.lynx.tasm.service.security.ILynxSecurityService",
+    "assets/lynx_core.js",
+    "assets/offline/image_lynx_all_search/locales/ar.json",
+    "assets/offline/image_lynx_all_search/locales/cs-CZ.json",
+    "assets/offline/image_lynx_all_search/locales/de-DE.json",
+    "assets/offline/image_lynx_all_search/locales/el-GR.json",
+    "assets/offline/image_lynx_all_search/locales/en.json",
+    "assets/offline/image_lynx_all_search/locales/es-LA.json",
+    "assets/offline/image_lynx_all_search/locales/fi-FI.json",
+    "assets/offline/image_lynx_all_search/locales/fil-PH.json",
+    "assets/offline/image_lynx_all_search/locales/fr-FR.json",
+    "assets/offline/image_lynx_all_search/locales/he-IL.json",
+    "assets/offline/image_lynx_all_search/locales/hu-HU.json",
+    "assets/offline/image_lynx_all_search/locales/id-ID.json",
+    "assets/offline/image_lynx_all_search/locales/it-IT.json",
+    "assets/offline/image_lynx_all_search/locales/ja-JP.json",
+    "assets/offline/image_lynx_all_search/locales/km-KH.json",
+    "assets/offline/image_lynx_all_search/locales/ko-KR.json",
+    "assets/offline/image_lynx_all_search/locales/ms-MY.json",
+    "assets/offline/image_lynx_all_search/locales/my-MM.json",
+    "assets/offline/image_lynx_all_search/locales/nl-NL.json",
+    "assets/offline/image_lynx_all_search/locales/pl-PL.json",
+    "assets/offline/image_lynx_all_search/locales/pt-BR.json",
+    "assets/offline/image_lynx_all_search/locales/ro-RO.json",
+    "assets/offline/image_lynx_all_search/locales/ru-RU.json",
+    "assets/offline/image_lynx_all_search/locales/sv-SE.json",
+    "assets/offline/image_lynx_all_search/locales/th-TH.json",
+    "assets/offline/image_lynx_all_search/locales/tr-TR.json",
+    "assets/offline/image_lynx_all_search/locales/uk-UA.json",
+    "assets/offline/image_lynx_all_search/locales/ur-PK.json",
+    "assets/offline/image_lynx_all_search/locales/vi-VN.json",
+    "assets/offline/image_lynx_all_search/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_all_search/prefetch_v2.js",
+    "assets/offline/image_lynx_all_search/template.js",
+    "assets/offline/image_lynx_creator_center/locales/ar.json",
+    "assets/offline/image_lynx_creator_center/locales/cs-CZ.json",
+    "assets/offline/image_lynx_creator_center/locales/de-DE.json",
+    "assets/offline/image_lynx_creator_center/locales/el-GR.json",
+    "assets/offline/image_lynx_creator_center/locales/en.json",
+    "assets/offline/image_lynx_creator_center/locales/es-LA.json",
+    "assets/offline/image_lynx_creator_center/locales/fi-FI.json",
+    "assets/offline/image_lynx_creator_center/locales/fil-PH.json",
+    "assets/offline/image_lynx_creator_center/locales/fr-FR.json",
+    "assets/offline/image_lynx_creator_center/locales/he-IL.json",
+    "assets/offline/image_lynx_creator_center/locales/hu-HU.json",
+    "assets/offline/image_lynx_creator_center/locales/id-ID.json",
+    "assets/offline/image_lynx_creator_center/locales/it-IT.json",
+    "assets/offline/image_lynx_creator_center/locales/ja-JP.json",
+    "assets/offline/image_lynx_creator_center/locales/km-KH.json",
+    "assets/offline/image_lynx_creator_center/locales/ko-KR.json",
+    "assets/offline/image_lynx_creator_center/locales/ms-MY.json",
+    "assets/offline/image_lynx_creator_center/locales/my-MM.json",
+    "assets/offline/image_lynx_creator_center/locales/nl-NL.json",
+    "assets/offline/image_lynx_creator_center/locales/pl-PL.json",
+    "assets/offline/image_lynx_creator_center/locales/pt-BR.json",
+    "assets/offline/image_lynx_creator_center/locales/ro-RO.json",
+    "assets/offline/image_lynx_creator_center/locales/ru-RU.json",
+    "assets/offline/image_lynx_creator_center/locales/sv-SE.json",
+    "assets/offline/image_lynx_creator_center/locales/th-TH.json",
+    "assets/offline/image_lynx_creator_center/locales/tr-TR.json",
+    "assets/offline/image_lynx_creator_center/locales/uk-UA.json",
+    "assets/offline/image_lynx_creator_center/locales/ur-PK.json",
+    "assets/offline/image_lynx_creator_center/locales/vi-VN.json",
+    "assets/offline/image_lynx_creator_center/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_creator_center/template.js",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ar.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/cs-CZ.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/de-DE.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/el-GR.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/en.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/es-LA.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/fi-FI.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/fil-PH.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/fr-FR.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/he-IL.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/hu-HU.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/id-ID.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/it-IT.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ja-JP.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/km-KH.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ko-KR.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ms-MY.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/my-MM.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/nl-NL.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/pl-PL.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/pt-BR.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ro-RO.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ru-RU.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/sv-SE.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/th-TH.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/tr-TR.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/uk-UA.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/ur-PK.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/vi-VN.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_creator_work_release_entrance/template.js",
+    "assets/offline/image_lynx_global_home/locales/ar.json",
+    "assets/offline/image_lynx_global_home/locales/cs-CZ.json",
+    "assets/offline/image_lynx_global_home/locales/de-DE.json",
+    "assets/offline/image_lynx_global_home/locales/el-GR.json",
+    "assets/offline/image_lynx_global_home/locales/en.json",
+    "assets/offline/image_lynx_global_home/locales/es-LA.json",
+    "assets/offline/image_lynx_global_home/locales/fi-FI.json",
+    "assets/offline/image_lynx_global_home/locales/fil-PH.json",
+    "assets/offline/image_lynx_global_home/locales/fr-FR.json",
+    "assets/offline/image_lynx_global_home/locales/he-IL.json",
+    "assets/offline/image_lynx_global_home/locales/hu-HU.json",
+    "assets/offline/image_lynx_global_home/locales/id-ID.json",
+    "assets/offline/image_lynx_global_home/locales/it-IT.json",
+    "assets/offline/image_lynx_global_home/locales/ja-JP.json",
+    "assets/offline/image_lynx_global_home/locales/km-KH.json",
+    "assets/offline/image_lynx_global_home/locales/ko-KR.json",
+    "assets/offline/image_lynx_global_home/locales/ms-MY.json",
+    "assets/offline/image_lynx_global_home/locales/my-MM.json",
+    "assets/offline/image_lynx_global_home/locales/nl-NL.json",
+    "assets/offline/image_lynx_global_home/locales/pl-PL.json",
+    "assets/offline/image_lynx_global_home/locales/pt-BR.json",
+    "assets/offline/image_lynx_global_home/locales/ro-RO.json",
+    "assets/offline/image_lynx_global_home/locales/ru-RU.json",
+    "assets/offline/image_lynx_global_home/locales/sv-SE.json",
+    "assets/offline/image_lynx_global_home/locales/th-TH.json",
+    "assets/offline/image_lynx_global_home/locales/tr-TR.json",
+    "assets/offline/image_lynx_global_home/locales/uk-UA.json",
+    "assets/offline/image_lynx_global_home/locales/ur-PK.json",
+    "assets/offline/image_lynx_global_home/locales/vi-VN.json",
+    "assets/offline/image_lynx_global_home/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_global_home/manifest-sandbox-signed.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ar.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/cs-CZ.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/de-DE.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/el-GR.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/en.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/es-LA.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/fi-FI.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/fil-PH.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/fr-FR.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/he-IL.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/hu-HU.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/id-ID.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/it-IT.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ja-JP.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/km-KH.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ko-KR.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ms-MY.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/my-MM.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/nl-NL.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/pl-PL.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/pt-BR.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ro-RO.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ru-RU.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/sv-SE.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/th-TH.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/tr-TR.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/uk-UA.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/ur-PK.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/vi-VN.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_global_home/pages/service_unavailable_modal/template.js",
+    "assets/offline/image_lynx_global_home/template.js",
+    "assets/offline/image_lynx_profile_center/locales/ar.json",
+    "assets/offline/image_lynx_profile_center/locales/cs-CZ.json",
+    "assets/offline/image_lynx_profile_center/locales/de-DE.json",
+    "assets/offline/image_lynx_profile_center/locales/el-GR.json",
+    "assets/offline/image_lynx_profile_center/locales/en.json",
+    "assets/offline/image_lynx_profile_center/locales/es-LA.json",
+    "assets/offline/image_lynx_profile_center/locales/fi-FI.json",
+    "assets/offline/image_lynx_profile_center/locales/fil-PH.json",
+    "assets/offline/image_lynx_profile_center/locales/fr-FR.json",
+    "assets/offline/image_lynx_profile_center/locales/he-IL.json",
+    "assets/offline/image_lynx_profile_center/locales/hu-HU.json",
+    "assets/offline/image_lynx_profile_center/locales/id-ID.json",
+    "assets/offline/image_lynx_profile_center/locales/it-IT.json",
+    "assets/offline/image_lynx_profile_center/locales/ja-JP.json",
+    "assets/offline/image_lynx_profile_center/locales/km-KH.json",
+    "assets/offline/image_lynx_profile_center/locales/ko-KR.json",
+    "assets/offline/image_lynx_profile_center/locales/ms-MY.json",
+    "assets/offline/image_lynx_profile_center/locales/my-MM.json",
+    "assets/offline/image_lynx_profile_center/locales/nl-NL.json",
+    "assets/offline/image_lynx_profile_center/locales/pl-PL.json",
+    "assets/offline/image_lynx_profile_center/locales/pt-BR.json",
+    "assets/offline/image_lynx_profile_center/locales/ro-RO.json",
+    "assets/offline/image_lynx_profile_center/locales/ru-RU.json",
+    "assets/offline/image_lynx_profile_center/locales/sv-SE.json",
+    "assets/offline/image_lynx_profile_center/locales/th-TH.json",
+    "assets/offline/image_lynx_profile_center/locales/tr-TR.json",
+    "assets/offline/image_lynx_profile_center/locales/uk-UA.json",
+    "assets/offline/image_lynx_profile_center/locales/ur-PK.json",
+    "assets/offline/image_lynx_profile_center/locales/vi-VN.json",
+    "assets/offline/image_lynx_profile_center/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_profile_center/manifest-sandbox-signed.json",
+    "assets/offline/image_lynx_profile_center/template.js",
+    "assets/offline/image_lynx_profile_home/locales/ar.json",
+    "assets/offline/image_lynx_profile_home/locales/cs-CZ.json",
+    "assets/offline/image_lynx_profile_home/locales/de-DE.json",
+    "assets/offline/image_lynx_profile_home/locales/el-GR.json",
+    "assets/offline/image_lynx_profile_home/locales/en.json",
+    "assets/offline/image_lynx_profile_home/locales/es-LA.json",
+    "assets/offline/image_lynx_profile_home/locales/fi-FI.json",
+    "assets/offline/image_lynx_profile_home/locales/fil-PH.json",
+    "assets/offline/image_lynx_profile_home/locales/fr-FR.json",
+    "assets/offline/image_lynx_profile_home/locales/he-IL.json",
+    "assets/offline/image_lynx_profile_home/locales/hu-HU.json",
+    "assets/offline/image_lynx_profile_home/locales/id-ID.json",
+    "assets/offline/image_lynx_profile_home/locales/it-IT.json",
+    "assets/offline/image_lynx_profile_home/locales/ja-JP.json",
+    "assets/offline/image_lynx_profile_home/locales/km-KH.json",
+    "assets/offline/image_lynx_profile_home/locales/ko-KR.json",
+    "assets/offline/image_lynx_profile_home/locales/ms-MY.json",
+    "assets/offline/image_lynx_profile_home/locales/my-MM.json",
+    "assets/offline/image_lynx_profile_home/locales/nl-NL.json",
+    "assets/offline/image_lynx_profile_home/locales/pl-PL.json",
+    "assets/offline/image_lynx_profile_home/locales/pt-BR.json",
+    "assets/offline/image_lynx_profile_home/locales/ro-RO.json",
+    "assets/offline/image_lynx_profile_home/locales/ru-RU.json",
+    "assets/offline/image_lynx_profile_home/locales/sv-SE.json",
+    "assets/offline/image_lynx_profile_home/locales/th-TH.json",
+    "assets/offline/image_lynx_profile_home/locales/tr-TR.json",
+    "assets/offline/image_lynx_profile_home/locales/uk-UA.json",
+    "assets/offline/image_lynx_profile_home/locales/ur-PK.json",
+    "assets/offline/image_lynx_profile_home/locales/vi-VN.json",
+    "assets/offline/image_lynx_profile_home/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_profile_home/manifest-sandbox-signed.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ar.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/cs-CZ.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/de-DE.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/el-GR.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/en.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/es-LA.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/fi-FI.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/fil-PH.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/fr-FR.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/he-IL.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/hu-HU.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/id-ID.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/it-IT.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ja-JP.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/km-KH.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ko-KR.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ms-MY.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/my-MM.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/nl-NL.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/pl-PL.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/pt-BR.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ro-RO.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ru-RU.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/sv-SE.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/th-TH.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/tr-TR.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/uk-UA.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/ur-PK.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/vi-VN.json",
+    "assets/offline/image_lynx_profile_home/pages/account/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_profile_home/pages/account/template.js",
+    "assets/offline/image_lynx_profile_home/prefetch_v2.js",
+    "assets/offline/image_lynx_profile_home/template.js",
+    "assets/offline/image_lynx_splash_screen/template.js",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ar.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/en.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription/pages/modal/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription/pages/modal/template.js",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ar.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/en.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription/pages/paid_template/template.js",
+    "assets/offline/image_lynx_subscription_modal/manifest-sandbox-signed.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ar.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/en.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription_modal/pages/free_trial_retain_modal/template.js",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ar.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/en.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription_modal/pages/subscription_global_modal/template.js",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ar.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/en.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal/template.js",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ar.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/en.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription_modal/pages/vip_upgrade_modal_v2/template.js",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ar.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/cs-CZ.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/de-DE.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/el-GR.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/en.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/es-LA.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/fi-FI.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/fil-PH.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/fr-FR.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/he-IL.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/hu-HU.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/id-ID.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/it-IT.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ja-JP.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/km-KH.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ko-KR.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ms-MY.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/my-MM.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/nl-NL.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/pl-PL.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/pt-BR.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ro-RO.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ru-RU.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/sv-SE.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/th-TH.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/tr-TR.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/uk-UA.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/ur-PK.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/vi-VN.json",
+    "assets/offline/image_lynx_subscription_open_screen/locales/zh-Hant-TW.json",
+    "assets/offline/image_lynx_subscription_open_screen/template.js",
+    "assets/offline/image_lynx_user_portrait/manifest-sandbox-signed.json",
+    "assets/offline/image_lynx_user_portrait/template.js",
+    "assets/offline/vicut_lynx_commerce_comp_popup/manifest-sandbox-signed.json",
+    "assets/offline/vicut_lynx_commerce_comp_popup/pages/comp_popup/template.js",
+    "lib/arm64-v8a/liblynx-imageloader.so",
+    "lib/arm64-v8a/liblynx.so",
+    "lib/arm64-v8a/liblynx_krypton.so",
+    "lib/arm64-v8a/liblynx_markdown.so",
+    "lib/arm64-v8a/liblynx_v8_bridge.so",
+    "lib/arm64-v8a/liblynxbase.so",
+    "lib/arm64-v8a/liblynxsecurity.so",
+    "lib/arm64-v8a/liblynxtrace.so",
+    "lib/arm64-v8a/libspeechengine.so",
+    "lib/arm64-v8a/libspeechepg.so",
+    "lib/arm64-v8a/libspeechsdk.so",
+    "lib/armeabi-v7a/liblynx-imageloader.so",
+    "lib/armeabi-v7a/liblynx.so",
+    "lib/armeabi-v7a/liblynx_krypton.so",
+    "lib/armeabi-v7a/liblynx_markdown.so",
+    "lib/armeabi-v7a/liblynx_v8_bridge.so",
+    "lib/armeabi-v7a/liblynxbase.so",
+    "lib/armeabi-v7a/liblynxsecurity.so",
+    "lib/armeabi-v7a/liblynxtrace.so",
+    "lib/armeabi-v7a/libspeechengine.so",
+    "lib/armeabi-v7a/libspeechepg.so",
+    "lib/armeabi-v7a/libspeechsdk.so"
+  ],
+  "flutter_standard_markers": {
+    "libflutter.so": [],
+    "libapp.so": [],
+    "flutter_assets/": [],
+    "kernel_blob.bin": [],
+    "isolate_snapshot_data": [],
+    "vm_snapshot_data": []
+  },
+  "truncated_files": [
+    "lib/arm64-v8a/libaudioeffect.so"
+  ],
+  "matches": [
+    {
+      "file": "assets/cold_boost_800.txt",
+      "sha256": "229c140b9e06176a3e939f45babbe18d379494898a34d89f0e78c2cb8be6859d",
+      "hits": [
+        {
+          "offset": 90762,
+          "text": "com.vega.edit.base.tts.TtsUpdateService"
+        }
+      ]
+    },
+    {
+      "file": "assets/cold_boost_all.txt",
+      "sha256": "111153945f501cd18369761d859658a8d331365fed6784e13d441f857b4eee28",
+      "hits": [
+        {
+          "offset": 40614,
+          "text": "com.vega.edit.base.tts.TtsUpdateService"
+        },
+        {
+          "offset": 424592,
+          "text": "com.vega.edit.base.tts.TtsUpdateService"
+        }
+      ]
+    },
+    {
+      "file": "assets/offline/image_lynx_creator_center/template.js",
+      "sha256": "37c01a09d862de041ac2703b3ef9d1e61a44af29647156ec251733df5ea9ffd7",
+      "hits": [
+        {
+          "offset": 1266282,
+          "text": "          )`]])};uw.defaultProps={hexColor:\"#f5f6f7ff\",xstyle:{}};var dw=un(uw);var hw=e=>`new_creator_task_completion_${e.invokeFunction((e=>e.get(kb))).uid}`;var _w=e=>y(this,null,(function*(){const t=hw(e);const r=e.invokeFunction((e=>e.get(Pb)));return yield r.get(t,{defaultValue:!1,checkExpire:!1})}));var pw=zl(\"grow-task-data-service\");Ke();var vw=class{constructor(e,t){this._getGrowTaskCountdownInfo=e=>{try{if(null==e?void 0:e.length){let t=1/0;e.forEach((e=>{\"number\"===typeof e.expire_time&&e.expire_time<t&&(t=e.expire_time)}));const r=Math.floor(Date.now()/1e3);if(t>0&&t!==1/0)return r>t?{show:!0,value:0}:{show:!0,value:t-r}}return{show:!1,value:0}}catch(t){return{show:!1,value:0}}},this._filterGrowTaskListIfDone=e=>y(this,null,(function*(){const{list:t,taskType:r,userId:n=\"unknown\"}=e||{};const a=`grow_task_list_new_creator_all_done_${n}`;try{if(7!==r)return t;const{hasShowAfterDone:e=!1}=(yield this._cacheService.get(a))||{};const n=(t||[]).filter((e=>e.type===r));return n.length&&n.every((e=>{const{completion_times:t,require_times:r}=e;return 0!==r&&t>=r}))?e?(t||[]).filter((e=>e.type!==r)):(yield this._cacheService.set(a,{hasShowAfterDone:!0}),t):(yield this._cacheServ"
+        }
+      ]
+    },
+    {
+      "file": "assets/offline/image_lynx_profile_home/locales/sv-SE.json",
+      "sha256": "884d3b7aa8ac47f7a0ea77189982f4f275dfaee715ac98881c3ed4bedb4740c0",
+      "hits": [
+        {
+          "offset": 6511,
+          "text": "tts. Kom tillbaka imorgon\",\"follow_fail\":\"Det gick inte att f"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libaudioeffect.so",
+      "sha256": "fe3e21d32e172173bd461799d1bbdcd1d52e53ea23e48d1c5c7de57691832590",
+      "hits": [
+        {
+          "offset": 3603294,
+          "text": "/ws/43556/sami_core/common_util/net/sami_core_ttnet_url_request_callback.cc"
+        },
+        {
+          "offset": 3603778,
+          "text": "/ws/43556/sami_core/common_util/net/sami_core_ttnet_http.cpp"
+        },
+        {
+          "offset": 3604163,
+          "text": "/ws/43556/sami_core/common_util/net/sami_core_ttnet_websocket_callback.cpp"
+        },
+        {
+          "offset": 3604318,
+          "text": "/ws/43556/sami_core/common_util/net/sami_core_ttnet_engine_manager.cpp"
+        },
+        {
+          "offset": 3604470,
+          "text": "sami_core_api"
+        },
+        {
+          "offset": 3604846,
+          "text": "/ws/43556/sami_core/common_util/net/sami_core_ttnet_websocket.cpp"
+        },
+        {
+          "offset": 3605747,
+          "text": "sami_applog_thread"
+        },
+        {
+          "offset": 3609215,
+          "text": "sami_core_audio_graph"
+        },
+        {
+          "offset": 3609237,
+          "text": "sami_core_algo_parameter"
+        },
+        {
+          "offset": 3609262,
+          "text": "sami_core_mdsp_effect"
+        },
+        {
+          "offset": 3609531,
+          "text": "/ws/43556/sami_core/common_util/audioCodec/decode/opus/sami_core_opus_audio_decoder.cpp"
+        },
+        {
+          "offset": 3611569,
+          "text": "SAMI_CORE"
+        },
+        {
+          "offset": 3611872,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/sami_core_utilities.cpp"
+        },
+        {
+          "offset": 3612187,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/sami_core.cpp"
+        },
+        {
+          "offset": 3614273,
+          "text": "[SAMICORE: %s@%s,%d] create identify SAMI_NOT_SUPPORT,:%d"
+        },
+        {
+          "offset": 3614461,
+          "text": "[SAMICORE: %s@%s,%d] SAMICoreDestroyHandle identify SAMI_NOT_SUPPORT,identify:%d"
+        },
+        {
+          "offset": 3614567,
+          "text": "[SAMICORE: %s@%s,%d] SAMICoreSetProcessReset SAMI_NOT_SUPPORT,:%d"
+        },
+        {
+          "offset": 3615866,
+          "text": "[SAMICORE: %s@%s,%d] SAMICoreSetProperty identify:%d ,id:%d SAMI_NOT_SUPPORT"
+        },
+        {
+          "offset": 3616189,
+          "text": "[SAMICORE: %s@%s,%d] SAMICoreGetPropertyById SAMI_NOT_SUPPORT,:%d"
+        },
+        {
+          "offset": 3616256,
+          "text": "[SAMICORE: %s@%s,%d] SAMICoreGetPropertyById SAMI_NOT_SUPPORT, handle is null"
+        },
+        {
+          "offset": 3616335,
+          "text": "[SAMICORE: %s@%s,%d] SAMICoreGetAllProperties SAMI_NOT_SUPPORT, handle is null"
+        },
+        {
+          "offset": 3616440,
+          "text": "[SAMICORE: %s@%s,%d] identify:%d SAMI_NOT_SUPPORT"
+        },
+        {
+          "offset": 3617237,
+          "text": "/ws/43556/sami_core/common_util/log/log_debug.h"
+        },
+        {
+          "offset": 3617538,
+          "text": "sami_core v"
+        },
+        {
+          "offset": 3617699,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_token_context.cpp"
+        },
+        {
+          "offset": 3618237,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_common_context.cpp"
+        },
+        {
+          "offset": 3618647,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_tts_context.cpp"
+        },
+        {
+          "offset": 3618975,
+          "text": "speech_rate"
+        },
+        {
+          "offset": 3619110,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_asr_context.cpp"
+        },
+        {
+          "offset": 3619329,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_beat_tracking_context.cpp"
+        },
+        {
+          "offset": 3619609,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_mss_context.cpp"
+        },
+        {
+          "offset": 3619948,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_music_tagging_context.cpp"
+        },
+        {
+          "offset": 3620221,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_chorus_context.cpp"
+        },
+        {
+          "offset": 3620450,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_music_retarget_context.cpp"
+        },
+        {
+          "offset": 3620725,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_midi_context.cpp"
+        },
+        {
+          "offset": 3620952,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_speech_disfluency_context.cpp"
+        },
+        {
+          "offset": 3621294,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_speech_to_song_context.cpp"
+        },
+        {
+          "offset": 3621738,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/server_api/sami_core_lyrics_alignment_context.cpp"
+        },
+        {
+          "offset": 3622053,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/common/sami_core_ws_common_context.cpp"
+        },
+        {
+          "offset": 3622242,
+          "text": "[SAMICORE: %s@%s,%d] SAMI_TOKEN_NOT_SUPPORT_ONLINE"
+        },
+        {
+          "offset": 3624612,
+          "text": "sami_sdk_version"
+        },
+        {
+          "offset": 3625333,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/common/sami_core_ws_common_callback.cpp"
+        },
+        {
+          "offset": 3626291,
+          "text": "enable_speech_rejection"
+        },
+        {
+          "offset": 3626364,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/asr/sami_core_ws_asr_context.cpp"
+        },
+        {
+          "offset": 3627166,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/tts/sami_core_ws_tts_context.cpp"
+        },
+        {
+          "offset": 3627565,
+          "text": "tts_file_name"
+        },
+        {
+          "offset": 3628817,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/tts/sami_core_ws_tts_callback.cpp"
+        },
+        {
+          "offset": 3629405,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/tts/sami_core_ws_play_tts_context.cpp"
+        },
+        {
+          "offset": 3630824,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/vc/sami_core_ws_vc_context.cpp"
+        },
+        {
+          "offset": 3634104,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/websocket/vc/sami_core_ws_vc_callback.cpp"
+        },
+        {
+          "offset": 3635029,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/audio_player/sami_core_audio_player.cpp"
+        },
+        {
+          "offset": 3635285,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/sami_audio_wrapper/drc_wrapper.cpp"
+        },
+        {
+          "offset": 3637612,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/effect/sami_core_effect_context.cpp"
+        },
+        {
+          "offset": 3640609,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/effect/sami_core_effect_tools.cpp"
+        },
+        {
+          "offset": 3640786,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/effect/sami_core_effect.cpp"
+        },
+        {
+          "offset": 3642313,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/common_executor/sami_core_common_executor_wrapper.cpp"
+        },
+        {
+          "offset": 3644563,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/common_executor/utilitys/sami_core_common_three_snr_utility.cpp"
+        },
+        {
+          "offset": 3647124,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/common_executor/utilitys/sami_core_common_flow_snr_utility.cpp"
+        },
+        {
+          "offset": 3647803,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/common_executor/sami_core_common_utility.cpp"
+        },
+        {
+          "offset": 3656360,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/common_executor/utilitys/sami_core_common_audio_metrics_utility.cpp"
+        },
+        {
+          "offset": 3658500,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/sami_core_executor_wrapper.cpp"
+        },
+        {
+          "offset": 3658928,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/sami_core_executor_aed_utility.cpp"
+        },
+        {
+          "offset": 3659235,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/sami_core_executor_time_align_utility.cpp"
+        },
+        {
+          "offset": 3659790,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/sami_core_executor_denoise.cpp"
+        },
+        {
+          "offset": 3660677,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/engine_executor/sami_core_executor_denoise_v2.cpp"
+        },
+        {
+          "offset": 3660957,
+          "text": "unet_denoise_speech_espresso_44k_model"
+        },
+        {
+          "offset": 3661034,
+          "text": "unet_denoise_speech_espresso_16k_model"
+        },
+        {
+          "offset": 3661635,
+          "text": "/ws/43556/sami_core/audio_effect/include/ae_ringbuffer.h"
+        },
+        {
+          "offset": 3662445,
+          "text": "[SAMICORE: %s@%s,%d] [%s] sami_engine total_len != num_samples"
+        },
+        {
+          "offset": 3663130,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/speech_tracking/sami_core_speech_tracking.cpp"
+        },
+        {
+          "offset": 3663280,
+          "text": "speech_recognition"
+        },
+        {
+          "offset": 3663299,
+          "text": "[SAMICORE: %s@%s,%d]  name: %s should be speech_recognition"
+        },
+        {
+          "offset": 3663999,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/speech_tracking/speech_tracking_impl.cpp"
+        },
+        {
+          "offset": 3665559,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/speech_tracking/text_preprocess_offline.cpp"
+        },
+        {
+          "offset": 3665758,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/speech_tracking/tracking_engine_impl.cpp"
+        },
+        {
+          "offset": 3667166,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/sami_core_extractor.cpp"
+        },
+        {
+          "offset": 3667709,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/sami_core_non_realtime_effect.cpp"
+        },
+        {
+          "offset": 3668741,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/sami_core_no_effect.cpp"
+        },
+        {
+          "offset": 3669261,
+          "text": "/ws/43556/sami_core/sami_interface/src/capi/common_aed/sami_core_common_aed.cpp"
+        },
+        {
+          "offset": 3670238,
+          "text": "/ws/43556/sami_core/sami_interface/jni/schema_converter/sami_core_jni_audio_buffer.cpp"
+        },
+        {
+          "offset": 3671038,
+          "text": "/ws/43556/sami_core/sami_interface/jni/schema_converter/sami_core_jni_block.cpp"
+        },
+        {
+          "offset": 3672608,
+          "text": "/ws/43556/sami_core/sami_interface/jni/schema_converter/sami_core_jni_vc_schema.cpp"
+        },
+        {
+          "offset": 3673736,
+          "text": "/ws/43556/sami_core/sami_interface/jni/schema_converter/sami_core_jni_voice_assistant_schema.cpp"
+        },
+        {
+          "offset": 3676412,
+          "text": "/ws/43556/sami_core/sami_interface/jni/sami_core_token.cpp"
+        },
+        {
+          "offset": 3676834,
+          "text": "/ws/43556/sami_core/sami_interface/jni/sami_core_jni.cpp"
+        },
+        {
+          "offset": 3678957,
+          "text": "/ws/43556/sami_core/sami_interface/jni/sami_core_context.cpp"
+        },
+        {
+          "offset": 3679446,
+          "text": "/ws/43556/sami_core/sami_interface/jni/sami_core_handle_mamager.cpp"
+        },
+        {
+          "offset": 3680857,
+          "text": "/ws/43556/sami_core/sami_interface/jni/sami_core_property_mamager.cpp"
+        },
+        {
+          "offset": 3683219,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/backends/file_backend.cpp"
+        },
+        {
+          "offset": 3683372,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/backends/dummy_backend.cpp"
+        },
+        {
+          "offset": 3683707,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/engine/me_graph.cpp"
+        },
+        {
+          "offset": 3684361,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/engine/me_io_manager.cpp"
+        },
+        {
+          "offset": 3686403,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/engine/me_node.cpp"
+        },
+        {
+          "offset": 3686617,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/engine/me_node_cache_manager.cpp"
+        },
+        {
+          "offset": 3686770,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_file_source_node.cpp"
+        },
+        {
+          "offset": 3687554,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_recorder_node.cpp"
+        },
+        {
+          "offset": 3688220,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_gain_node.cpp"
+        },
+        {
+          "offset": 3688407,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_extractor_node.cpp"
+        },
+        {
+          "offset": 3688766,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_music_dsp_node.cpp"
+        },
+        {
+          "offset": 3690939,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_adsr_node.cpp"
+        },
+        {
+          "offset": 3693890,
+          "text": "/ws/43556/sami_core/audio_effect/mammon_engine/src/nodes/me_sami_effector_node.cpp"
+        },
+        {
+          "offset": 3694288,
+          "text": "/ws/43556/sami_core/audio_effect/src/utils/reversewav/ae_reversewav.cpp"
+        },
+        {
+          "offset": 3694631,
+          "text": "/ws/43556/sami_core/audio_effect/src/utils/yaml_parse/ae_yaml_parse4cmd.cpp"
+        },
+        {
+          "offset": 3695303,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_effect.cpp"
+        },
+        {
+          "offset": 3695534,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_extractor.cpp"
+        },
+        {
+          "offset": 3695744,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_ringbuffer_helper4effect.cpp"
+        },
+        {
+          "offset": 3695900,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_cascade_effect.cpp"
+        },
+        {
+          "offset": 3697444,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_effect_creator.cpp"
+        },
+        {
+          "offset": 3698140,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_effect_creator_basedYAML.cpp"
+        },
+        {
+          "offset": 3699540,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_loadmodel.cpp"
+        },
+        {
+          "offset": 3699861,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_yaml_parse.cpp"
+        },
+        {
+          "offset": 3700482,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/cae_effect.cpp"
+        },
+        {
+          "offset": 3701002,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/mammon.cpp"
+        },
+        {
+          "offset": 3701176,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/sami_non_realtime_effect.cpp"
+        },
+        {
+          "offset": 3701299,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_sdk/ae_effect_switcher.cpp"
+        },
+        {
+          "offset": 3701511,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_compressor/CLimiter.cpp"
+        },
+        {
+          "offset": 3701836,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_compressor/ae_compressor.cpp"
+        },
+        {
+          "offset": 3702110,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_compressor/ae_climiter.cpp"
+        },
+        {
+          "offset": 3702523,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_compressor/CLimiterV2.cpp"
+        },
+        {
+          "offset": 3702728,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/pitch_tempo/StretcherImpl.cpp"
+        },
+        {
+          "offset": 3702976,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/pitch_tempo/StretcherProcess.cpp"
+        },
+        {
+          "offset": 3703250,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/pitch_tempo/MusicStretcher.cpp"
+        },
+        {
+          "offset": 3703490,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/pitch_tempo/SpeechStretcher.cpp"
+        },
+        {
+          "offset": 3703733,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_effect_filter/AudioEffectFilter.cpp"
+        },
+        {
+          "offset": 3705005,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/onset_detection/OnsetDetection.cc"
+        },
+        {
+          "offset": 3705324,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/cher_effect/CherEffect.cpp"
+        },
+        {
+          "offset": 3706357,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/eq/ae_eq.cpp"
+        },
+        {
+          "offset": 3706563,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/kws/ae_kws_extractor.cpp"
+        },
+        {
+          "offset": 3707390,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/aed/ae_aed_extractor.cpp"
+        },
+        {
+          "offset": 3708626,
+          "text": "/ws/43556/sami_core/audio_effect/src/include/utils/ae_check.h"
+        },
+        {
+          "offset": 3709052,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/sing_scoring/SingScoring.cpp"
+        },
+        {
+          "offset": 3709976,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/sing_scoring/LyricSentEndNotifier.cpp"
+        },
+        {
+          "offset": 3710265,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_fading/audio_fading.cpp"
+        },
+        {
+          "offset": 3710988,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_ns/ae_ns.cpp"
+        },
+        {
+          "offset": 3711105,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_aec/ae_aec.cpp"
+        },
+        {
+          "offset": 3712208,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_aec/modules/audio_processing/aec3/block_processor.cc"
+        },
+        {
+          "offset": 3714394,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/nn_vad/ae_nnvad.cpp"
+        },
+        {
+          "offset": 3714855,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/rnnoise_48kmodel/src/ae_rnnoise_48k.cpp"
+        },
+        {
+          "offset": 3715221,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/spectrum_display/ae_spectrum_displayx.cpp"
+        },
+        {
+          "offset": 3715691,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_scratching/ae_scratching.cpp"
+        },
+        {
+          "offset": 3715996,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_scratching/ae_audio_scratcher.cpp"
+        },
+        {
+          "offset": 3716317,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/sampler/sampler.cpp"
+        },
+        {
+          "offset": 3717261,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/vocoder/ae_vocoder.cpp"
+        },
+        {
+          "offset": 3717691,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/segment_finder/ae_segment_finder.cpp"
+        },
+        {
+          "offset": 3718215,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/retarget/ae_retarget_longer_common.cpp"
+        },
+        {
+          "offset": 3720166,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/retarget/ae_retarget_longer.cpp"
+        },
+        {
+          "offset": 3723254,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/beat_tracking/ae_beat_tracking.cpp"
+        },
+        {
+          "offset": 3723929,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/beat_tracking/ae_beat_tracking_offline.cpp"
+        },
+        {
+          "offset": 3724155,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/mdsp_effect/ae_mdsp_effect.cpp"
+        },
+        {
+          "offset": 3731036,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/pitch_shifter/ae_pitchshifter.cpp"
+        },
+        {
+          "offset": 3731190,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/online_loudnorm/ae_loudnorm.cpp"
+        },
+        {
+          "offset": 3731780,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/online_loudnorm/ae_loudness_extractor.cpp"
+        },
+        {
+          "offset": 3732181,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/online_loudnorm/ae_loudnorm2_utilities.cpp"
+        },
+        {
+          "offset": 3732437,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/online_loudnorm/loudnorm2_impl.cpp"
+        },
+        {
+          "offset": 3732601,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/online_loudnorm/loudnorm3_impl.cpp"
+        },
+        {
+          "offset": 3732689,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/online_loudnorm/new_signal_analyzer.cpp"
+        },
+        {
+          "offset": 3733031,
+          "text": "/ws/43556/sami_core/audio_effect/src/include/ae_android_try.h"
+        },
+        {
+          "offset": 3733270,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/spring_festival_speech_accuracy/ae_spring_festival_sentence_score_detector.cpp"
+        },
+        {
+          "offset": 3734733,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_business/ttplayer/ae_business_ttplayer.cpp"
+        },
+        {
+          "offset": 3735946,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_business/karaoke/ae_karaoke_effect.cpp"
+        },
+        {
+          "offset": 3743851,
+          "text": "/ws/43556/sami_core/sami_audio_backend/src/oboe_backend_v2.cpp"
+        },
+        {
+          "offset": 3745159,
+          "text": "/ws/43556/sami_core/sami_audio_backend/src/oboe_recorder_backend_v2.cpp"
+        },
+        {
+          "offset": 3749867,
+          "text": "denoise sami_engine total_len != num_samples, total_len: %d"
+        },
+        {
+          "offset": 3762992,
+          "text": "/ws/43556/sami_core/audio_effect/src/audio_algorithm/audio_vad/rtc_base/ae_vad.cpp"
+        },
+        {
+          "offset": 3763189,
+          "text": "/ws/43556/sami_core/audio_effect/src/dsplib/feature/ae_feature_chroma_stft.cpp"
+        },
+        {
+          "offset": 3763355,
+          "text": "/ws/43556/sami_core/audio_effect/src/dsplib/filters/ae_filters.cpp"
+        },
+        {
+          "offset": 3763837,
+          "text": "/ws/43556/sami_core/audio_effect/src/dsplib/musical/midi2pitch.cpp"
+        },
+        {
+          "offset": 3764447,
+          "text": "/ws/43556/sami_core/audio_effect/src/dsplib/fft/ae_kissfft.cpp"
+        },
+        {
+          "offset": 3765938,
+          "text": "/ws/43556/sami_core/sami_engine/src/c_api/sami.cpp"
+        },
+        {
+          "offset": 3766127,
+          "text": "sami_engine"
+        },
+        {
+          "offset": 3766143,
+          "text": "/ws/43556/sami_core/sami_engine/src/engine/engine.cpp"
+        },
+        {
+          "offset": 3767441,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/basic_model.h"
+        },
+        {
+          "offset": 3767647,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/stream_asr_pipeline_model_iml.h"
+        },
+        {
+          "offset": 3768167,
+          "text": "/ws/43556/sami_core/sami_engine/src/engine/executor.cpp"
+        },
+        {
+          "offset": 3768951,
+          "text": "/ws/43556/sami_core/sami_engine/src/context/online_vad_context.h"
+        },
+        {
+          "offset": 3769328,
+          "text": "/ws/43556/sami_core/sami_engine/src/context/time_align_context.h"
+        },
+        {
+          "offset": 3769570,
+          "text": "/ws/43556/sami_core/sami_engine/src/engine/stream_executor.cpp"
+        },
+        {
+          "offset": 3770039,
+          "text": "/ws/43556/sami_core/sami_engine/src/common/cjson_helper.cpp"
+        },
+        {
+          "offset": 3770120,
+          "text": "/ws/43556/sami_core/sami_engine/src/common/common.cpp"
+        },
+        {
+          "offset": 3771009,
+          "text": "/ws/43556/sami_core/sami_engine/src/common/common_utils.cpp"
+        },
+        {
+          "offset": 3771109,
+          "text": "/ws/43556/sami_core/sami_engine/src/common/model_pack.cpp"
+        },
+        {
+          "offset": 3771265,
+          "text": "/ws/43556/sami_core/sami_engine/src/common/param_parser.cpp"
+        },
+        {
+          "offset": 3771468,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/mel_feature.cpp"
+        },
+        {
+          "offset": 3771606,
+          "text": "/ws/43556/sami_core/sami_engine/src/decoder/decoder_create.cpp"
+        },
+        {
+          "offset": 3772002,
+          "text": "/ws/43556/sami_core/sami_engine/src/decoder/espresso_decoder.cpp"
+        },
+        {
+          "offset": 3772151,
+          "text": "/ws/43556/sami_core/sami_engine/src/pipeline/feature_node.cpp"
+        },
+        {
+          "offset": 3772252,
+          "text": "/ws/43556/sami_core/sami_engine/src/cpu/matrix.h"
+        },
+        {
+          "offset": 3772434,
+          "text": "/ws/43556/sami_core/sami_engine/src/pipeline/model_node.cpp"
+        },
+        {
+          "offset": 3772568,
+          "text": "/ws/43556/sami_core/sami_engine/src/pipeline/pipeline.cpp"
+        },
+        {
+          "offset": 3772846,
+          "text": "/ws/43556/sami_core/sami_engine/src/pipeline/post_process_node.cpp"
+        },
+        {
+          "offset": 3773051,
+          "text": "/ws/43556/sami_core/sami_engine/src/tensor/tensor.cpp"
+        },
+        {
+          "offset": 3773138,
+          "text": "/ws/43556/sami_core/sami_engine/src/quantize/models/mobile_asr_cache_context.cpp"
+        },
+        {
+          "offset": 3773550,
+          "text": "/ws/43556/sami_core/sami_engine/src/quantize/models/mobile_asr_model.cpp"
+        },
+        {
+          "offset": 3774040,
+          "text": "/ws/43556/sami_core/sami_engine/src/quantize/modules/ctc_prefix_beamsearch.cpp"
+        },
+        {
+          "offset": 3774244,
+          "text": "/ws/43556/sami_core/sami_engine/src/context/audio_metrics_context.cpp"
+        },
+        {
+          "offset": 3774363,
+          "text": "/ws/43556/sami_core/sami_engine/src/context/audio_metrics_context.h"
+        },
+        {
+          "offset": 3774503,
+          "text": "/ws/43556/sami_core/sami_engine/src/context/voice_filter_context.cpp"
+        },
+        {
+          "offset": 3774668,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/tf/beat_tracking_model_tf.cpp"
+        },
+        {
+          "offset": 3774992,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/kws_model.cpp"
+        },
+        {
+          "offset": 3775209,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/online_vad_model.cpp"
+        },
+        {
+          "offset": 3776031,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/aec_model.cpp"
+        },
+        {
+          "offset": 3776130,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/aed_model.cpp"
+        },
+        {
+          "offset": 3776339,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/audio_metrics.cpp"
+        },
+        {
+          "offset": 3777132,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/casa_model.cpp"
+        },
+        {
+          "offset": 3777352,
+          "text": "speech_ratio"
+        },
+        {
+          "offset": 3777422,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/denoise_model.cpp"
+        },
+        {
+          "offset": 3777553,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/sentence_score_model.cpp"
+        },
+        {
+          "offset": 3777695,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/stream_denoise_resunet_model.cpp"
+        },
+        {
+          "offset": 3777950,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/stream_denoise_resunet_model_v2.cpp"
+        },
+        {
+          "offset": 3778083,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/stream_vad_resunet_model.cpp"
+        },
+        {
+          "offset": 3778317,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/stream_snr_model.cpp"
+        },
+        {
+          "offset": 3778881,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/tcn_denoise_model.cpp"
+        },
+        {
+          "offset": 3778946,
+          "text": "Expecting value of speech_ratio between [0, 1], "
+        },
+        {
+          "offset": 3779004,
+          "text": "/ws/43556/sami_core/sami_engine/src/models/time_align_model.cpp"
+        },
+        {
+          "offset": 3779728,
+          "text": "/ws/43556/sami_core/sami_engine/src/common/kaldi_utils.cpp"
+        },
+        {
+          "offset": 3779856,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/metrics/am_cutoff_frequency.cpp"
+        },
+        {
+          "offset": 3780058,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/beat_tracking_feature.cpp"
+        },
+        {
+          "offset": 3780126,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/down_beat_tracking_dbn.cpp"
+        },
+        {
+          "offset": 3780401,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/hmm.cpp"
+        },
+        {
+          "offset": 3780540,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/madmon_feature.cpp"
+        },
+        {
+          "offset": 3780610,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/spectrum.cpp"
+        },
+        {
+          "offset": 3780912,
+          "text": "/ws/43556/sami_core/sami_engine/src/quantize/modules/transformer_asr.cpp"
+        },
+        {
+          "offset": 3781235,
+          "text": "/ws/43556/sami_core/sami_engine/src/audio/aec/sami_block_processor.cpp"
+        },
+        {
+          "offset": 3781346,
+          "text": "/ws/43556/sami_core/sami_engine/src/quantize/modules/attention_layer.cpp"
+        },
+        {
+          "offset": 3799824,
+          "text": "/ws/43556/sami_core/thirdparty/opus/src/opus_decoder.c"
+        },
+        {
+          "offset": 3801994,
+          "text": "/ws/43556/sami_core/thirdparty/opus/src/opus_multistream_decoder.c"
+        },
+        {
+          "offset": 3802152,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/dec_API.c"
+        },
+        {
+          "offset": 3802203,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/resampler.c"
+        },
+        {
+          "offset": 3802344,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/resampler_private_down_FIR.c"
+        },
+        {
+          "offset": 3802457,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/celt.c"
+        },
+        {
+          "offset": 3802740,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/celt_decoder.c"
+        },
+        {
+          "offset": 3803686,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/entdec.c"
+        },
+        {
+          "offset": 3803766,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/pitch.c"
+        },
+        {
+          "offset": 3803864,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/pitch.h"
+        },
+        {
+          "offset": 3803938,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/celt_lpc.c"
+        },
+        {
+          "offset": 3804107,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/rate.c"
+        },
+        {
+          "offset": 3804325,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/vq.c"
+        },
+        {
+          "offset": 3804633,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/arm/celt_neon_intr.c"
+        },
+        {
+          "offset": 3804744,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/decode_frame.c"
+        },
+        {
+          "offset": 3805000,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/decode_indices.c"
+        },
+        {
+          "offset": 3805100,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/decode_pulses.c"
+        },
+        {
+          "offset": 3805219,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/decoder_set_fs.c"
+        },
+        {
+          "offset": 3805390,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/PLC.c"
+        },
+        {
+          "offset": 3805529,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/decode_pitch.c"
+        },
+        {
+          "offset": 3805610,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/LPC_analysis_filter.c"
+        },
+        {
+          "offset": 3805764,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/NLSF2A.c"
+        },
+        {
+          "offset": 3805838,
+          "text": "/ws/43556/sami_core/thirdparty/opus/silk/sort.c"
+        },
+        {
+          "offset": 3805966,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/bands.c"
+        },
+        {
+          "offset": 3806222,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/cwrs.c"
+        },
+        {
+          "offset": 3806317,
+          "text": "/ws/43556/sami_core/thirdparty/opus/celt/entenc.c"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libcccreator.so",
+      "sha256": "ad85b38d798821b2c0dc52e0f8579e72d3489c5f7904e20b211f2f9e02fe1734",
+      "hits": [
+        {
+          "offset": 293728,
+          "text": "_ZNK5vesdk3pub18AudioSamiAECFilter19get_sami_model_pathEv"
+        },
+        {
+          "offset": 293786,
+          "text": "_ZN5vesdk3pub18AudioSamiAECFilter23get_mut_sami_model_pathEv"
+        },
+        {
+          "offset": 293847,
+          "text": "_ZN5vesdk3pub18AudioSamiAECFilter19set_sami_model_pathERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 293972,
+          "text": "_ZNK5vesdk3pub18AudioSamiAECFilter13get_sami_typeEv"
+        },
+        {
+          "offset": 294024,
+          "text": "_ZN5vesdk3pub18AudioSamiAECFilter17get_mut_sami_typeEv"
+        },
+        {
+          "offset": 294079,
+          "text": "_ZN5vesdk3pub18AudioSamiAECFilter13set_sami_typeERKNS0_11SamiAECTypeE"
+        },
+        {
+          "offset": 294728,
+          "text": "_ZNK5vesdk3pub15AudioSamiFilter19get_sami_model_pathEv"
+        },
+        {
+          "offset": 294783,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter23get_mut_sami_model_pathEv"
+        },
+        {
+          "offset": 294841,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter19set_sami_model_pathERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 294963,
+          "text": "_ZNK5vesdk3pub15AudioSamiFilter19get_sami_param_jsonEv"
+        },
+        {
+          "offset": 295018,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter23get_mut_sami_param_jsonEv"
+        },
+        {
+          "offset": 295076,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter19set_sami_param_jsonERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 295198,
+          "text": "_ZNK5vesdk3pub15AudioSamiFilter13get_sami_typeEv"
+        },
+        {
+          "offset": 295247,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter17get_mut_sami_typeEv"
+        },
+        {
+          "offset": 295299,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter13set_sami_typeERKNS0_8SamiTypeE"
+        },
+        {
+          "offset": 295362,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter22get_sami_denoise_levelEv"
+        },
+        {
+          "offset": 295419,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter22set_sami_denoise_levelERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 295544,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter27get_sami_create_config_infoEv"
+        },
+        {
+          "offset": 295606,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter27set_sami_create_config_infoERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 295736,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter22get_sami_snr_thresholdEv"
+        },
+        {
+          "offset": 295793,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter22set_sami_snr_thresholdERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 295918,
+          "text": "_ZNK5vesdk3pub15AudioSamiFilter22get_sami_snr_file_pathEv"
+        },
+        {
+          "offset": 295976,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter22set_sami_snr_file_pathERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 538788,
+          "text": "Java_com_bytedance_ilasdk_jni_ILASDKJianyingJNI_AEDInfo_1speech_1set"
+        },
+        {
+          "offset": 538857,
+          "text": "Java_com_bytedance_ilasdk_jni_ILASDKJianyingJNI_AEDInfo_1speech_1get"
+        },
+        {
+          "offset": 27328664,
+          "text": "speech_recognition"
+        },
+        {
+          "offset": 27333342,
+          "text": "sami_get_result"
+        },
+        {
+          "offset": 27333390,
+          "text": "sami_process"
+        },
+        {
+          "offset": 27333453,
+          "text": "sami_init error"
+        },
+        {
+          "offset": 27335969,
+          "text": "has_speech_event"
+        },
+        {
+          "offset": 27336184,
+          "text": "get_feature_data_get_speech_data_only"
+        },
+        {
+          "offset": 27336222,
+          "text": "decoder is null in get_feature_data_get_speech_data_only"
+        },
+        {
+          "offset": 27336398,
+          "text": "VEAudioEventDetection sami_process failed"
+        },
+        {
+          "offset": 27336440,
+          "text": "VEAudioEventDetection sami_get_result error"
+        },
+        {
+          "offset": 27520140,
+          "text": "SAMICoreIdentify_Streaming_Playing_TTS_Online"
+        },
+        {
+          "offset": 27866973,
+          "text": "algorithm_result_audio_sami_aed_st"
+        },
+        {
+          "offset": 27873809,
+          "text": "sami_res_dir"
+        },
+        {
+          "offset": 27873822,
+          "text": "sami_desc_file"
+        },
+        {
+          "offset": 29351846,
+          "text": "VE_ERROR_SAMI_INTERNAL_ERROR"
+        },
+        {
+          "offset": 29378456,
+          "text": "TEFilterType_Audio_Sami_Filter"
+        },
+        {
+          "offset": 29378787,
+          "text": "TEFilterType_SAMI_Processor_Filter"
+        },
+        {
+          "offset": 29378941,
+          "text": "TEFilterType_Audio_Sami_AEC_Filter"
+        },
+        {
+          "offset": 29383504,
+          "text": "sami_prepare"
+        },
+        {
+          "offset": 29383546,
+          "text": "sami_init"
+        },
+        {
+          "offset": 29383601,
+          "text": "sami_load_model"
+        },
+        {
+          "offset": 29384019,
+          "text": "reset_sami sami_prepare failed. ret=%d"
+        },
+        {
+          "offset": 29393847,
+          "text": " { \"type\":\"alg_param\",\"param\":{ \"speech_ratio\":1.0 } } "
+        },
+        {
+          "offset": 29394673,
+          "text": "model_path=%s, sami_type=%ld"
+        },
+        {
+          "offset": 29406800,
+          "text": "record_audio_sami_unit_207"
+        },
+        {
+          "offset": 29416012,
+          "text": "audio_sami_detect_unit"
+        },
+        {
+          "offset": 29427962,
+          "text": "SAMI_MODEL_PATH"
+        },
+        {
+          "offset": 30048453,
+          "text": "34algorithm_result_audio_sami_aed_st"
+        },
+        {
+          "offset": 30048490,
+          "text": "N3BES8NtfEventI34algorithm_result_audio_sami_aed_stEE"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libmiddle-bridge.so",
+      "sha256": "1f62a382b7d82e702d9bb67ab0eb0714858e45512811213001b7ceb14ac10331",
+      "hits": [
+        {
+          "offset": 2141407,
+          "text": "Java_com_vega_middlebridge_swig_AdapterParamModuleJNI_RealtimeDenoise_1sami_1name_1get"
+        },
+        {
+          "offset": 2141494,
+          "text": "Java_com_vega_middlebridge_swig_AdapterParamModuleJNI_RealtimeDenoise_1sami_1name_1set"
+        },
+        {
+          "offset": 2141581,
+          "text": "Java_com_vega_middlebridge_swig_AdapterParamModuleJNI_RealtimeDenoise_1sami_1type_1get"
+        },
+        {
+          "offset": 2141668,
+          "text": "Java_com_vega_middlebridge_swig_AdapterParamModuleJNI_RealtimeDenoise_1sami_1type_1set"
+        },
+        {
+          "offset": 2141755,
+          "text": "Java_com_vega_middlebridge_swig_AdapterParamModuleJNI_RealtimeDenoise_1sami_1version_1get"
+        },
+        {
+          "offset": 2141845,
+          "text": "Java_com_vega_middlebridge_swig_AdapterParamModuleJNI_RealtimeDenoise_1sami_1version_1set"
+        },
+        {
+          "offset": 2214488,
+          "text": "Java_com_vega_middlebridge_swig_AddAudioParamModuleJNI_AddAudioParam_1tts_1generate_1scene_1get"
+        },
+        {
+          "offset": 2214584,
+          "text": "Java_com_vega_middlebridge_swig_AddAudioParamModuleJNI_AddAudioParam_1tts_1generate_1scene_1set"
+        },
+        {
+          "offset": 2214680,
+          "text": "Java_com_vega_middlebridge_swig_AddAudioParamModuleJNI_AddAudioParam_1tts_1speaker_1get"
+        },
+        {
+          "offset": 2214768,
+          "text": "Java_com_vega_middlebridge_swig_AddAudioParamModuleJNI_AddAudioParam_1tts_1speaker_1set"
+        },
+        {
+          "offset": 2214856,
+          "text": "Java_com_vega_middlebridge_swig_AddAudioParamModuleJNI_AddAudioParam_1tts_1task_1id_1get"
+        },
+        {
+          "offset": 2214945,
+          "text": "Java_com_vega_middlebridge_swig_AddAudioParamModuleJNI_AddAudioParam_1tts_1task_1id_1set"
+        },
+        {
+          "offset": 2235341,
+          "text": "Java_com_vega_middlebridge_swig_AddDigitalHumanParamModuleJNI_AddDigitalHumanParam_1add_1tts_1meta_1get"
+        },
+        {
+          "offset": 2235445,
+          "text": "Java_com_vega_middlebridge_swig_AddDigitalHumanParamModuleJNI_AddDigitalHumanParam_1add_1tts_1meta_1set"
+        },
+        {
+          "offset": 2239779,
+          "text": "Java_com_vega_middlebridge_swig_AddDigitalHumanParamModuleJNI_AddDigitalHumanParam_1tts_1meta_1params_1get"
+        },
+        {
+          "offset": 2239886,
+          "text": "Java_com_vega_middlebridge_swig_AddDigitalHumanParamModuleJNI_AddDigitalHumanParam_1tts_1meta_1params_1set"
+        },
+        {
+          "offset": 2345237,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioCombinSegmentParamModuleJNI_AddTextAudioCombinSegmentParam_1add_1tts_1meta_1get"
+        },
+        {
+          "offset": 2345361,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioCombinSegmentParamModuleJNI_AddTextAudioCombinSegmentParam_1add_1tts_1meta_1set"
+        },
+        {
+          "offset": 2346667,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioCombinSegmentParamModuleJNI_AddTextAudioCombinSegmentParam_1tts_1meta_1params_1get"
+        },
+        {
+          "offset": 2346794,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioCombinSegmentParamModuleJNI_AddTextAudioCombinSegmentParam_1tts_1meta_1params_1set"
+        },
+        {
+          "offset": 2353139,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioParamModuleJNI_AddTextAudioParam_1tts_1benefit_1info_1param_1get"
+        },
+        {
+          "offset": 2353248,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioParamModuleJNI_AddTextAudioParam_1tts_1benefit_1info_1param_1set"
+        },
+        {
+          "offset": 2353357,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioParamModuleJNI_AddTextAudioParam_1tts_1generate_1scene_1get"
+        },
+        {
+          "offset": 2353461,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioParamModuleJNI_AddTextAudioParam_1tts_1generate_1scene_1set"
+        },
+        {
+          "offset": 2353565,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioParamModuleJNI_AddTextAudioParam_1tts_1task_1id_1get"
+        },
+        {
+          "offset": 2353662,
+          "text": "Java_com_vega_middlebridge_swig_AddTextAudioParamModuleJNI_AddTextAudioParam_1tts_1task_1id_1set"
+        },
+        {
+          "offset": 3135413,
+          "text": "Java_com_vega_middlebridge_swig_AudioRealtimeDenoiseParamModuleJNI_AudioRealtimeDenoiseParam_1sami_1name_1get"
+        },
+        {
+          "offset": 3135523,
+          "text": "Java_com_vega_middlebridge_swig_AudioRealtimeDenoiseParamModuleJNI_AudioRealtimeDenoiseParam_1sami_1name_1set"
+        },
+        {
+          "offset": 3135633,
+          "text": "Java_com_vega_middlebridge_swig_AudioRealtimeDenoiseParamModuleJNI_AudioRealtimeDenoiseParam_1sami_1type_1get"
+        },
+        {
+          "offset": 3135743,
+          "text": "Java_com_vega_middlebridge_swig_AudioRealtimeDenoiseParamModuleJNI_AudioRealtimeDenoiseParam_1sami_1type_1set"
+        },
+        {
+          "offset": 3135853,
+          "text": "Java_com_vega_middlebridge_swig_AudioRealtimeDenoiseParamModuleJNI_AudioRealtimeDenoiseParam_1sami_1version_1get"
+        },
+        {
+          "offset": 3135966,
+          "text": "Java_com_vega_middlebridge_swig_AudioRealtimeDenoiseParamModuleJNI_AudioRealtimeDenoiseParam_1sami_1version_1set"
+        },
+        {
+          "offset": 3197433,
+          "text": "Java_com_vega_middlebridge_swig_BatchMoveSuccessorTtsModuleJNI_kBatchMoveSuccessorTts_1get"
+        },
+        {
+          "offset": 3578810,
+          "text": "Java_com_vega_middlebridge_swig_DetectAudioEventModuleJNI_DetectAudioEventRespStruct_1speech_1ratio_1get"
+        },
+        {
+          "offset": 3578915,
+          "text": "Java_com_vega_middlebridge_swig_DetectAudioEventModuleJNI_DetectAudioEventRespStruct_1speech_1ratio_1set"
+        },
+        {
+          "offset": 3583282,
+          "text": "Java_com_vega_middlebridge_swig_DetectAudioEventWithSliceModuleJNI_DetectAudioEventWithSliceRespStruct_1speech_1ratio_1get"
+        },
+        {
+          "offset": 3583405,
+          "text": "Java_com_vega_middlebridge_swig_DetectAudioEventWithSliceModuleJNI_DetectAudioEventWithSliceRespStruct_1speech_1ratio_1set"
+        },
+        {
+          "offset": 3595973,
+          "text": "Java_com_vega_middlebridge_swig_DigitalHumanConvertTtsModuleJNI_kDigitalHumanConvertTts_1get"
+        },
+        {
+          "offset": 3613306,
+          "text": "Java_com_vega_middlebridge_swig_DigitalHumanTtsMetaParamModuleJNI_DigitalHumanTtsMetaParam_1tts_1param_1get"
+        },
+        {
+          "offset": 3613414,
+          "text": "Java_com_vega_middlebridge_swig_DigitalHumanTtsMetaParamModuleJNI_DigitalHumanTtsMetaParam_1tts_1param_1set"
+        },
+        {
+          "offset": 3613522,
+          "text": "Java_com_vega_middlebridge_swig_DigitalHumanTtsMetaParamModuleJNI_DigitalHumanTtsMetaParam_1tts_1payload_1get"
+        },
+        {
+          "offset": 3613632,
+          "text": "Java_com_vega_middlebridge_swig_DigitalHumanTtsMetaParamModuleJNI_DigitalHumanTtsMetaParam_1tts_1payload_1set"
+        },
+        {
+          "offset": 4086364,
+          "text": "Java_com_vega_middlebridge_swig_GetRequestTtsParamsModuleJNI_GetRequestTtsParamsRespStruct_1tts_1params_1get"
+        },
+        {
+          "offset": 4086473,
+          "text": "Java_com_vega_middlebridge_swig_GetRequestTtsParamsModuleJNI_GetRequestTtsParamsRespStruct_1tts_1params_1set"
+        },
+        {
+          "offset": 4746013,
+          "text": "Java_com_vega_middlebridge_swig_MouthShapeDriverTextModeParamModuleJNI_MouthShapeDriverTextModeParam_1tts_1generate_1scene_1get"
+        },
+        {
+          "offset": 4746141,
+          "text": "Java_com_vega_middlebridge_swig_MouthShapeDriverTextModeParamModuleJNI_MouthShapeDriverTextModeParam_1tts_1generate_1scene_1set"
+        },
+        {
+          "offset": 4746269,
+          "text": "Java_com_vega_middlebridge_swig_MouthShapeDriverTextModeParamModuleJNI_MouthShapeDriverTextModeParam_1tts_1task_1id_1get"
+        },
+        {
+          "offset": 4746390,
+          "text": "Java_com_vega_middlebridge_swig_MouthShapeDriverTextModeParamModuleJNI_MouthShapeDriverTextModeParam_1tts_1task_1id_1set"
+        },
+        {
+          "offset": 4897814,
+          "text": "Java_com_vega_middlebridge_swig_PartTtsInfoModuleJNI_DigitalHumanTtsInfo_1tts_1payload_1get"
+        },
+        {
+          "offset": 4897906,
+          "text": "Java_com_vega_middlebridge_swig_PartTtsInfoModuleJNI_DigitalHumanTtsInfo_1tts_1payload_1set"
+        },
+        {
+          "offset": 4898344,
+          "text": "Java_com_vega_middlebridge_swig_PartTtsInfoModuleJNI_PartTtsInfo_1ori_1digital_1human_1tts_1info_1get"
+        },
+        {
+          "offset": 4898446,
+          "text": "Java_com_vega_middlebridge_swig_PartTtsInfoModuleJNI_PartTtsInfo_1ori_1digital_1human_1tts_1info_1set"
+        },
+        {
+          "offset": 5232175,
+          "text": "Java_com_vega_middlebridge_swig_ReplaceAudioParamModuleJNI_ReplaceAudioParam_1has_1tts_1param_1get"
+        },
+        {
+          "offset": 5232274,
+          "text": "Java_com_vega_middlebridge_swig_ReplaceAudioParamModuleJNI_ReplaceAudioParam_1has_1tts_1param_1set"
+        },
+        {
+          "offset": 5493928,
+          "text": "Java_com_vega_middlebridge_swig_SegmentMoveParamModuleJNI_SegmentMoveParam_1auto_1adjust_1tts_1get"
+        },
+        {
+          "offset": 5494027,
+          "text": "Java_com_vega_middlebridge_swig_SegmentMoveParamModuleJNI_SegmentMoveParam_1auto_1adjust_1tts_1set"
+        },
+        {
+          "offset": 6078999,
+          "text": "Java_com_vega_middlebridge_swig_TextMaterialParamModuleJNI_TextMaterialParam_1tts_1auto_1update_1get"
+        },
+        {
+          "offset": 6079100,
+          "text": "Java_com_vega_middlebridge_swig_TextMaterialParamModuleJNI_TextMaterialParam_1tts_1auto_1update_1set"
+        },
+        {
+          "offset": 6091638,
+          "text": "Java_com_vega_middlebridge_swig_TextTemplateEffectParamModuleJNI_TextTemplateEffectParam_1tts_1auto_1update_1get"
+        },
+        {
+          "offset": 6091751,
+          "text": "Java_com_vega_middlebridge_swig_TextTemplateEffectParamModuleJNI_TextTemplateEffectParam_1tts_1auto_1update_1set"
+        },
+        {
+          "offset": 6105896,
+          "text": "Java_com_vega_middlebridge_swig_TextTemplateMaterialParamModuleJNI_TextTemplateMaterialParam_1tts_1auto_1update_1get"
+        },
+        {
+          "offset": 6106013,
+          "text": "Java_com_vega_middlebridge_swig_TextTemplateMaterialParamModuleJNI_TextTemplateMaterialParam_1tts_1auto_1update_1set"
+        },
+        {
+          "offset": 6158907,
+          "text": "Java_com_vega_middlebridge_swig_TtsBatchUpdateVoiceParamModuleJNI_TtsBatchUpdateVoiceParam_1tts_1audio_1file_1params_1get"
+        },
+        {
+          "offset": 6159029,
+          "text": "Java_com_vega_middlebridge_swig_TtsBatchUpdateVoiceParamModuleJNI_TtsBatchUpdateVoiceParam_1tts_1audio_1file_1params_1set"
+        },
+        {
+          "offset": 6159151,
+          "text": "Java_com_vega_middlebridge_swig_TtsBatchUpdateVoiceParamModuleJNI_TtsBatchUpdateVoiceParam_1tts_1voice_1param_1get"
+        },
+        {
+          "offset": 6159266,
+          "text": "Java_com_vega_middlebridge_swig_TtsBatchUpdateVoiceParamModuleJNI_TtsBatchUpdateVoiceParam_1tts_1voice_1param_1set"
+        },
+        {
+          "offset": 6163558,
+          "text": "Java_com_vega_middlebridge_swig_TtsDriverModeParamModuleJNI_TtsDriverModeParam_1tts_1generate_1scene_1get"
+        },
+        {
+          "offset": 6163664,
+          "text": "Java_com_vega_middlebridge_swig_TtsDriverModeParamModuleJNI_TtsDriverModeParam_1tts_1generate_1scene_1set"
+        },
+        {
+          "offset": 6163770,
+          "text": "Java_com_vega_middlebridge_swig_TtsDriverModeParamModuleJNI_TtsDriverModeParam_1tts_1task_1id_1get"
+        },
+        {
+          "offset": 6163869,
+          "text": "Java_com_vega_middlebridge_swig_TtsDriverModeParamModuleJNI_TtsDriverModeParam_1tts_1task_1id_1set"
+        },
+        {
+          "offset": 6165834,
+          "text": "Java_com_vega_middlebridge_swig_TtsToneEmotionParamModuleJNI_TtsToneEmotionParam_1sami_1emotion_1get"
+        },
+        {
+          "offset": 6165935,
+          "text": "Java_com_vega_middlebridge_swig_TtsToneEmotionParamModuleJNI_TtsToneEmotionParam_1sami_1emotion_1scale_1get"
+        },
+        {
+          "offset": 6166043,
+          "text": "Java_com_vega_middlebridge_swig_TtsToneEmotionParamModuleJNI_TtsToneEmotionParam_1sami_1emotion_1scale_1set"
+        },
+        {
+          "offset": 6166151,
+          "text": "Java_com_vega_middlebridge_swig_TtsToneEmotionParamModuleJNI_TtsToneEmotionParam_1sami_1emotion_1set"
+        },
+        {
+          "offset": 6168492,
+          "text": "Java_com_vega_middlebridge_swig_TtsUpdateParamModuleJNI_TtsUpdateParam_1tts_1voice_1param_1get"
+        },
+        {
+          "offset": 6168587,
+          "text": "Java_com_vega_middlebridge_swig_TtsUpdateParamModuleJNI_TtsUpdateParam_1tts_1voice_1param_1set"
+        },
+        {
+          "offset": 6228001,
+          "text": "Java_com_vega_middlebridge_swig_UpdateDigitalHumanParamModuleJNI_UpdateDigitalHumanParam_1tts_1meta_1params_1get"
+        },
+        {
+          "offset": 6228114,
+          "text": "Java_com_vega_middlebridge_swig_UpdateDigitalHumanParamModuleJNI_UpdateDigitalHumanParam_1tts_1meta_1params_1set"
+        },
+        {
+          "offset": 6230767,
+          "text": "Java_com_vega_middlebridge_swig_UpdateDigitalHumanParamModuleJNI_UpdateDigitalHumanParam_1update_1tts_1meta_1get"
+        },
+        {
+          "offset": 6230880,
+          "text": "Java_com_vega_middlebridge_swig_UpdateDigitalHumanParamModuleJNI_UpdateDigitalHumanParam_1update_1tts_1meta_1set"
+        },
+        {
+          "offset": 6396242,
+          "text": "Java_com_vega_middlebridge_swig_UpdateTimeRangeParamModuleJNI_UpdateTimeRangeParam_1auto_1adjust_1tts_1get"
+        },
+        {
+          "offset": 6396349,
+          "text": "Java_com_vega_middlebridge_swig_UpdateTimeRangeParamModuleJNI_UpdateTimeRangeParam_1auto_1adjust_1tts_1set"
+        },
+        {
+          "offset": 6891788,
+          "text": "Java_com_vega_middlebridge_swig_VideoRealtimeDenoiseParamModuleJNI_VideoRealtimeDenoiseParam_1sami_1name_1get"
+        },
+        {
+          "offset": 6891898,
+          "text": "Java_com_vega_middlebridge_swig_VideoRealtimeDenoiseParamModuleJNI_VideoRealtimeDenoiseParam_1sami_1name_1set"
+        },
+        {
+          "offset": 6892008,
+          "text": "Java_com_vega_middlebridge_swig_VideoRealtimeDenoiseParamModuleJNI_VideoRealtimeDenoiseParam_1sami_1type_1get"
+        },
+        {
+          "offset": 6892118,
+          "text": "Java_com_vega_middlebridge_swig_VideoRealtimeDenoiseParamModuleJNI_VideoRealtimeDenoiseParam_1sami_1type_1set"
+        },
+        {
+          "offset": 6892228,
+          "text": "Java_com_vega_middlebridge_swig_VideoRealtimeDenoiseParamModuleJNI_VideoRealtimeDenoiseParam_1sami_1version_1get"
+        },
+        {
+          "offset": 6892341,
+          "text": "Java_com_vega_middlebridge_swig_VideoRealtimeDenoiseParamModuleJNI_VideoRealtimeDenoiseParam_1sami_1version_1set"
+        },
+        {
+          "offset": 7015198,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter13set_sami_typeERKNS0_8SamiTypeE"
+        },
+        {
+          "offset": 7015261,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter19set_sami_model_pathERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 7015383,
+          "text": "_ZN5vesdk3pub15AudioSamiFilter19set_sami_param_jsonERKNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE"
+        },
+        {
+          "offset": 15303341,
+          "text": "tts_path"
+        },
+        {
+          "offset": 15329749,
+          "text": "11labs"
+        },
+        {
+          "offset": 15329762,
+          "text": "sami_token"
+        },
+        {
+          "offset": 15329792,
+          "text": "speech_rate"
+        },
+        {
+          "offset": 15343172,
+          "text": "BATCH_UPDATE_TTS_ACTION"
+        },
+        {
+          "offset": 15352464,
+          "text": "sami_type"
+        },
+        {
+          "offset": 15357893,
+          "text": "AudioService::detectAudioEventWithSlice success speech_ratio {} ,sing_ratio time:{}"
+        },
+        {
+          "offset": 15365261,
+          "text": "11labs_text_to_speech"
+        },
+        {
+          "offset": 15409160,
+          "text": "speech_transcript"
+        },
+        {
+          "offset": 15413597,
+          "text": "tts_endpoint"
+        },
+        {
+          "offset": 15413626,
+          "text": "LYRA_TTS_APP_ID"
+        },
+        {
+          "offset": 15428507,
+          "text": "tts_metas"
+        },
+        {
+          "offset": 15450508,
+          "text": "set LYRA_ALGO_NETWORK_ADAPTER=curl or LYRA_TTS_CURL_ENABLE=1"
+        },
+        {
+          "offset": 15471963,
+          "text": "function downgrade_60_59_tts_auto_update(project)"
+        },
+        {
+          "offset": 15472310,
+          "text": "                local project_materials_texts_item_tts_auto_update = project_materials_texts_item[\"tts_auto_update\"]"
+        },
+        {
+          "offset": 15472427,
+          "text": "                if project_materials_texts_item_tts_auto_update == true then"
+        },
+        {
+          "offset": 15472504,
+          "text": "                    return false, \"tts_auto_update is not default value\", \"60.0.0\", project"
+        },
+        {
+          "offset": 15478581,
+          "text": "tts_benefit_info.cpp"
+        },
+        {
+          "offset": 15493728,
+          "text": "LYRA_TTS_PF"
+        },
+        {
+          "offset": 15506315,
+          "text": "BATCH_MOVE_TTS_ACTION"
+        },
+        {
+          "offset": 15509484,
+          "text": "function downgrade_118_to_117_sami_tone_emotion(project)"
+        },
+        {
+          "offset": 15524880,
+          "text": "tts_speaker_id"
+        },
+        {
+          "offset": 15542034,
+          "text": "LYRA_TTS_USE_BOE"
+        },
+        {
+          "offset": 15542072,
+          "text": "LYRA_TTS_APP_VERSION"
+        },
+        {
+          "offset": 15542093,
+          "text": "LYRA_TTS_TT_ENV"
+        },
+        {
+          "offset": 15589592,
+          "text": "LYRA_TTS_USER_ID"
+        },
+        {
+          "offset": 15627869,
+          "text": "sami_emotion"
+        },
+        {
+          "offset": 15642297,
+          "text": "      \"tts_auto_update\": {"
+        },
+        {
+          "offset": 15642374,
+          "text": "        \"key_path\": \"item.tts_auto_update\""
+        },
+        {
+          "offset": 15647057,
+          "text": "LYRA_TTS_CHANNEL"
+        },
+        {
+          "offset": 15647101,
+          "text": "LYRA_TTS_PUBLIC_KEY"
+        },
+        {
+          "offset": 15647245,
+          "text": "LYRA_TTS_BEARER"
+        },
+        {
+          "offset": 15682248,
+          "text": "tts_auto_update"
+        },
+        {
+          "offset": 15691938,
+          "text": "LYRA_TTS_USE_PPE"
+        },
+        {
+          "offset": 15691955,
+          "text": "microsoft_text_to_speech"
+        },
+        {
+          "offset": 15725496,
+          "text": "search_and_text_to_speech"
+        },
+        {
+          "offset": 15730303,
+          "text": "      \"sami_name\": {"
+        },
+        {
+          "offset": 15730378,
+          "text": "        \"key_path\": \"item.sami_name\""
+        },
+        {
+          "offset": 15730424,
+          "text": "      \"sami_version\": {"
+        },
+        {
+          "offset": 15730502,
+          "text": "        \"key_path\": \"item.sami_version\""
+        },
+        {
+          "offset": 15730551,
+          "text": "      \"sami_type\": {"
+        },
+        {
+          "offset": 15730621,
+          "text": "        \"key_path\": \"item.sami_type\""
+        },
+        {
+          "offset": 15731066,
+          "text": "/lv/v1/get_sami_token"
+        },
+        {
+          "offset": 15731088,
+          "text": "LYRA_TTS_LOC"
+        },
+        {
+          "offset": 15731101,
+          "text": "LYRA_TTS_ENTERPRISE_ID"
+        },
+        {
+          "offset": 15731183,
+          "text": "LYRA_TTS_AUDIO_FORMAT"
+        },
+        {
+          "offset": 15772394,
+          "text": "tts_url"
+        },
+        {
+          "offset": 15785373,
+          "text": "      \"tts_task_id\": {"
+        },
+        {
+          "offset": 15785450,
+          "text": "        \"key_path\": \"item.tts_task_id\""
+        },
+        {
+          "offset": 15785498,
+          "text": "      \"tts_generate_scene\": {"
+        },
+        {
+          "offset": 15785582,
+          "text": "        \"key_path\": \"item.tts_generate_scene\""
+        },
+        {
+          "offset": 15787695,
+          "text": "LYRA_TTS_HEADERS_JSON"
+        },
+        {
+          "offset": 15787717,
+          "text": "LYRA_TTS_HEADERS_FILE"
+        },
+        {
+          "offset": 15787739,
+          "text": "LYRA_TTS_DOWNLOAD"
+        },
+        {
+          "offset": 15833777,
+          "text": "LYRA_TTS_FROM"
+        },
+        {
+          "offset": 15877969,
+          "text": "tts_speaker"
+        },
+        {
+          "offset": 15899923,
+          "text": "sami_name"
+        },
+        {
+          "offset": 15901927,
+          "text": "tts_task_id"
+        },
+        {
+          "offset": 15905075,
+          "text": "jiangyingpro_speech_to_song_config.duration"
+        },
+        {
+          "offset": 15909812,
+          "text": "      \"tts_metas\": {"
+        },
+        {
+          "offset": 15909897,
+          "text": "        \"key_path\": \"item.tts_metas\""
+        },
+        {
+          "offset": 15914319,
+          "text": "tts_audio.wav"
+        },
+        {
+          "offset": 15914369,
+          "text": "sami_text_to_speech"
+        },
+        {
+          "offset": 15941953,
+          "text": "function downgrade_81_to_80_speech_to_song(project)"
+        },
+        {
+          "offset": 15948014,
+          "text": "tts_driver_mode.cpp"
+        },
+        {
+          "offset": 15957198,
+          "text": "tts_result"
+        },
+        {
+          "offset": 15957865,
+          "text": "moyin_text_to_speech"
+        },
+        {
+          "offset": 15998523,
+          "text": "sami_version"
+        },
+        {
+          "offset": 16000024,
+          "text": "tts_payload"
+        },
+        {
+          "offset": 16006813,
+          "text": "LYRA_TTS_COMMON_TASK_CREATE_URL"
+        },
+        {
+          "offset": 16006873,
+          "text": "tts common_task query timed out without speech_url"
+        },
+        {
+          "offset": 16031707,
+          "text": "                                downgrade_60_59_tts_auto_update,"
+        },
+        {
+          "offset": 16037108,
+          "text": "                                downgrade_81_to_80_speech_to_song,"
+        },
+        {
+          "offset": 16044903,
+          "text": "                                 downgrade_118_to_117_sami_tone_emotion,"
+        },
+        {
+          "offset": 16074369,
+          "text": "LYRA_TTS_DIRECT_URL"
+        },
+        {
+          "offset": 16074389,
+          "text": "LYRA_TTS_TDID"
+        },
+        {
+          "offset": 16074429,
+          "text": "speech_url"
+        },
+        {
+          "offset": 16074440,
+          "text": "LYRA_TTS_USE_CACHE"
+        },
+        {
+          "offset": 16087752,
+          "text": "UPDATE_TTS_AUDIO_ACTION"
+        },
+        {
+          "offset": 16149854,
+          "text": "jiangyingpro_speech_to_song_config.vc_duration"
+        },
+        {
+          "offset": 16233764,
+          "text": "      \"tts_task_id\": {"
+        },
+        {
+          "offset": 16233841,
+          "text": "        \"key_path\": \"item.tts_task_id\""
+        },
+        {
+          "offset": 16233889,
+          "text": "      \"tts_generate_scene\": {"
+        },
+        {
+          "offset": 16233973,
+          "text": "        \"key_path\": \"item.tts_generate_scene\""
+        },
+        {
+          "offset": 16267913,
+          "text": "tts_benefit_info"
+        },
+        {
+          "offset": 16274540,
+          "text": "LYRA_TTS_COMMON_TASK_QUERY_URL"
+        },
+        {
+          "offset": 16292223,
+          "text": "                                downgrade_60_59_tts_auto_update,"
+        },
+        {
+          "offset": 16297624,
+          "text": "                                downgrade_81_to_80_speech_to_song,"
+        },
+        {
+          "offset": 16305419,
+          "text": "                                 downgrade_118_to_117_sami_tone_emotion,"
+        },
+        {
+          "offset": 16340392,
+          "text": "speech_analysis"
+        },
+        {
+          "offset": 16346833,
+          "text": "LYRA_TTS_APP_SDK_VERSION"
+        },
+        {
+          "offset": 16348277,
+          "text": "script_video_sami_model.cpp"
+        },
+        {
+          "offset": 16380095,
+          "text": "LYRA_TTS_SAMI_TOKEN_URL"
+        },
+        {
+          "offset": 16415407,
+          "text": "tts_start"
+        },
+        {
+          "offset": 16416092,
+          "text": "tts_tone_emotion.cpp"
+        },
+        {
+          "offset": 16424441,
+          "text": "[TranscriptEdit] path:{} speech_ratio {} ,sing_ratio time:{}"
+        },
+        {
+          "offset": 16467478,
+          "text": "LYRA_TTS_COMMON_TASK_CANCEL_URL"
+        },
+        {
+          "offset": 16467515,
+          "text": "LYRA_TTS_DEVICE_ID"
+        },
+        {
+          "offset": 16467558,
+          "text": "LYRA_TTS_ALGO_TYPE"
+        },
+        {
+          "offset": 16494872,
+          "text": "sami_emotion_scale"
+        },
+        {
+          "offset": 16502945,
+          "text": "LYRA_TTS_PUBLIC_KEY_FILE"
+        },
+        {
+          "offset": 16502970,
+          "text": "LYRA_TTS_COOKIE"
+        },
+        {
+          "offset": 16569396,
+          "text": "tts_generate_scene"
+        },
+        {
+          "offset": 16577948,
+          "text": "tts_handler.cpp"
+        },
+        {
+          "offset": 16577964,
+          "text": "LYRA_TTS_HOST"
+        },
+        {
+          "offset": 16661265,
+          "text": "text_to_speech"
+        },
+        {
+          "offset": 16674962,
+          "text": "digital_human_tts_meta.cpp"
+        },
+        {
+          "offset": 16691190,
+          "text": "LYRA_TTS_LAN"
+        },
+        {
+          "offset": 16742613,
+          "text": "LYRA_TTS_ENV"
+        },
+        {
+          "offset": 16742668,
+          "text": "LYRA_TTS_OUTPUT_DIR"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libspeechengine.so",
+      "sha256": "66cdc8ec913a42e2e1c63531daff727a8bb09daf2a26f73dc6c1fd78c4c97a5e",
+      "hits": [
+        {
+          "offset": 2564,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_createEngineToNative"
+        },
+        {
+          "offset": 2650,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_destroyEngineToNative"
+        },
+        {
+          "offset": 2737,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_feedAudioToNative"
+        },
+        {
+          "offset": 2820,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_fetchResultToNative"
+        },
+        {
+          "offset": 2905,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_fetchStringResultToNative"
+        },
+        {
+          "offset": 2996,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_getVersionToNative"
+        },
+        {
+          "offset": 3080,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_initEngineToNative"
+        },
+        {
+          "offset": 3164,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_isEngineSupportedToNative"
+        },
+        {
+          "offset": 3255,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_processAudioToNative"
+        },
+        {
+          "offset": 3341,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_resetEngineToNative"
+        },
+        {
+          "offset": 3426,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_sendDirectiveToNative"
+        },
+        {
+          "offset": 3513,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_setOptionBooleanToNative"
+        },
+        {
+          "offset": 3603,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_setOptionDoubleToNative"
+        },
+        {
+          "offset": 3692,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_setOptionIntToNative"
+        },
+        {
+          "offset": 3778,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechEngineBridge_setOptionStringToNative"
+        },
+        {
+          "offset": 5140,
+          "text": "Java_com_bytedance_speech_speechengine_log_1tracker_SpeechLogTracker_getInstanceToNative"
+        },
+        {
+          "offset": 5229,
+          "text": "Java_com_bytedance_speech_speechengine_log_1tracker_SpeechLogTracker_writeLogToNative"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libspeechepg.so",
+      "sha256": "47027d80c045d7232e4859ab9416f3684b36eefdb616e725da5c797eb424ff1e",
+      "hits": [
+        {
+          "offset": 2551,
+          "text": "Java_com_bytedance_speech_speechengine_log_1tracker_SpeechLogTracker_getInstanceToNative"
+        },
+        {
+          "offset": 2640,
+          "text": "Java_com_bytedance_speech_speechengine_log_1tracker_SpeechLogTracker_writeLogToNative"
+        },
+        {
+          "offset": 2746,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_createEngineToNative"
+        },
+        {
+          "offset": 2832,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_destroyEngineToNative"
+        },
+        {
+          "offset": 2919,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_feedAudioToNative"
+        },
+        {
+          "offset": 3002,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_fetchResultToNative"
+        },
+        {
+          "offset": 3087,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_fetchStringResultToNative"
+        },
+        {
+          "offset": 3178,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_getVersionToNative"
+        },
+        {
+          "offset": 3262,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_initEngineToNative"
+        },
+        {
+          "offset": 3346,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_isEngineSupportedToNative"
+        },
+        {
+          "offset": 3437,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_processAudioToNative"
+        },
+        {
+          "offset": 3523,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_resetEngineToNative"
+        },
+        {
+          "offset": 3608,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_sendDirectiveToNative"
+        },
+        {
+          "offset": 3695,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_setOptionBooleanToNative"
+        },
+        {
+          "offset": 3785,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_setOptionDoubleToNative"
+        },
+        {
+          "offset": 3874,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_setOptionIntToNative"
+        },
+        {
+          "offset": 3960,
+          "text": "Java_com_bytedance_speech_speechengine_bridge_SpeechPluginBridge_setOptionStringToNative"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libspeechsdk.so",
+      "sha256": "6077aa66c8ae0f05f7dd9cdd231c7b5b37173a8820033aa488483ab74c4a8839",
+      "hits": [
+        {
+          "offset": 163685,
+          "text": "OPTIONS_KEY_KWS_VAD_SPEECH_ACTIVE_THRESH_INT"
+        },
+        {
+          "offset": 163730,
+          "text": "OPTIONS_KEY_KWS_VAD_SPEECH_DEACTIVE_THRESH_INT"
+        },
+        {
+          "offset": 164551,
+          "text": "OPTIONS_KEY_TTS_ADDRESS_STRING"
+        },
+        {
+          "offset": 164582,
+          "text": "OPTIONS_KEY_TTS_AUDIO_FILE_STRING"
+        },
+        {
+          "offset": 164616,
+          "text": "OPTIONS_KEY_TTS_AUDIO_PATH_STRING"
+        },
+        {
+          "offset": 164650,
+          "text": "OPTIONS_KEY_TTS_BACKEND_CLUSTER_STRING"
+        },
+        {
+          "offset": 164689,
+          "text": "OPTIONS_KEY_TTS_BUSINESS_STRING"
+        },
+        {
+          "offset": 164721,
+          "text": "OPTIONS_KEY_TTS_CLUSTER_STRING"
+        },
+        {
+          "offset": 164752,
+          "text": "OPTIONS_KEY_TTS_COMPRESSION_RATE_INT"
+        },
+        {
+          "offset": 164789,
+          "text": "OPTIONS_KEY_TTS_CONCURRENCY_MODE_INT"
+        },
+        {
+          "offset": 164826,
+          "text": "OPTIONS_KEY_TTS_DATA_CALLBACK_MODE_INT"
+        },
+        {
+          "offset": 164865,
+          "text": "OPTIONS_KEY_TTS_ENABLE_CACHE_BOOL"
+        },
+        {
+          "offset": 164899,
+          "text": "OPTIONS_KEY_TTS_ENABLE_DUMP_BOOL"
+        },
+        {
+          "offset": 164932,
+          "text": "OPTIONS_KEY_TTS_ENABLE_PLAYER_BOOL"
+        },
+        {
+          "offset": 164967,
+          "text": "OPTIONS_KEY_TTS_ENCODING_STRING"
+        },
+        {
+          "offset": 164999,
+          "text": "OPTIONS_KEY_TTS_LANGUAGE_ONLINE_STRING"
+        },
+        {
+          "offset": 165038,
+          "text": "OPTIONS_KEY_TTS_OFF_RESOURCE_PATH_STRING"
+        },
+        {
+          "offset": 165079,
+          "text": "OPTIONS_KEY_TTS_PITCH_INT"
+        },
+        {
+          "offset": 165105,
+          "text": "OPTIONS_KEY_TTS_SAMPLE_RATE_INT"
+        },
+        {
+          "offset": 165137,
+          "text": "OPTIONS_KEY_TTS_SCENARIO_STRING"
+        },
+        {
+          "offset": 165169,
+          "text": "OPTIONS_KEY_TTS_SPEED_INT"
+        },
+        {
+          "offset": 165195,
+          "text": "OPTIONS_KEY_TTS_TEXT_STRING"
+        },
+        {
+          "offset": 165223,
+          "text": "OPTIONS_KEY_TTS_TEXT_TYPE_STRING"
+        },
+        {
+          "offset": 165256,
+          "text": "OPTIONS_KEY_TTS_URI_STRING"
+        },
+        {
+          "offset": 165283,
+          "text": "OPTIONS_KEY_TTS_USE_VOICECLONE_BOOL"
+        },
+        {
+          "offset": 165319,
+          "text": "OPTIONS_KEY_TTS_VOICECLONE_STYLE_STRING"
+        },
+        {
+          "offset": 165359,
+          "text": "OPTIONS_KEY_TTS_VOICE_OFFLINE_STRING"
+        },
+        {
+          "offset": 165396,
+          "text": "OPTIONS_KEY_TTS_VOICE_ONLINE_STRING"
+        },
+        {
+          "offset": 165432,
+          "text": "OPTIONS_KEY_TTS_VOICE_TYPE_OFFLINE_STRING"
+        },
+        {
+          "offset": 165474,
+          "text": "OPTIONS_KEY_TTS_VOICE_TYPE_ONLINE_STRING"
+        },
+        {
+          "offset": 165515,
+          "text": "OPTIONS_KEY_TTS_VOLUME_INT"
+        },
+        {
+          "offset": 165542,
+          "text": "OPTIONS_KEY_TTS_WITH_FRONTEND_INT"
+        },
+        {
+          "offset": 165576,
+          "text": "OPTIONS_KEY_TTS_WORK_MODE_INT"
+        },
+        {
+          "offset": 165687,
+          "text": "OPTIONS_KEY_VAD_MAX_SPEECH_DURATION_INT"
+        },
+        {
+          "offset": 167012,
+          "text": "TTS_ENGINE_NAME"
+        },
+        {
+          "offset": 167028,
+          "text": "TTS_SCENARIO_NORMAL"
+        },
+        {
+          "offset": 167048,
+          "text": "TTS_SCENARIO_NOVEL"
+        },
+        {
+          "offset": 167067,
+          "text": "TTS_TEXT_TYPE_JSON"
+        },
+        {
+          "offset": 167086,
+          "text": "TTS_TEXT_TYPE_PLAIN"
+        },
+        {
+          "offset": 167106,
+          "text": "TTS_TEXT_TYPE_SSML"
+        },
+        {
+          "offset": 728592,
+          "text": "speech_sdk"
+        },
+        {
+          "offset": 732294,
+          "text": "vad_max_speech_duration"
+        },
+        {
+          "offset": 733274,
+          "text": "tts_cluster"
+        },
+        {
+          "offset": 733286,
+          "text": "tts_backend_cluster"
+        },
+        {
+          "offset": 733306,
+          "text": "tts_address"
+        },
+        {
+          "offset": 733318,
+          "text": "tts_uri"
+        },
+        {
+          "offset": 733326,
+          "text": "tts_voice_online"
+        },
+        {
+          "offset": 733343,
+          "text": "tts_voice_type_online"
+        },
+        {
+          "offset": 733365,
+          "text": "tts_voice_offline"
+        },
+        {
+          "offset": 733383,
+          "text": "tts_voice_type_offline"
+        },
+        {
+          "offset": 733406,
+          "text": "tts_language_online"
+        },
+        {
+          "offset": 733426,
+          "text": "tts_text"
+        },
+        {
+          "offset": 733435,
+          "text": "tts_text_type"
+        },
+        {
+          "offset": 733449,
+          "text": "tts_with_frontend"
+        },
+        {
+          "offset": 733467,
+          "text": "tts_speed"
+        },
+        {
+          "offset": 733477,
+          "text": "tts_volume"
+        },
+        {
+          "offset": 733488,
+          "text": "tts_pitch"
+        },
+        {
+          "offset": 733498,
+          "text": "tts_rate"
+        },
+        {
+          "offset": 733507,
+          "text": "tts_encoding"
+        },
+        {
+          "offset": 733520,
+          "text": "tts_compression_rate"
+        },
+        {
+          "offset": 733541,
+          "text": "tts_enable_player"
+        },
+        {
+          "offset": 733559,
+          "text": "tts_enable_dump"
+        },
+        {
+          "offset": 733575,
+          "text": "tts_audio_path"
+        },
+        {
+          "offset": 733590,
+          "text": "tts_audio_file"
+        },
+        {
+          "offset": 733605,
+          "text": "tts_concurrency_mode"
+        },
+        {
+          "offset": 733626,
+          "text": "tts_business"
+        },
+        {
+          "offset": 733639,
+          "text": "tts_enable_cache"
+        },
+        {
+          "offset": 733656,
+          "text": "tts_use_voiceclone"
+        },
+        {
+          "offset": 733675,
+          "text": "tts_voiceclone_style"
+        },
+        {
+          "offset": 733696,
+          "text": "tts_work_mode"
+        },
+        {
+          "offset": 733710,
+          "text": "tts_scenario"
+        },
+        {
+          "offset": 733723,
+          "text": "tts_data_callback_mode"
+        },
+        {
+          "offset": 733746,
+          "text": "tts_off_resource_path"
+        },
+        {
+          "offset": 734707,
+          "text": "kws_vad_speech_active_thresh"
+        },
+        {
+          "offset": 734736,
+          "text": "kws_vad_speech_deactive_thresh"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libsscronet.so",
+      "sha256": "2005c6574bf4c56204365be7f9cca38981e6bffb8bbd2eab03f2abb1a6b052c6",
+      "hits": [
+        {
+          "offset": 544693,
+          "text": "nqe_rtts_valid_window_s"
+        },
+        {
+          "offset": 587523,
+          "text": "nqe_rtts_cal_percentile"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libttffmpeg.so",
+      "sha256": "755c8dcac05951c52c53a3d3e02f0fe1c597b6cae3191622d3d9b220c8ba7fd9",
+      "hits": [
+        {
+          "offset": 5176595,
+          "text": "track[%u].stts.entries = %u"
+        },
+        {
+          "offset": 5178389,
+          "text": "ctts_index"
+        },
+        {
+          "offset": 5178400,
+          "text": "ctts_sample"
+        },
+        {
+          "offset": 5182000,
+          "text": "pts %ld calculated dts %ld sc->dts_shift %d ctts.duration %d sc->time_offset %ld flags & MOV_TRUN_SAMPLE_CTS %d"
+        },
+        {
+          "offset": 5182732,
+          "text": "track[%u].ctts.entries = %u"
+        },
+        {
+          "offset": 5184056,
+          "text": "Shifting DTS by %d because of negative CTTS."
+        },
+        {
+          "offset": 5184250,
+          "text": "stts: %ld ctts: %ld, ctts_index: %ld, ctts_count: %ld"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libttmplayer.so",
+      "sha256": "a61a97df7cd9458fc5d374da3bc3bc78b1abfd3f1c32ba82e62ce6363efb5223",
+      "hits": [
+        {
+          "offset": 2731415,
+          "text": "[sami_audio]:fallback to effectType:%d"
+        },
+        {
+          "offset": 2964141,
+          "text": "enable_sami_sdk_ab"
+        },
+        {
+          "offset": 2965040,
+          "text": "av_sami_core_audio_effect.cpp"
+        },
+        {
+          "offset": 2974388,
+          "text": "av_ae_sami_handle_manager.cpp"
+        }
+      ]
+    },
+    {
+      "file": "lib/arm64-v8a/libttr.so",
+      "sha256": "38c13f772c29f2a6b03c5523b74730be6727dfc9c3de457b1e09fe32578d6f6f",
+      "hits": [
+        {
+          "offset": 452556,
+          "text": "{\"chains\":[{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"chain_normal\",\"nodes\":[{\"enable\":true,\"alpha_fast\":0.1,\"alpha_slow\":0.05,\"gain_max_db\":3,\"gain_min_db\":-3,\"flux_attack\":40,\"flux_release\":200,\"modes\":[\"normal\"],\"name\":\"rms_flux_driven_expander\",\"type\":\"rms_flux_driven_expander\"},{\"band_num\":1,\"enable\":true,\"modes\":[\"normal\"],\"name\":\"equalizer\",\"presets\":[{\"band_params\":[\"Peaking,700,0.4,-3\"],\"desc\":\"speakerEQ\",\"enable\":true,\"name\":\"custom\"}],\"type\":\"equalizer\",\"use_preset\":\"custom\"},{\"enable\":true,\"gain_db\":1.16,\"modes\":[\"normal\"],\"name\":\"gain\",\"type\":\"gain\"},{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"limiter\",\"type\":\"limiter_lookahead_sig\",\"attack_time_ms\":0.0001,\"release_time_ms\":650,\"ceiling_dB\":0,\"look_ahead_time\":4,\"input_gain_dB\":0,\"knee_dB\":4}]}],\"desc\":\"auto generated by libsamiaudio\",\"name\":\"sami_audio_effect\",\"update_timestamp\":0}"
+        },
+        {
+          "offset": 453411,
+          "text": "{\"chains\":[{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"chain_normal\",\"nodes\":[{\"enable\":true,\"alpha_fast\":0.1,\"alpha_slow\":0.075,\"gain_max_db\":3,\"gain_min_db\":-3,\"flux_attack\":40,\"flux_release\":200,\"modes\":[\"normal\"],\"name\":\"rms_flux_driven_expander\",\"type\":\"rms_flux_driven_expander\"},{\"band_num\":4,\"enable\":true,\"modes\":[\"normal\"],\"name\":\"equalizer\",\"presets\":[{\"band_params\":[\"HighPass,130,1,0\",\"Peaking,130,0.707,0\",\"Peaking,130,0.707,0\",\"Peaking,700,0.4,-3\"],\"desc\":\"speakerEQ\",\"enable\":true,\"name\":\"custom\"}],\"type\":\"equalizer\",\"use_preset\":\"custom\"},{\"enable\":true,\"gain_db\":2.76,\"modes\":[\"normal\"],\"name\":\"gain\",\"type\":\"gain\"},{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"limiter\",\"type\":\"limiter_lookahead_sig\",\"attack_time_ms\":0.0001,\"release_time_ms\":650,\"ceiling_dB\":0,\"look_ahead_time\":4,\"input_gain_dB\":0,\"knee_dB\":4}]}],\"desc\":\"auto generated by libsamiaudio\",\"name\":\"sami_audio_effect\",\"update_timestamp\":0}"
+        },
+        {
+          "offset": 454330,
+          "text": "{\"chains\":[{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"chain_normal\",\"nodes\":[{\"band_num\":1,\"enable\":true,\"modes\":[\"normal\"],\"name\":\"equalizer\",\"presets\":[{\"band_params\":[\"Peaking,700,0.4,-3\"],\"desc\":\"speakerEQ\",\"enable\":true,\"name\":\"custom\"}],\"type\":\"equalizer\",\"use_preset\":\"custom\"},{\"enable\":true,\"gain_db\":2.26,\"modes\":[\"normal\"],\"name\":\"gain\",\"type\":\"gain\"},{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"limiter\",\"type\":\"limiter_lookahead_sig\",\"attack_time_ms\":0.0001,\"release_time_ms\":650,\"ceiling_dB\":0,\"look_ahead_time\":4,\"input_gain_dB\":0,\"knee_dB\":4}]}],\"desc\":\"auto generated by libsamiaudio\",\"name\":\"sami_audio_effect\",\"update_timestamp\":0}"
+        },
+        {
+          "offset": 454978,
+          "text": "{\"chains\":[{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"chain_normal\",\"nodes\":[{\"band_num\":4,\"enable\":true,\"modes\":[\"normal\"],\"name\":\"equalizer\",\"presets\":[{\"band_params\":[\"HighPass,130,1,0\",\"Peaking,130,0.707,0\",\"Peaking,130,0.707,0\",\"Peaking,700,0.4,-3\"],\"desc\":\"speakerEQ\",\"enable\":true,\"name\":\"custom\"}],\"type\":\"equalizer\",\"use_preset\":\"custom\"},{\"enable\":true,\"gain_db\":2.794,\"modes\":[\"normal\"],\"name\":\"gain\",\"type\":\"gain\"},{\"enable\":true,\"modes\":[\"normal\"],\"name\":\"limiter\",\"type\":\"limiter_lookahead_sig\",\"attack_time_ms\":0.0001,\"release_time_ms\":650,\"ceiling_dB\":0,\"look_ahead_time\":4,\"input_gain_dB\":0,\"knee_dB\":4}]}],\"desc\":\"auto generated by libsamiaudio\",\"name\":\"sami_audio_effect\",\"update_timestamp\":0}"
+        }
+      ]
+    }
+  ]
+}
