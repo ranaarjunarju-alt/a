@@ -25,3 +25,23 @@ assert all(not v for v in framework['flutter_standard_markers'].values())
 assert any('liblynx.so' in n for n in framework['framework_path_candidates'])
 assert any(r['file'].endswith('libspeechsdk.so') for r in framework['matches'])
 print(f'PASS: {len(checks)} source evidence assertions + 3 framework assertions. Not runtime tests.')
+
+# Request lineage and complete packaged-library follow-up.
+contains('com.vega.edit.base.tone.TextToSpeechIntent', 'toneTypeId=')
+contains('com.vega.edit.base.tone.TextToSpeechIntent', 'resourceId=')
+contains('com.vega.edit.base.utils.ToneUtil', 'mock_tone_info')
+contains('com.vega.edit.base.utils.ToneUtil', 'voice_type')
+contains('com.vega.audio.tone.viewmodel.ToneSelectViewModel', 'toneType.getResourceId()')
+contains('com.vega.launcher.init.core.hook.NetworkInitHook', 'RetrofitUtils.addInterceptor(interceptor)')
+contains('com.vega.launcher.start.schedule.tasks.NetworkInitTask', 'RetrofitUtils.addInterceptor(interceptor)')
+contains('com.vega.core.net.TypedJson', 'new Gson().toJson(obj)')
+libraries=json.loads((root/'native-evidence/all-libraries.json').read_text())
+assert len(libraries)==337
+assert len({r['path'].split('/')[-1] for r in libraries})==169
+valid=[r for r in libraries if 'parse_error' not in r]
+opaque=[r for r in libraries if 'parse_error' in r]
+assert len(valid)==335 and len(opaque)==2
+assert all(r['path'].endswith('/libcapcut.so') and r['prefix_hex'].startswith('7f4b4f4d') for r in opaque)
+assert all(r['embedded_elf_offset']==-1 and not r['is_zip_container'] for r in opaque)
+assert all(r['gnu_stack_executable'] is False and r['gnu_relro_segment'] is True for r in valid)
+print('PASS: 8 additional lineage assertions + 6 native inventory assertions. Static evidence only.')

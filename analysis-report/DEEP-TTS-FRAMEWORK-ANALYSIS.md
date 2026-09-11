@@ -1,5 +1,7 @@
 # Deep TTS + framework analysis
 
+> **Newer follow-up:** [ELEVENLABS-REQUEST-LINEAGE.md](ELEVENLABS-REQUEST-LINEAGE.md) traces effect metadata → selected tone → intent → task → JSON and confirms global interceptor registration. [NATIVE-LIBRARY-FINDINGS.md](NATIVE-LIBRARY-FINDINGS.md) covers all 337 `.so` entries, including two non-ELF `libcapcut.so` payloads. Earlier unknown-registration statements below describe the earlier stage.
+
 ## Executive result
 
 **Is APK ke liye evidence native Android + Lynx + native speech/editor SDK architecture ko support karta hai, bundled Flutter TTS architecture ko nahi.** Flutter/Dart-named compatibility classes zaroor hain, lekin standard Flutter engine, Dart application snapshot aur Flutter assets nahi mile. Is distinction ko ignore karke Flutter app ya Flutter TTS plugin declare karna incorrect hoga.
