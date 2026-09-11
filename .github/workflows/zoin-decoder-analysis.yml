@@ -1,0 +1,42 @@
+name: Zoin packed speech library analysis
+on:
+  push:
+    branches: [arena/01a090c6-a]
+    paths:
+      - .github/workflows/zoin-decoder-analysis.yml
+      - scripts/inspect_zoin_native.py
+      - scripts/ExtractZoinClasses.java
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install static tools
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pip install pyelftools==0.32 capstone==5.0.6
+          gh release download v1.5.3 --repo skylot/jadx --pattern jadx-1.5.3.zip --dir "$RUNNER_TEMP"
+          unzip -q "$RUNNER_TEMP/jadx-1.5.3.zip" -d "$RUNNER_TEMP/jadx"
+      - name: Trace Java and native decoder without loading APK libraries
+        run: |
+          python3 scripts/inspect_zoin_native.py app-release.apk analysis-report/native-boundary
+          javac -cp "$RUNNER_TEMP/jadx/lib/*" -d "$RUNNER_TEMP" scripts/ExtractZoinClasses.java
+          java -Xmx5g -cp "$RUNNER_TEMP:$RUNNER_TEMP/jadx/lib/*" ExtractZoinClasses app-release.apk analysis-report/native-boundary/loader-class-names.txt analysis-report/zoin-source
+      - name: Publish decoder evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis-report/zoin-source analysis-report/native-boundary/zoin-decoder-evidence.json
+          git diff --cached --quiet || git commit -m 'Save Zoin decompression and speech payload mapping evidence'
+          git pull --rebase origin arena/01a090c6-a
+          git push origin HEAD:arena/01a090c6-a
