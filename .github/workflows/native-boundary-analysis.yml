@@ -1,0 +1,45 @@
+name: Native loader and request boundary analysis
+on:
+  push:
+    branches: [arena/01a090c6-a]
+    paths:
+      - .github/workflows/native-boundary-analysis.yml
+      - scripts/scan_loader_boundaries.py
+      - scripts/ExtractLoaderClasses.java
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: Install static-analysis tools
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pip install androguard==4.1.3 pyelftools==0.32 capstone==5.0.6
+          gh release download v1.5.3 --repo skylot/jadx --pattern jadx-1.5.3.zip --dir "$RUNNER_TEMP"
+          unzip -q "$RUNNER_TEMP/jadx-1.5.3.zip" -d "$RUNNER_TEMP/jadx"
+      - name: Inspect DEX loader references and ARM64 entry points
+        run: |
+          python scripts/scan_loader_boundaries.py app-release.apk analysis-report/native-boundary
+          javac -cp "$RUNNER_TEMP/jadx/lib/*" -d "$RUNNER_TEMP" scripts/ExtractLoaderClasses.java
+          java -Xmx5g -cp "$RUNNER_TEMP:$RUNNER_TEMP/jadx/lib/*" ExtractLoaderClasses app-release.apk analysis-report/native-boundary/loader-class-names.txt analysis-report/loader-source
+      - name: Publish bounded text evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis-report/native-boundary analysis-report/loader-source
+          git diff --cached --quiet || git commit -m 'Save loader JNI and native request-boundary evidence'
+          git pull --rebase origin arena/01a090c6-a
+          git push origin HEAD:arena/01a090c6-a
