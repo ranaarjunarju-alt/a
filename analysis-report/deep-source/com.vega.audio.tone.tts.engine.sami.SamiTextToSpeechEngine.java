@@ -24,7 +24,7 @@ public final class SamiTextToSpeechEngine {
     });
 
     /* renamed from: c, reason: collision with root package name */
-    public static volatile String f74424c = "z4YJPVMnkCHrArY+SRhq6GOHTJ2GHAm+e1ewepFO7wIxxdbgDerGPSXIqEGopdWCfl9pXiR/BXtgVCddi/U9eBFdR7MF9ZtvfBx/JTG5ubaffpElzXj3maybmTReV6PCMrdK1W1i+9TwKRCtiH4zGqq+HALs5GKhB6tpQ/M/XW12fvcmh39GJ1oxNFNXeBQkQOPcNCensJRk/2+Or0Z8zR4IlPSU7MUXRvW2FncBASzPh6f6scHmFD6iHS3yNWzgVex+AW6m5XHPQyqYzxLsdGlQ9J4YGG0nLEKkFKGHwIDGguEo3Jk54+/eiUKmHPicYwv73yggIzdBRQXqrl2B0k3/UIh/N0Wx6IKWlh9QWFfZBS9r69rFHtJdrRcmpgs6yw9139U3VwlDxoJEKG043KxE3uzwKYrHRPja03/zTcF8cIT7w1WKR11MAni5snOR2ulWyZxspvvLDlStn0Q1vr++kB4xGef3F6NuOM+seqXUzGmv8h3SriJ6XMcBiYoe80SIkrrj8tGhf6C3vu3thU9Cm3iZjchn+y9kgSGFV/T1jY7InM+4uXnmhHaLs8ALKSOz8kacXdFueYsS0/aXmaHmlfZttZkmEeSuxDJwnKVwgwd21YkufDEyzUsl0KjxWXPnm61/cQckX6k7CLINooBpg7PV2Wo2Buxp8pFA4nOCxBnhMqFicMzAAr1LdE67A9z1UNekWAMbCX4OOT4vhkmkpagsGYoTHNBUGzXUKmAhxCdUXvCej4l0co4uThgZzKE3C1ip1nelpXJkVBo6Ez9FeKzHL2NELUBEcPLLO2X81d+Mq+BMkPlgJJJ90CID+jY9SFh1hTFAHMexhqglHUX95MtmhZUrNEfDCUMLz1X0CIMvv8E4PZug/7gwwnen2OEsFb4UNfYe5doK91brMkpjV2bOQOZacDXbRpHhidbXZdD2145DoaAqU1svIH2TI3TkDVbbccIONdkCrD7EAX4xnNQtHCH6iNYsbqq34hVMeQxBH3NtzEJ/NNFNnkzp";
+    public static volatile String f74424c = "<REDACTED_LONG_LITERAL>";
 
     /* renamed from: d, reason: collision with root package name */
     public static volatile long f74425d;
