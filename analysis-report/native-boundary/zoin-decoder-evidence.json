@@ -1,0 +1,3549 @@
+[
+  {
+    "path": "lib/arm64-v8a/libzoin.so",
+    "sha256": "461eaaa63714d460001f67de31520aa3d5b97431d177f9f73005c9519e87adcc",
+    "imports": [
+      "__cxa_atexit",
+      "__cxa_finalize",
+      "free",
+      "malloc",
+      "strdup",
+      "gettid",
+      "__errno",
+      "fstat",
+      "close",
+      "__open_2",
+      "__read_chk",
+      "getpriority",
+      "setpriority",
+      "lseek",
+      "komprese_decompress",
+      "fsync",
+      "fchmod",
+      "rename",
+      "open",
+      "strlen",
+      "strncpy",
+      "calloc",
+      "__android_log_print",
+      "dlopen",
+      "dlsym",
+      "vsnprintf",
+      "opendir",
+      "readdir",
+      "strtol",
+      "closedir",
+      "sched_getaffinity",
+      "sched_setaffinity",
+      "read",
+      "memcmp",
+      "inflateInit2_",
+      "inflate",
+      "inflateEnd",
+      "clock_gettime",
+      "write",
+      "memcpy",
+      "__stack_chk_fail",
+      "memset"
+    ],
+    "exports": [
+      {
+        "name": "JNI_OnLoad",
+        "value": "0x22a0",
+        "size": 228
+      }
+    ],
+    "strings": [
+      {
+        "offset": 2446,
+        "text": "__open_2"
+      },
+      {
+        "offset": 2455,
+        "text": "__read_chk"
+      },
+      {
+        "offset": 2490,
+        "text": "lseek"
+      },
+      {
+        "offset": 2496,
+        "text": "komprese_decompress"
+      },
+      {
+        "offset": 2536,
+        "text": "open"
+      },
+      {
+        "offset": 2583,
+        "text": "dlopen"
+      },
+      {
+        "offset": 2606,
+        "text": "opendir"
+      },
+      {
+        "offset": 2614,
+        "text": "readdir"
+      },
+      {
+        "offset": 2674,
+        "text": "read"
+      },
+      {
+        "offset": 2816,
+        "text": "libkomprese-decompressor.so"
+      },
+      {
+        "offset": 2860,
+        "text": "libzoin.so"
+      },
+      {
+        "offset": 4240,
+        "text": "Use apkDecode Before Fd:%d rL:%zd dL:%zd %ld cB:%p dB:%p"
+      },
+      {
+        "offset": 4407,
+        "text": "Use apkDecode After Fd:%d rL:%zd dL:%zd %ld cB:%p dB:%p"
+      },
+      {
+        "offset": 4700,
+        "text": "OptThread error"
+      },
+      {
+        "offset": 4721,
+        "text": "nCalculateFileCRC"
+      },
+      {
+        "offset": 4764,
+        "text": "compressPath:%s apkPath:%s entryName:%s compressedStart:%ld compressedEnd:%ld totalDecompressedSize:%ld infoSize:%zu"
+      },
+      {
+        "offset": 4912,
+        "text": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JJI[Lcom/bytedance/zoin/model/ZoinBuildFileInfo;ZZ)I"
+      },
+      {
+        "offset": 5059,
+        "text": "Decode error Fd:%d rL:%zd dL:%zd %ld cB:%p dB:%p"
+      },
+      {
+        "offset": 5202,
+        "text": "Zoin"
+      },
+      {
+        "offset": 5225,
+        "text": "open temp %s %d %d"
+      },
+      {
+        "offset": 5244,
+        "text": "com/bytedance/zoin/model/ZoinBuildFileInfo"
+      },
+      {
+        "offset": 5415,
+        "text": "nDecodeLibs"
+      },
+      {
+        "offset": 5522,
+        "text": "Use libxxx.so to decode and read success"
+      },
+      {
+        "offset": 5579,
+        "text": "com/bytedance/zoin/ZoinNative"
+      },
+      {
+        "offset": 5609,
+        "text": "decompressPath"
+      },
+      {
+        "offset": 5651,
+        "text": "xz_crc %u %u %lu"
+      },
+      {
+        "offset": 5668,
+        "text": "read temp %d %d"
+      },
+      {
+        "offset": 5724,
+        "text": "zip deflate %s %d %d"
+      }
+    ],
+    "string_match_count": 28,
+    "bounded_disassembly": [
+      {
+        "symbol": "JNI_OnLoad",
+        "address": "0x22a0",
+        "declared_size": 228,
+        "instructions": [
+          {
+            "address": "0x22a0",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0xa0"
+          },
+          {
+            "address": "0x22a4",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x70]"
+          },
+          {
+            "address": "0x22a8",
+            "mnemonic": "str",
+            "operands": "x21, [sp, #0x80]"
+          },
+          {
+            "address": "0x22ac",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x90]"
+          },
+          {
+            "address": "0x22b0",
+            "mnemonic": "add",
+            "operands": "x29, sp, #0x70"
+          },
+          {
+            "address": "0x22b4",
+            "mnemonic": "mrs",
+            "operands": "x20, tpidr_el0"
+          },
+          {
+            "address": "0x22b8",
+            "mnemonic": "ldr",
+            "operands": "x8, [x20, #0x28]"
+          },
+          {
+            "address": "0x22bc",
+            "mnemonic": "stur",
+            "operands": "x8, [x29, #-8]"
+          },
+          {
+            "address": "0x22c0",
+            "mnemonic": "cbz",
+            "operands": "x0, #0x2378"
+          },
+          {
+            "address": "0x22c4",
+            "mnemonic": "ldr",
+            "operands": "x8, [x0]"
+          },
+          {
+            "address": "0x22c8",
+            "mnemonic": "mov",
+            "operands": "w2, #6"
+          },
+          {
+            "address": "0x22cc",
+            "mnemonic": "mov",
+            "operands": "w21, #6"
+          },
+          {
+            "address": "0x22d0",
+            "mnemonic": "mov",
+            "operands": "x1, sp"
+          },
+          {
+            "address": "0x22d4",
+            "mnemonic": "ldr",
+            "operands": "x8, [x8, #0x30]"
+          },
+          {
+            "address": "0x22d8",
+            "mnemonic": "movk",
+            "operands": "w2, #1, lsl #16"
+          },
+          {
+            "address": "0x22dc",
+            "mnemonic": "mov",
+            "operands": "x19, x0"
+          },
+          {
+            "address": "0x22e0",
+            "mnemonic": "movk",
+            "operands": "w21, #1, lsl #16"
+          },
+          {
+            "address": "0x22e4",
+            "mnemonic": "blr",
+            "operands": "x8"
+          },
+          {
+            "address": "0x22e8",
+            "mnemonic": "cbnz",
+            "operands": "w0, #0x2378"
+          },
+          {
+            "address": "0x22ec",
+            "mnemonic": "ldr",
+            "operands": "x0, [sp]"
+          },
+          {
+            "address": "0x22f0",
+            "mnemonic": "cbz",
+            "operands": "x0, #0x2378"
+          },
+          {
+            "address": "0x22f4",
+            "mnemonic": "ldr",
+            "operands": "x8, [x0]"
+          },
+          {
+            "address": "0x22f8",
+            "mnemonic": "cbz",
+            "operands": "x8, #0x2378"
+          },
+          {
+            "address": "0x22fc",
+            "mnemonic": "adrp",
+            "operands": "x8, #0xc000"
+          },
+          {
+            "address": "0x2300",
+            "mnemonic": "str",
+            "operands": "x19, [x8, #0x7a0]"
+          },
+          {
+            "address": "0x2304",
+            "mnemonic": "ldr",
+            "operands": "x8, [x0]"
+          },
+          {
+            "address": "0x2308",
+            "mnemonic": "adrp",
+            "operands": "x1, #0x1000"
+          },
+          {
+            "address": "0x230c",
+            "mnemonic": "add",
+            "operands": "x1, x1, #0x5cb"
+          },
+          {
+            "address": "0x2310",
+            "mnemonic": "ldr",
+            "operands": "x8, [x8, #0x30]"
+          },
+          {
+            "address": "0x2314",
+            "mnemonic": "blr",
+            "operands": "x8"
+          },
+          {
+            "address": "0x2318",
+            "mnemonic": "cbz",
+            "operands": "x0, #0x2378"
+          },
+          {
+            "address": "0x231c",
+            "mnemonic": "adrp",
+            "operands": "x1, #0x8000"
+          },
+          {
+            "address": "0x2320",
+            "mnemonic": "mov",
+            "operands": "x19, x0"
+          },
+          {
+            "address": "0x2324",
+            "mnemonic": "add",
+            "operands": "x1, x1, #0x3e8"
+          },
+          {
+            "address": "0x2328",
+            "mnemonic": "add",
+            "operands": "x0, sp, #8"
+          },
+          {
+            "address": "0x232c",
+            "mnemonic": "mov",
+            "operands": "w2, #0x60"
+          },
+          {
+            "address": "0x2330",
+            "mnemonic": "bl",
+            "operands": "#0x4160"
+          },
+          {
+            "address": "0x2334",
+            "mnemonic": "ldr",
+            "operands": "x0, [sp]"
+          },
+          {
+            "address": "0x2338",
+            "mnemonic": "add",
+            "operands": "x2, sp, #8"
+          },
+          {
+            "address": "0x233c",
+            "mnemonic": "mov",
+            "operands": "w3, #4"
+          },
+          {
+            "address": "0x2340",
+            "mnemonic": "mov",
+            "operands": "x1, x19"
+          },
+          {
+            "address": "0x2344",
+            "mnemonic": "ldr",
+            "operands": "x8, [x0]"
+          },
+          {
+            "address": "0x2348",
+            "mnemonic": "ldr",
+            "operands": "x8, [x8, #0x6b8]"
+          },
+          {
+            "address": "0x234c",
+            "mnemonic": "blr",
+            "operands": "x8"
+          },
+          {
+            "address": "0x2350",
+            "mnemonic": "cmp",
+            "operands": "w0, #0"
+          },
+          {
+            "address": "0x2354",
+            "mnemonic": "csinv",
+            "operands": "w0, w21, wzr, eq"
+          },
+          {
+            "address": "0x2358",
+            "mnemonic": "ldr",
+            "operands": "x8, [x20, #0x28]"
+          },
+          {
+            "address": "0x235c",
+            "mnemonic": "bl",
+            "operands": "#0x4008"
+          },
+          {
+            "address": "0x2360",
+            "mnemonic": "b.ne",
+            "operands": "#0x2380"
+          },
+          {
+            "address": "0x2364",
+            "mnemonic": "ldp",
+            "operands": "x20, x19, [sp, #0x90]"
+          },
+          {
+            "address": "0x2368",
+            "mnemonic": "ldr",
+            "operands": "x21, [sp, #0x80]"
+          },
+          {
+            "address": "0x236c",
+            "mnemonic": "ldp",
+            "operands": "x29, x30, [sp, #0x70]"
+          },
+          {
+            "address": "0x2370",
+            "mnemonic": "add",
+            "operands": "sp, sp, #0xa0"
+          },
+          {
+            "address": "0x2374",
+            "mnemonic": "ret",
+            "operands": ""
+          },
+          {
+            "address": "0x2378",
+            "mnemonic": "mov",
+            "operands": "w0, #-1"
+          },
+          {
+            "address": "0x237c",
+            "mnemonic": "b",
+            "operands": "#0x2358"
+          },
+          {
+            "address": "0x2380",
+            "mnemonic": "bl",
+            "operands": "#0x4170"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "lib/arm64-v8a/libkomprese-decompressor.so",
+    "sha256": "7a2a91ead53359dafebaae790ec6e5807f0e037c4c73b8ec0a3a49af1c1a18c3",
+    "imports": [
+      "__cxa_atexit",
+      "__cxa_finalize",
+      "abort",
+      "memalign",
+      "malloc",
+      "free",
+      "calloc",
+      "memcpy",
+      "__stack_chk_fail",
+      "memset"
+    ],
+    "exports": [
+      {
+        "name": "komprese_decompress",
+        "value": "0xe9c",
+        "size": 2432
+      }
+    ],
+    "strings": [
+      {
+        "offset": 1296,
+        "text": "komprese_decompress"
+      },
+      {
+        "offset": 1394,
+        "text": "libkomprese-decompressor.so"
+      }
+    ],
+    "string_match_count": 2,
+    "bounded_disassembly": [
+      {
+        "symbol": "komprese_decompress",
+        "address": "0xe9c",
+        "declared_size": 2432,
+        "instructions": [
+          {
+            "address": "0xe9c",
+            "mnemonic": "sub",
+            "operands": "sp, sp, #0x80"
+          },
+          {
+            "address": "0xea0",
+            "mnemonic": "stp",
+            "operands": "x29, x30, [sp, #0x20]"
+          },
+          {
+            "address": "0xea4",
+            "mnemonic": "stp",
+            "operands": "x28, x27, [sp, #0x30]"
+          },
+          {
+            "address": "0xea8",
+            "mnemonic": "stp",
+            "operands": "x26, x25, [sp, #0x40]"
+          },
+          {
+            "address": "0xeac",
+            "mnemonic": "stp",
+            "operands": "x24, x23, [sp, #0x50]"
+          },
+          {
+            "address": "0xeb0",
+            "mnemonic": "stp",
+            "operands": "x22, x21, [sp, #0x60]"
+          },
+          {
+            "address": "0xeb4",
+            "mnemonic": "stp",
+            "operands": "x20, x19, [sp, #0x70]"
+          },
+          {
+            "address": "0xeb8",
+            "mnemonic": "add",
+            "operands": "x29, sp, #0x20"
+          },
+          {
+            "address": "0xebc",
+            "mnemonic": "mrs",
+            "operands": "x25, tpidr_el0"
+          },
+          {
+            "address": "0xec0",
+            "mnemonic": "ldr",
+            "operands": "x8, [x25, #0x28]"
+          },
+          {
+            "address": "0xec4",
+            "mnemonic": "mov",
+            "operands": "x21, x3"
+          },
+          {
+            "address": "0xec8",
+            "mnemonic": "cmp",
+            "operands": "x1, #0xd"
+          },
+          {
+            "address": "0xecc",
+            "mnemonic": "stur",
+            "operands": "x8, [x29, #-8]"
+          },
+          {
+            "address": "0xed0",
+            "mnemonic": "b.hs",
+            "operands": "#0xee8"
+          },
+          {
+            "address": "0xed4",
+            "mnemonic": "mov",
+            "operands": "x8, xzr"
+          },
+          {
+            "address": "0xed8",
+            "mnemonic": "ldrb",
+            "operands": "w9, [sp, #0xc]"
+          },
+          {
+            "address": "0xedc",
+            "mnemonic": "cmp",
+            "operands": "w9, #1"
+          },
+          {
+            "address": "0xee0",
+            "mnemonic": "b.ne",
+            "operands": "#0xfb0"
+          },
+          {
+            "address": "0xee4",
+            "mnemonic": "b",
+            "operands": "#0xf18"
+          },
+          {
+            "address": "0xee8",
+            "mnemonic": "ldr",
+            "operands": "x9, [x0]"
+          },
+          {
+            "address": "0xeec",
+            "mnemonic": "ldr",
+            "operands": "w8, [x0, #8]"
+          },
+          {
+            "address": "0xef0",
+            "mnemonic": "mov",
+            "operands": "w10, #0x4b7f"
+          },
+          {
+            "address": "0xef4",
+            "mnemonic": "movk",
+            "operands": "w10, #0x4d4f, lsl #16"
+          },
+          {
+            "address": "0xef8",
+            "mnemonic": "cmp",
+            "operands": "w9, w10"
+          },
+          {
+            "address": "0xefc",
+            "mnemonic": "str",
+            "operands": "w8, [sp, #0x10]"
+          },
+          {
+            "address": "0xf00",
+            "mnemonic": "str",
+            "operands": "x9, [sp, #8]"
+          },
+          {
+            "address": "0xf04",
+            "mnemonic": "b.ne",
+            "operands": "#0xfb0"
+          },
+          {
+            "address": "0xf08",
+            "mnemonic": "mov",
+            "operands": "w8, #0xc"
+          },
+          {
+            "address": "0xf0c",
+            "mnemonic": "ldrb",
+            "operands": "w9, [sp, #0xc]"
+          },
+          {
+            "address": "0xf10",
+            "mnemonic": "cmp",
+            "operands": "w9, #1"
+          },
+          {
+            "address": "0xf14",
+            "mnemonic": "b.ne",
+            "operands": "#0xfb0"
+          },
+          {
+            "address": "0xf18",
+            "mnemonic": "adrp",
+            "operands": "x9, #0x1b000"
+          },
+          {
+            "address": "0xf1c",
+            "mnemonic": "add",
+            "operands": "x9, x9, #0x5d8"
+          },
+          {
+            "address": "0xf20",
+            "mnemonic": "ldr",
+            "operands": "w10, [x9, #0x3f8]"
+          },
+          {
+            "address": "0xf24",
+            "mnemonic": "ldrb",
+            "operands": "w11, [sp, #0xd]"
+          },
+          {
+            "address": "0xf28",
+            "mnemonic": "eor",
+            "operands": "w10, w10, #0xffffff"
+          },
+          {
+            "address": "0xf2c",
+            "mnemonic": "and",
+            "operands": "w12, w10, #0xff"
+          },
+          {
+            "address": "0xf30",
+            "mnemonic": "eor",
+            "operands": "w11, w12, w11"
+          },
+          {
+            "address": "0xf34",
+            "mnemonic": "ldr",
+            "operands": "w11, [x9, w11, uxtw #2]"
+          },
+          {
+            "address": "0xf38",
+            "mnemonic": "ldrb",
+            "operands": "w12, [sp, #0xe]"
+          },
+          {
+            "address": "0xf3c",
+            "mnemonic": "eor",
+            "operands": "w10, w11, w10, lsr #8"
+          },
+          {
+            "address": "0xf40",
+            "mnemonic": "and",
+            "operands": "w11, w10, #0xff"
+          },
+          {
+            "address": "0xf44",
+            "mnemonic": "eor",
+            "operands": "w11, w11, w12"
+          },
+          {
+            "address": "0xf48",
+            "mnemonic": "ldr",
+            "operands": "w11, [x9, w11, uxtw #2]"
+          },
+          {
+            "address": "0xf4c",
+            "mnemonic": "ldrb",
+            "operands": "w12, [sp, #0xf]"
+          },
+          {
+            "address": "0xf50",
+            "mnemonic": "eor",
+            "operands": "w10, w11, w10, lsr #8"
+          },
+          {
+            "address": "0xf54",
+            "mnemonic": "and",
+            "operands": "w11, w10, #0xff"
+          },
+          {
+            "address": "0xf58",
+            "mnemonic": "eor",
+            "operands": "w11, w11, w12"
+          },
+          {
+            "address": "0xf5c",
+            "mnemonic": "ldr",
+            "operands": "w9, [x9, w11, uxtw #2]"
+          },
+          {
+            "address": "0xf60",
+            "mnemonic": "ldr",
+            "operands": "w11, [sp, #0x10]"
+          },
+          {
+            "address": "0xf64",
+            "mnemonic": "eon",
+            "operands": "w9, w9, w10, lsr #8"
+          },
+          {
+            "address": "0xf68",
+            "mnemonic": "cmp",
+            "operands": "w11, w9"
+          },
+          {
+            "address": "0xf6c",
+            "mnemonic": "b.ne",
+            "operands": "#0xfb0"
+          },
+          {
+            "address": "0xf70",
+            "mnemonic": "add",
+            "operands": "x23, x0, x8"
+          },
+          {
+            "address": "0xf74",
+            "mnemonic": "mov",
+            "operands": "w0, #0x20"
+          },
+          {
+            "address": "0xf78",
+            "mnemonic": "str",
+            "operands": "x2, [sp]"
+          },
+          {
+            "address": "0xf7c",
+            "mnemonic": "sub",
+            "operands": "x24, x1, x8"
+          },
+          {
+            "address": "0xf80",
+            "mnemonic": "bl",
+            "operands": "#0x32f0"
+          },
+          {
+            "address": "0xf84",
+            "mnemonic": "mov",
+            "operands": "x20, x0"
+          },
+          {
+            "address": "0xf88",
+            "mnemonic": "cbz",
+            "operands": "x0, #0xfe8"
+          },
+          {
+            "address": "0xf8c",
+            "mnemonic": "cbz",
+            "operands": "x24, #0xfec"
+          },
+          {
+            "address": "0xf90",
+            "mnemonic": "ldrb",
+            "operands": "w10, [x23]"
+          },
+          {
+            "address": "0xf94",
+            "mnemonic": "cmp",
+            "operands": "x24, #9"
+          },
+          {
+            "address": "0xf98",
+            "mnemonic": "mov",
+            "operands": "w8, #9"
+          },
+          {
+            "address": "0xf9c",
+            "mnemonic": "csel",
+            "operands": "x8, x24, x8, lo"
+          },
+          {
+            "address": "0xfa0",
+            "mnemonic": "and",
+            "operands": "x9, x10, #0x7f"
+          },
+          {
+            "address": "0xfa4",
+            "mnemonic": "tbnz",
+            "operands": "w10, #7, #0xff4"
+          },
+          {
+            "address": "0xfa8",
+            "mnemonic": "mov",
+            "operands": "w8, #1"
+          },
+          {
+            "address": "0xfac",
+            "mnemonic": "b",
+            "operands": "#0x1034"
+          },
+          {
+            "address": "0xfb0",
+            "mnemonic": "mov",
+            "operands": "x19, #-0xd"
+          },
+          {
+            "address": "0xfb4",
+            "mnemonic": "ldr",
+            "operands": "x8, [x25, #0x28]"
+          },
+          {
+            "address": "0xfb8",
+            "mnemonic": "ldur",
+            "operands": "x9, [x29, #-8]"
+          },
+          {
+            "address": "0xfbc",
+            "mnemonic": "cmp",
+            "operands": "x8, x9"
+          },
+          {
+            "address": "0xfc0",
+            "mnemonic": "b.ne",
+            "operands": "#0x1818"
+          },
+          {
+            "address": "0xfc4",
+            "mnemonic": "mov",
+            "operands": "x0, x19"
+          },
+          {
+            "address": "0xfc8",
+            "mnemonic": "ldp",
+            "operands": "x20, x19, [sp, #0x70]"
+          },
+          {
+            "address": "0xfcc",
+            "mnemonic": "ldp",
+            "operands": "x22, x21, [sp, #0x60]"
+          },
+          {
+            "address": "0xfd0",
+            "mnemonic": "ldp",
+            "operands": "x24, x23, [sp, #0x50]"
+          },
+          {
+            "address": "0xfd4",
+            "mnemonic": "ldp",
+            "operands": "x26, x25, [sp, #0x40]"
+          },
+          {
+            "address": "0xfd8",
+            "mnemonic": "ldp",
+            "operands": "x28, x27, [sp, #0x30]"
+          },
+          {
+            "address": "0xfdc",
+            "mnemonic": "ldp",
+            "operands": "x29, x30, [sp, #0x20]"
+          },
+          {
+            "address": "0xfe0",
+            "mnemonic": "add",
+            "operands": "sp, sp, #0x80"
+          },
+          {
+            "address": "0xfe4",
+            "mnemonic": "ret",
+            "operands": ""
+          },
+          {
+            "address": "0xfe8",
+            "mnemonic": "b",
+            "operands": "#0x1714"
+          },
+          {
+            "address": "0xfec",
+            "mnemonic": "mov",
+            "operands": "x8, xzr"
+          },
+          {
+            "address": "0xff0",
+            "mnemonic": "b",
+            "operands": "#0x1034"
+          },
+          {
+            "address": "0xff4",
+            "mnemonic": "cmp",
+            "operands": "x8, #1"
+          },
+          {
+            "address": "0xff8",
+            "mnemonic": "csinc",
+            "operands": "x10, x8, xzr, hi"
+          },
+          {
+            "address": "0xffc",
+            "mnemonic": "mov",
+            "operands": "w8, #1"
+          },
+          {
+            "address": "0x1000",
+            "mnemonic": "cmp",
+            "operands": "x8, x10"
+          },
+          {
+            "address": "0x1004",
+            "mnemonic": "b.eq",
+            "operands": "#0x1030"
+          },
+          {
+            "address": "0x1008",
+            "mnemonic": "ldrb",
+            "operands": "w11, [x23, x8]"
+          },
+          {
+            "address": "0x100c",
+            "mnemonic": "cbz",
+            "operands": "x11, #0x1030"
+          },
+          {
+            "address": "0x1010",
+            "mnemonic": "lsl",
+            "operands": "x13, x8, #3"
+          },
+          {
+            "address": "0x1014",
+            "mnemonic": "and",
+            "operands": "x12, x11, #0x7f"
+          },
+          {
+            "address": "0x1018",
+            "mnemonic": "sub",
+            "operands": "x13, x13, x8"
+          },
+          {
+            "address": "0x101c",
+            "mnemonic": "lsl",
+            "operands": "x12, x12, x13"
+          },
+          {
+            "address": "0x1020",
+            "mnemonic": "orr",
+            "operands": "x9, x12, x9"
+          },
+          {
+            "address": "0x1024",
+            "mnemonic": "add",
+            "operands": "x8, x8, #1"
+          },
+          {
+            "address": "0x1028",
+            "mnemonic": "tbnz",
+            "operands": "w11, #7, #0x1000"
+          },
+          {
+            "address": "0x102c",
+            "mnemonic": "b",
+            "operands": "#0x1034"
+          },
+          {
+            "address": "0x1030",
+            "mnemonic": "mov",
+            "operands": "x8, xzr"
+          },
+          {
+            "address": "0x1034",
+            "mnemonic": "subs",
+            "operands": "x10, x24, x8"
+          },
+          {
+            "address": "0x1038",
+            "mnemonic": "str",
+            "operands": "x9, [x20, #0x10]"
+          },
+          {
+            "address": "0x103c",
+            "mnemonic": "b.eq",
+            "operands": "#0x1064"
+          },
+          {
+            "address": "0x1040",
+            "mnemonic": "add",
+            "operands": "x11, x23, x8"
+          },
+          {
+            "address": "0x1044",
+            "mnemonic": "ldrb",
+            "operands": "w12, [x11]"
+          },
+          {
+            "address": "0x1048",
+            "mnemonic": "cmp",
+            "operands": "x10, #9"
+          },
+          {
+            "address": "0x104c",
+            "mnemonic": "mov",
+            "operands": "w9, #9"
+          },
+          {
+            "address": "0x1050",
+            "mnemonic": "csel",
+            "operands": "x10, x10, x9, lo"
+          },
+          {
+            "address": "0x1054",
+            "mnemonic": "and",
+            "operands": "x9, x12, #0x7f"
+          },
+          {
+            "address": "0x1058",
+            "mnemonic": "tbnz",
+            "operands": "w12, #7, #0x1068"
+          },
+          {
+            "address": "0x105c",
+            "mnemonic": "mov",
+            "operands": "w10, #1"
+          },
+          {
+            "address": "0x1060",
+            "mnemonic": "b",
+            "operands": "#0x10a8"
+          },
+          {
+            "address": "0x1064",
+            "mnemonic": "b",
+            "operands": "#0x10a8"
+          },
+          {
+            "address": "0x1068",
+            "mnemonic": "cmp",
+            "operands": "x10, #1"
+          },
+          {
+            "address": "0x106c",
+            "mnemonic": "csinc",
+            "operands": "x12, x10, xzr, hi"
+          },
+          {
+            "address": "0x1070",
+            "mnemonic": "mov",
+            "operands": "w10, #1"
+          },
+          {
+            "address": "0x1074",
+            "mnemonic": "cmp",
+            "operands": "x10, x12"
+          },
+          {
+            "address": "0x1078",
+            "mnemonic": "b.eq",
+            "operands": "#0x10a4"
+          },
+          {
+            "address": "0x107c",
+            "mnemonic": "ldrb",
+            "operands": "w13, [x11, x10]"
+          },
+          {
+            "address": "0x1080",
+            "mnemonic": "cbz",
+            "operands": "x13, #0x10a4"
+          },
+          {
+            "address": "0x1084",
+            "mnemonic": "lsl",
+            "operands": "x15, x10, #3"
+          },
+          {
+            "address": "0x1088",
+            "mnemonic": "and",
+            "operands": "x14, x13, #0x7f"
+          },
+          {
+            "address": "0x108c",
+            "mnemonic": "sub",
+            "operands": "x15, x15, x10"
+          },
+          {
+            "address": "0x1090",
+            "mnemonic": "lsl",
+            "operands": "x14, x14, x15"
+          },
+          {
+            "address": "0x1094",
+            "mnemonic": "orr",
+            "operands": "x9, x14, x9"
+          },
+          {
+            "address": "0x1098",
+            "mnemonic": "add",
+            "operands": "x10, x10, #1"
+          },
+          {
+            "address": "0x109c",
+            "mnemonic": "tbnz",
+            "operands": "w13, #7, #0x1074"
+          },
+          {
+            "address": "0x10a0",
+            "mnemonic": "b",
+            "operands": "#0x10a8"
+          },
+          {
+            "address": "0x10a4",
+            "mnemonic": "mov",
+            "operands": "x10, xzr"
+          },
+          {
+            "address": "0x10a8",
+            "mnemonic": "add",
+            "operands": "x26, x8, x10"
+          },
+          {
+            "address": "0x10ac",
+            "mnemonic": "subs",
+            "operands": "x8, x24, x26"
+          },
+          {
+            "address": "0x10b0",
+            "mnemonic": "str",
+            "operands": "x9, [x20, #0x18]"
+          },
+          {
+            "address": "0x10b4",
+            "mnemonic": "b.eq",
+            "operands": "#0x10dc"
+          },
+          {
+            "address": "0x10b8",
+            "mnemonic": "add",
+            "operands": "x9, x23, x26"
+          },
+          {
+            "address": "0x10bc",
+            "mnemonic": "ldrb",
+            "operands": "w11, [x9]"
+          },
+          {
+            "address": "0x10c0",
+            "mnemonic": "cmp",
+            "operands": "x8, #9"
+          },
+          {
+            "address": "0x10c4",
+            "mnemonic": "mov",
+            "operands": "w10, #9"
+          },
+          {
+            "address": "0x10c8",
+            "mnemonic": "csel",
+            "operands": "x10, x8, x10, lo"
+          },
+          {
+            "address": "0x10cc",
+            "mnemonic": "and",
+            "operands": "x8, x11, #0x7f"
+          },
+          {
+            "address": "0x10d0",
+            "mnemonic": "tbnz",
+            "operands": "w11, #7, #0x10e0"
+          },
+          {
+            "address": "0x10d4",
+            "mnemonic": "mov",
+            "operands": "w10, #1"
+          },
+          {
+            "address": "0x10d8",
+            "mnemonic": "b",
+            "operands": "#0x1120"
+          },
+          {
+            "address": "0x10dc",
+            "mnemonic": "b",
+            "operands": "#0x112c"
+          },
+          {
+            "address": "0x10e0",
+            "mnemonic": "cmp",
+            "operands": "x10, #1"
+          },
+          {
+            "address": "0x10e4",
+            "mnemonic": "csinc",
+            "operands": "x11, x10, xzr, hi"
+          },
+          {
+            "address": "0x10e8",
+            "mnemonic": "mov",
+            "operands": "w10, #1"
+          },
+          {
+            "address": "0x10ec",
+            "mnemonic": "cmp",
+            "operands": "x10, x11"
+          },
+          {
+            "address": "0x10f0",
+            "mnemonic": "b.eq",
+            "operands": "#0x111c"
+          },
+          {
+            "address": "0x10f4",
+            "mnemonic": "ldrb",
+            "operands": "w12, [x9, x10]"
+          },
+          {
+            "address": "0x10f8",
+            "mnemonic": "cbz",
+            "operands": "x12, #0x111c"
+          },
+          {
+            "address": "0x10fc",
+            "mnemonic": "lsl",
+            "operands": "x14, x10, #3"
+          },
+          {
+            "address": "0x1100",
+            "mnemonic": "and",
+            "operands": "x13, x12, #0x7f"
+          },
+          {
+            "address": "0x1104",
+            "mnemonic": "sub",
+            "operands": "x14, x14, x10"
+          },
+          {
+            "address": "0x1108",
+            "mnemonic": "lsl",
+            "operands": "x13, x13, x14"
+          },
+          {
+            "address": "0x110c",
+            "mnemonic": "orr",
+            "operands": "x8, x13, x8"
+          },
+          {
+            "address": "0x1110",
+            "mnemonic": "add",
+            "operands": "x10, x10, #1"
+          },
+          {
+            "address": "0x1114",
+            "mnemonic": "tbnz",
+            "operands": "w12, #7, #0x10ec"
+          },
+          {
+            "address": "0x1118",
+            "mnemonic": "b",
+            "operands": "#0x1120"
+          },
+          {
+            "address": "0x111c",
+            "mnemonic": "mov",
+            "operands": "x10, xzr"
+          },
+          {
+            "address": "0x1120",
+            "mnemonic": "add",
+            "operands": "x26, x26, x10"
+          },
+          {
+            "address": "0x1124",
+            "mnemonic": "str",
+            "operands": "w8, [x20, #8]"
+          },
+          {
+            "address": "0x1128",
+            "mnemonic": "cbz",
+            "operands": "w8, #0x1714"
+          },
+          {
+            "address": "0x112c",
+            "mnemonic": "and",
+            "operands": "x22, x8, #0xffffffff"
+          },
+          {
+            "address": "0x1130",
+            "mnemonic": "mov",
+            "operands": "w1, #0x318"
+          },
+          {
+            "address": "0x1134",
+            "mnemonic": "mov",
+            "operands": "x0, x22"
+          },
+          {
+            "address": "0x1138",
+            "mnemonic": "bl",
+            "operands": "#0x3300"
+          },
+          {
+            "address": "0x113c",
+            "mnemonic": "str",
+            "operands": "x0, [x20]"
+          },
+          {
+            "address": "0x1140",
+            "mnemonic": "cbz",
+            "operands": "x0, #0x1708"
+          },
+          {
+            "address": "0x1144",
+            "mnemonic": "mov",
+            "operands": "w8, #0x318"
+          },
+          {
+            "address": "0x1148",
+            "mnemonic": "madd",
+            "operands": "x8, x22, x8, x0"
+          },
+          {
+            "address": "0x114c",
+            "mnemonic": "cmp",
+            "operands": "x8, x0"
+          },
+          {
+            "address": "0x1150",
+            "mnemonic": "b.ls",
+            "operands": "#0x1694"
+          },
+          {
+            "address": "0x1154",
+            "mnemonic": "mov",
+            "operands": "w10, #9"
+          },
+          {
+            "address": "0x1158",
+            "mnemonic": "mov",
+            "operands": "x15, x0"
+          },
+          {
+            "address": "0x115c",
+            "mnemonic": "b",
+            "operands": "#0x116c"
+          },
+          {
+            "address": "0x1160",
+            "mnemonic": "add",
+            "operands": "x15, x15, #0x318"
+          },
+          {
+            "address": "0x1164",
+            "mnemonic": "cmp",
+            "operands": "x15, x8"
+          },
+          {
+            "address": "0x1168",
+            "mnemonic": "b.hs",
+            "operands": "#0x1694"
+          },
+          {
+            "address": "0x116c",
+            "mnemonic": "subs",
+            "operands": "x7, x24, x26"
+          },
+          {
+            "address": "0x1170",
+            "mnemonic": "b.eq",
+            "operands": "#0x11d4"
+          },
+          {
+            "address": "0x1174",
+            "mnemonic": "add",
+            "operands": "x6, x23, x26"
+          },
+          {
+            "address": "0x1178",
+            "mnemonic": "ldrb",
+            "operands": "w22, [x6]"
+          },
+          {
+            "address": "0x117c",
+            "mnemonic": "cmp",
+            "operands": "x7, #9"
+          },
+          {
+            "address": "0x1180",
+            "mnemonic": "csel",
+            "operands": "x7, x7, x10, lo"
+          },
+          {
+            "address": "0x1184",
+            "mnemonic": "and",
+            "operands": "x11, x22, #0x7f"
+          },
+          {
+            "address": "0x1188",
+            "mnemonic": "tbnz",
+            "operands": "w22, #7, #0x1194"
+          },
+          {
+            "address": "0x118c",
+            "mnemonic": "mov",
+            "operands": "w7, #1"
+          },
+          {
+            "address": "0x1190",
+            "mnemonic": "b",
+            "operands": "#0x11d4"
+          },
+          {
+            "address": "0x1194",
+            "mnemonic": "cmp",
+            "operands": "x7, #1"
+          },
+          {
+            "address": "0x1198",
+            "mnemonic": "csinc",
+            "operands": "x22, x7, xzr, hi"
+          },
+          {
+            "address": "0x119c",
+            "mnemonic": "mov",
+            "operands": "w7, #1"
+          },
+          {
+            "address": "0x11a0",
+            "mnemonic": "cmp",
+            "operands": "x7, x22"
+          },
+          {
+            "address": "0x11a4",
+            "mnemonic": "b.eq",
+            "operands": "#0x11d0"
+          },
+          {
+            "address": "0x11a8",
+            "mnemonic": "ldrb",
+            "operands": "w27, [x6, x7]"
+          },
+          {
+            "address": "0x11ac",
+            "mnemonic": "cbz",
+            "operands": "x27, #0x11d0"
+          },
+          {
+            "address": "0x11b0",
+            "mnemonic": "lsl",
+            "operands": "x30, x7, #3"
+          },
+          {
+            "address": "0x11b4",
+            "mnemonic": "and",
+            "operands": "x28, x27, #0x7f"
+          },
+          {
+            "address": "0x11b8",
+            "mnemonic": "sub",
+            "operands": "x30, x30, x7"
+          },
+          {
+            "address": "0x11bc",
+            "mnemonic": "lsl",
+            "operands": "x28, x28, x30"
+          },
+          {
+            "address": "0x11c0",
+            "mnemonic": "orr",
+            "operands": "x11, x28, x11"
+          },
+          {
+            "address": "0x11c4",
+            "mnemonic": "add",
+            "operands": "x7, x7, #1"
+          },
+          {
+            "address": "0x11c8",
+            "mnemonic": "tbnz",
+            "operands": "w27, #7, #0x11a0"
+          },
+          {
+            "address": "0x11cc",
+            "mnemonic": "b",
+            "operands": "#0x11d4"
+          },
+          {
+            "address": "0x11d0",
+            "mnemonic": "mov",
+            "operands": "x7, xzr"
+          },
+          {
+            "address": "0x11d4",
+            "mnemonic": "add",
+            "operands": "x6, x26, x7"
+          },
+          {
+            "address": "0x11d8",
+            "mnemonic": "subs",
+            "operands": "x22, x24, x6"
+          },
+          {
+            "address": "0x11dc",
+            "mnemonic": "str",
+            "operands": "x11, [x15]"
+          },
+          {
+            "address": "0x11e0",
+            "mnemonic": "b.eq",
+            "operands": "#0x1244"
+          },
+          {
+            "address": "0x11e4",
+            "mnemonic": "add",
+            "operands": "x7, x23, x6"
+          },
+          {
+            "address": "0x11e8",
+            "mnemonic": "ldrb",
+            "operands": "w26, [x7]"
+          },
+          {
+            "address": "0x11ec",
+            "mnemonic": "cmp",
+            "operands": "x22, #9"
+          },
+          {
+            "address": "0x11f0",
+            "mnemonic": "csel",
+            "operands": "x22, x22, x10, lo"
+          },
+          {
+            "address": "0x11f4",
+            "mnemonic": "and",
+            "operands": "x12, x26, #0x7f"
+          },
+          {
+            "address": "0x11f8",
+            "mnemonic": "tbnz",
+            "operands": "w26, #7, #0x1204"
+          },
+          {
+            "address": "0x11fc",
+            "mnemonic": "mov",
+            "operands": "w22, #1"
+          },
+          {
+            "address": "0x1200",
+            "mnemonic": "b",
+            "operands": "#0x1244"
+          },
+          {
+            "address": "0x1204",
+            "mnemonic": "cmp",
+            "operands": "x22, #1"
+          },
+          {
+            "address": "0x1208",
+            "mnemonic": "csinc",
+            "operands": "x26, x22, xzr, hi"
+          },
+          {
+            "address": "0x120c",
+            "mnemonic": "mov",
+            "operands": "w22, #1"
+          },
+          {
+            "address": "0x1210",
+            "mnemonic": "cmp",
+            "operands": "x22, x26"
+          },
+          {
+            "address": "0x1214",
+            "mnemonic": "b.eq",
+            "operands": "#0x1240"
+          },
+          {
+            "address": "0x1218",
+            "mnemonic": "ldrb",
+            "operands": "w27, [x7, x22]"
+          },
+          {
+            "address": "0x121c",
+            "mnemonic": "cbz",
+            "operands": "x27, #0x1240"
+          },
+          {
+            "address": "0x1220",
+            "mnemonic": "lsl",
+            "operands": "x30, x22, #3"
+          },
+          {
+            "address": "0x1224",
+            "mnemonic": "and",
+            "operands": "x28, x27, #0x7f"
+          },
+          {
+            "address": "0x1228",
+            "mnemonic": "sub",
+            "operands": "x30, x30, x22"
+          },
+          {
+            "address": "0x122c",
+            "mnemonic": "lsl",
+            "operands": "x28, x28, x30"
+          },
+          {
+            "address": "0x1230",
+            "mnemonic": "orr",
+            "operands": "x12, x28, x12"
+          },
+          {
+            "address": "0x1234",
+            "mnemonic": "add",
+            "operands": "x22, x22, #1"
+          },
+          {
+            "address": "0x1238",
+            "mnemonic": "tbnz",
+            "operands": "w27, #7, #0x1210"
+          },
+          {
+            "address": "0x123c",
+            "mnemonic": "b",
+            "operands": "#0x1244"
+          },
+          {
+            "address": "0x1240",
+            "mnemonic": "mov",
+            "operands": "x22, xzr"
+          },
+          {
+            "address": "0x1244",
+            "mnemonic": "add",
+            "operands": "x6, x6, x22"
+          },
+          {
+            "address": "0x1248",
+            "mnemonic": "subs",
+            "operands": "x22, x24, x6"
+          },
+          {
+            "address": "0x124c",
+            "mnemonic": "str",
+            "operands": "x12, [x15, #8]"
+          },
+          {
+            "address": "0x1250",
+            "mnemonic": "b.eq",
+            "operands": "#0x12b4"
+          },
+          {
+            "address": "0x1254",
+            "mnemonic": "add",
+            "operands": "x7, x23, x6"
+          },
+          {
+            "address": "0x1258",
+            "mnemonic": "ldrb",
+            "operands": "w26, [x7]"
+          },
+          {
+            "address": "0x125c",
+            "mnemonic": "cmp",
+            "operands": "x22, #9"
+          },
+          {
+            "address": "0x1260",
+            "mnemonic": "csel",
+            "operands": "x22, x22, x10, lo"
+          },
+          {
+            "address": "0x1264",
+            "mnemonic": "and",
+            "operands": "x13, x26, #0x7f"
+          },
+          {
+            "address": "0x1268",
+            "mnemonic": "tbnz",
+            "operands": "w26, #7, #0x1274"
+          },
+          {
+            "address": "0x126c",
+            "mnemonic": "mov",
+            "operands": "w22, #1"
+          },
+          {
+            "address": "0x1270",
+            "mnemonic": "b",
+            "operands": "#0x12b4"
+          },
+          {
+            "address": "0x1274",
+            "mnemonic": "cmp",
+            "operands": "x22, #1"
+          },
+          {
+            "address": "0x1278",
+            "mnemonic": "csinc",
+            "operands": "x26, x22, xzr, hi"
+          },
+          {
+            "address": "0x127c",
+            "mnemonic": "mov",
+            "operands": "w22, #1"
+          },
+          {
+            "address": "0x1280",
+            "mnemonic": "cmp",
+            "operands": "x22, x26"
+          },
+          {
+            "address": "0x1284",
+            "mnemonic": "b.eq",
+            "operands": "#0x12b0"
+          },
+          {
+            "address": "0x1288",
+            "mnemonic": "ldrb",
+            "operands": "w27, [x7, x22]"
+          },
+          {
+            "address": "0x128c",
+            "mnemonic": "cbz",
+            "operands": "x27, #0x12b0"
+          },
+          {
+            "address": "0x1290",
+            "mnemonic": "lsl",
+            "operands": "x30, x22, #3"
+          },
+          {
+            "address": "0x1294",
+            "mnemonic": "and",
+            "operands": "x28, x27, #0x7f"
+          },
+          {
+            "address": "0x1298",
+            "mnemonic": "sub",
+            "operands": "x30, x30, x22"
+          },
+          {
+            "address": "0x129c",
+            "mnemonic": "lsl",
+            "operands": "x28, x28, x30"
+          },
+          {
+            "address": "0x12a0",
+            "mnemonic": "orr",
+            "operands": "x13, x28, x13"
+          },
+          {
+            "address": "0x12a4",
+            "mnemonic": "add",
+            "operands": "x22, x22, #1"
+          },
+          {
+            "address": "0x12a8",
+            "mnemonic": "tbnz",
+            "operands": "w27, #7, #0x1280"
+          },
+          {
+            "address": "0x12ac",
+            "mnemonic": "b",
+            "operands": "#0x12b4"
+          },
+          {
+            "address": "0x12b0",
+            "mnemonic": "mov",
+            "operands": "x22, xzr"
+          },
+          {
+            "address": "0x12b4",
+            "mnemonic": "add",
+            "operands": "x26, x6, x22"
+          },
+          {
+            "address": "0x12b8",
+            "mnemonic": "str",
+            "operands": "w13, [x15, #0x14]"
+          },
+          {
+            "address": "0x12bc",
+            "mnemonic": "cbz",
+            "operands": "w13, #0x1160"
+          },
+          {
+            "address": "0x12c0",
+            "mnemonic": "add",
+            "operands": "x6, x15, #0x18"
+          },
+          {
+            "address": "0x12c4",
+            "mnemonic": "and",
+            "operands": "x7, x13, #0xffffffff"
+          },
+          {
+            "address": "0x12c8",
+            "mnemonic": "mov",
+            "operands": "w9, #0x30"
+          },
+          {
+            "address": "0x12cc",
+            "mnemonic": "madd",
+            "operands": "x7, x7, x9, x6"
+          },
+          {
+            "address": "0x12d0",
+            "mnemonic": "b",
+            "operands": "#0x12f0"
+          },
+          {
+            "address": "0x12d4",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x12d8",
+            "mnemonic": "and",
+            "operands": "x9, x3, #0xff"
+          },
+          {
+            "address": "0x12dc",
+            "mnemonic": "add",
+            "operands": "x26, x22, x27"
+          },
+          {
+            "address": "0x12e0",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #0x28]"
+          },
+          {
+            "address": "0x12e4",
+            "mnemonic": "add",
+            "operands": "x6, x6, #0x30"
+          },
+          {
+            "address": "0x12e8",
+            "mnemonic": "cmp",
+            "operands": "x6, x7"
+          },
+          {
+            "address": "0x12ec",
+            "mnemonic": "b.hs",
+            "operands": "#0x1160"
+          },
+          {
+            "address": "0x12f0",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x26"
+          },
+          {
+            "address": "0x12f4",
+            "mnemonic": "b.eq",
+            "operands": "#0x1358"
+          },
+          {
+            "address": "0x12f8",
+            "mnemonic": "add",
+            "operands": "x22, x23, x26"
+          },
+          {
+            "address": "0x12fc",
+            "mnemonic": "ldrb",
+            "operands": "w28, [x22]"
+          },
+          {
+            "address": "0x1300",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x1304",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x1308",
+            "mnemonic": "and",
+            "operands": "x14, x28, #0x7f"
+          },
+          {
+            "address": "0x130c",
+            "mnemonic": "tbnz",
+            "operands": "w28, #7, #0x1318"
+          },
+          {
+            "address": "0x1310",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1314",
+            "mnemonic": "b",
+            "operands": "#0x1358"
+          },
+          {
+            "address": "0x1318",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x131c",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x1320",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1324",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x1328",
+            "mnemonic": "b.eq",
+            "operands": "#0x1354"
+          },
+          {
+            "address": "0x132c",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x22, x27]"
+          },
+          {
+            "address": "0x1330",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x1354"
+          },
+          {
+            "address": "0x1334",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x1338",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x133c",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x1340",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x1344",
+            "mnemonic": "orr",
+            "operands": "x14, x9, x14"
+          },
+          {
+            "address": "0x1348",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x134c",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x1324"
+          },
+          {
+            "address": "0x1350",
+            "mnemonic": "b",
+            "operands": "#0x1358"
+          },
+          {
+            "address": "0x1354",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x1358",
+            "mnemonic": "and",
+            "operands": "w22, w14, #0xff"
+          },
+          {
+            "address": "0x135c",
+            "mnemonic": "add",
+            "operands": "x26, x26, x27"
+          },
+          {
+            "address": "0x1360",
+            "mnemonic": "cmp",
+            "operands": "w22, #2"
+          },
+          {
+            "address": "0x1364",
+            "mnemonic": "strb",
+            "operands": "w14, [x6]"
+          },
+          {
+            "address": "0x1368",
+            "mnemonic": "b.hs",
+            "operands": "#0x1394"
+          },
+          {
+            "address": "0x136c",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x26"
+          },
+          {
+            "address": "0x1370",
+            "mnemonic": "b.eq",
+            "operands": "#0x1404"
+          },
+          {
+            "address": "0x1374",
+            "mnemonic": "add",
+            "operands": "x22, x23, x26"
+          },
+          {
+            "address": "0x1378",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x22]"
+          },
+          {
+            "address": "0x137c",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x1380",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x1384",
+            "mnemonic": "and",
+            "operands": "x16, x9, #0x7f"
+          },
+          {
+            "address": "0x1388",
+            "mnemonic": "tbnz",
+            "operands": "w9, #7, #0x13c4"
+          },
+          {
+            "address": "0x138c",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1390",
+            "mnemonic": "b",
+            "operands": "#0x1404"
+          },
+          {
+            "address": "0x1394",
+            "mnemonic": "cmp",
+            "operands": "w22, #0x18"
+          },
+          {
+            "address": "0x1398",
+            "mnemonic": "b.ne",
+            "operands": "#0x12e4"
+          },
+          {
+            "address": "0x139c",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x26"
+          },
+          {
+            "address": "0x13a0",
+            "mnemonic": "b.eq",
+            "operands": "#0x1610"
+          },
+          {
+            "address": "0x13a4",
+            "mnemonic": "add",
+            "operands": "x22, x23, x26"
+          },
+          {
+            "address": "0x13a8",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x22]"
+          },
+          {
+            "address": "0x13ac",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x13b0",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x13b4",
+            "mnemonic": "and",
+            "operands": "x4, x9, #0x7f"
+          },
+          {
+            "address": "0x13b8",
+            "mnemonic": "tbnz",
+            "operands": "w9, #7, #0x15d0"
+          },
+          {
+            "address": "0x13bc",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x13c0",
+            "mnemonic": "b",
+            "operands": "#0x1610"
+          },
+          {
+            "address": "0x13c4",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x13c8",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x13cc",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x13d0",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x13d4",
+            "mnemonic": "b.eq",
+            "operands": "#0x1400"
+          },
+          {
+            "address": "0x13d8",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x22, x27]"
+          },
+          {
+            "address": "0x13dc",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x1400"
+          },
+          {
+            "address": "0x13e0",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x13e4",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x13e8",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x13ec",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x13f0",
+            "mnemonic": "orr",
+            "operands": "x16, x9, x16"
+          },
+          {
+            "address": "0x13f4",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x13f8",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x13d0"
+          },
+          {
+            "address": "0x13fc",
+            "mnemonic": "b",
+            "operands": "#0x1404"
+          },
+          {
+            "address": "0x1400",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x1404",
+            "mnemonic": "add",
+            "operands": "x22, x26, x27"
+          },
+          {
+            "address": "0x1408",
+            "mnemonic": "and",
+            "operands": "x9, x16, #0xff"
+          },
+          {
+            "address": "0x140c",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x22"
+          },
+          {
+            "address": "0x1410",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #8]"
+          },
+          {
+            "address": "0x1414",
+            "mnemonic": "b.eq",
+            "operands": "#0x1478"
+          },
+          {
+            "address": "0x1418",
+            "mnemonic": "add",
+            "operands": "x26, x23, x22"
+          },
+          {
+            "address": "0x141c",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x26]"
+          },
+          {
+            "address": "0x1420",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x1424",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x1428",
+            "mnemonic": "and",
+            "operands": "x17, x9, #0x7f"
+          },
+          {
+            "address": "0x142c",
+            "mnemonic": "tbnz",
+            "operands": "w9, #7, #0x1438"
+          },
+          {
+            "address": "0x1430",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1434",
+            "mnemonic": "b",
+            "operands": "#0x1478"
+          },
+          {
+            "address": "0x1438",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x143c",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x1440",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1444",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x1448",
+            "mnemonic": "b.eq",
+            "operands": "#0x1474"
+          },
+          {
+            "address": "0x144c",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x26, x27]"
+          },
+          {
+            "address": "0x1450",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x1474"
+          },
+          {
+            "address": "0x1454",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x1458",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x145c",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x1460",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x1464",
+            "mnemonic": "orr",
+            "operands": "x17, x9, x17"
+          },
+          {
+            "address": "0x1468",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x146c",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x1444"
+          },
+          {
+            "address": "0x1470",
+            "mnemonic": "b",
+            "operands": "#0x1478"
+          },
+          {
+            "address": "0x1474",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x1478",
+            "mnemonic": "add",
+            "operands": "x22, x22, x27"
+          },
+          {
+            "address": "0x147c",
+            "mnemonic": "and",
+            "operands": "x9, x17, #0xff"
+          },
+          {
+            "address": "0x1480",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x22"
+          },
+          {
+            "address": "0x1484",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #0x10]"
+          },
+          {
+            "address": "0x1488",
+            "mnemonic": "b.eq",
+            "operands": "#0x14ec"
+          },
+          {
+            "address": "0x148c",
+            "mnemonic": "add",
+            "operands": "x26, x23, x22"
+          },
+          {
+            "address": "0x1490",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x26]"
+          },
+          {
+            "address": "0x1494",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x1498",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x149c",
+            "mnemonic": "and",
+            "operands": "x1, x9, #0x7f"
+          },
+          {
+            "address": "0x14a0",
+            "mnemonic": "tbnz",
+            "operands": "w9, #7, #0x14ac"
+          },
+          {
+            "address": "0x14a4",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x14a8",
+            "mnemonic": "b",
+            "operands": "#0x14ec"
+          },
+          {
+            "address": "0x14ac",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x14b0",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x14b4",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x14b8",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x14bc",
+            "mnemonic": "b.eq",
+            "operands": "#0x14e8"
+          },
+          {
+            "address": "0x14c0",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x26, x27]"
+          },
+          {
+            "address": "0x14c4",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x14e8"
+          },
+          {
+            "address": "0x14c8",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x14cc",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x14d0",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x14d4",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x14d8",
+            "mnemonic": "orr",
+            "operands": "x1, x9, x1"
+          },
+          {
+            "address": "0x14dc",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x14e0",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x14b8"
+          },
+          {
+            "address": "0x14e4",
+            "mnemonic": "b",
+            "operands": "#0x14ec"
+          },
+          {
+            "address": "0x14e8",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x14ec",
+            "mnemonic": "add",
+            "operands": "x22, x22, x27"
+          },
+          {
+            "address": "0x14f0",
+            "mnemonic": "and",
+            "operands": "x9, x1, #0xff"
+          },
+          {
+            "address": "0x14f4",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x22"
+          },
+          {
+            "address": "0x14f8",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #0x18]"
+          },
+          {
+            "address": "0x14fc",
+            "mnemonic": "b.eq",
+            "operands": "#0x1560"
+          },
+          {
+            "address": "0x1500",
+            "mnemonic": "add",
+            "operands": "x26, x23, x22"
+          },
+          {
+            "address": "0x1504",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x26]"
+          },
+          {
+            "address": "0x1508",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x150c",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x1510",
+            "mnemonic": "and",
+            "operands": "x2, x9, #0x7f"
+          },
+          {
+            "address": "0x1514",
+            "mnemonic": "tbnz",
+            "operands": "w9, #7, #0x1520"
+          },
+          {
+            "address": "0x1518",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x151c",
+            "mnemonic": "b",
+            "operands": "#0x1560"
+          },
+          {
+            "address": "0x1520",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x1524",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x1528",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x152c",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x1530",
+            "mnemonic": "b.eq",
+            "operands": "#0x155c"
+          },
+          {
+            "address": "0x1534",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x26, x27]"
+          },
+          {
+            "address": "0x1538",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x155c"
+          },
+          {
+            "address": "0x153c",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x1540",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x1544",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x1548",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x154c",
+            "mnemonic": "orr",
+            "operands": "x2, x9, x2"
+          },
+          {
+            "address": "0x1550",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x1554",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x152c"
+          },
+          {
+            "address": "0x1558",
+            "mnemonic": "b",
+            "operands": "#0x1560"
+          },
+          {
+            "address": "0x155c",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x1560",
+            "mnemonic": "add",
+            "operands": "x22, x22, x27"
+          },
+          {
+            "address": "0x1564",
+            "mnemonic": "and",
+            "operands": "x9, x2, #0xff"
+          },
+          {
+            "address": "0x1568",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x22"
+          },
+          {
+            "address": "0x156c",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #0x20]"
+          },
+          {
+            "address": "0x1570",
+            "mnemonic": "b.eq",
+            "operands": "#0x12d8"
+          },
+          {
+            "address": "0x1574",
+            "mnemonic": "add",
+            "operands": "x26, x23, x22"
+          },
+          {
+            "address": "0x1578",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x26]"
+          },
+          {
+            "address": "0x157c",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x1580",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x1584",
+            "mnemonic": "and",
+            "operands": "x3, x9, #0x7f"
+          },
+          {
+            "address": "0x1588",
+            "mnemonic": "tbz",
+            "operands": "w9, #7, #0x12d4"
+          },
+          {
+            "address": "0x158c",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x1590",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x1594",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1598",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x159c",
+            "mnemonic": "b.eq",
+            "operands": "#0x15c8"
+          },
+          {
+            "address": "0x15a0",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x26, x27]"
+          },
+          {
+            "address": "0x15a4",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x15c8"
+          },
+          {
+            "address": "0x15a8",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x15ac",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x15b0",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x15b4",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x15b8",
+            "mnemonic": "orr",
+            "operands": "x3, x9, x3"
+          },
+          {
+            "address": "0x15bc",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x15c0",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x1598"
+          },
+          {
+            "address": "0x15c4",
+            "mnemonic": "b",
+            "operands": "#0x12d8"
+          },
+          {
+            "address": "0x15c8",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x15cc",
+            "mnemonic": "b",
+            "operands": "#0x12d8"
+          },
+          {
+            "address": "0x15d0",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x15d4",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x15d8",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x15dc",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x15e0",
+            "mnemonic": "b.eq",
+            "operands": "#0x160c"
+          },
+          {
+            "address": "0x15e4",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x22, x27]"
+          },
+          {
+            "address": "0x15e8",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x160c"
+          },
+          {
+            "address": "0x15ec",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x15f0",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x15f4",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x15f8",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x15fc",
+            "mnemonic": "orr",
+            "operands": "x4, x9, x4"
+          },
+          {
+            "address": "0x1600",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x1604",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x15dc"
+          },
+          {
+            "address": "0x1608",
+            "mnemonic": "b",
+            "operands": "#0x1610"
+          },
+          {
+            "address": "0x160c",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x1610",
+            "mnemonic": "add",
+            "operands": "x22, x26, x27"
+          },
+          {
+            "address": "0x1614",
+            "mnemonic": "and",
+            "operands": "x9, x4, #0xff"
+          },
+          {
+            "address": "0x1618",
+            "mnemonic": "subs",
+            "operands": "x27, x24, x22"
+          },
+          {
+            "address": "0x161c",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #8]"
+          },
+          {
+            "address": "0x1620",
+            "mnemonic": "b.eq",
+            "operands": "#0x1684"
+          },
+          {
+            "address": "0x1624",
+            "mnemonic": "add",
+            "operands": "x26, x23, x22"
+          },
+          {
+            "address": "0x1628",
+            "mnemonic": "ldrb",
+            "operands": "w9, [x26]"
+          },
+          {
+            "address": "0x162c",
+            "mnemonic": "cmp",
+            "operands": "x27, #9"
+          },
+          {
+            "address": "0x1630",
+            "mnemonic": "csel",
+            "operands": "x27, x27, x10, lo"
+          },
+          {
+            "address": "0x1634",
+            "mnemonic": "and",
+            "operands": "x5, x9, #0x7f"
+          },
+          {
+            "address": "0x1638",
+            "mnemonic": "tbnz",
+            "operands": "w9, #7, #0x1644"
+          },
+          {
+            "address": "0x163c",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1640",
+            "mnemonic": "b",
+            "operands": "#0x1684"
+          },
+          {
+            "address": "0x1644",
+            "mnemonic": "cmp",
+            "operands": "x27, #1"
+          },
+          {
+            "address": "0x1648",
+            "mnemonic": "csinc",
+            "operands": "x28, x27, xzr, hi"
+          },
+          {
+            "address": "0x164c",
+            "mnemonic": "mov",
+            "operands": "w27, #1"
+          },
+          {
+            "address": "0x1650",
+            "mnemonic": "cmp",
+            "operands": "x27, x28"
+          },
+          {
+            "address": "0x1654",
+            "mnemonic": "b.eq",
+            "operands": "#0x1680"
+          },
+          {
+            "address": "0x1658",
+            "mnemonic": "ldrb",
+            "operands": "w30, [x26, x27]"
+          },
+          {
+            "address": "0x165c",
+            "mnemonic": "cbz",
+            "operands": "x30, #0x1680"
+          },
+          {
+            "address": "0x1660",
+            "mnemonic": "lsl",
+            "operands": "x19, x27, #3"
+          },
+          {
+            "address": "0x1664",
+            "mnemonic": "and",
+            "operands": "x9, x30, #0x7f"
+          },
+          {
+            "address": "0x1668",
+            "mnemonic": "sub",
+            "operands": "x19, x19, x27"
+          },
+          {
+            "address": "0x166c",
+            "mnemonic": "lsl",
+            "operands": "x9, x9, x19"
+          },
+          {
+            "address": "0x1670",
+            "mnemonic": "orr",
+            "operands": "x5, x9, x5"
+          },
+          {
+            "address": "0x1674",
+            "mnemonic": "add",
+            "operands": "x27, x27, #1"
+          },
+          {
+            "address": "0x1678",
+            "mnemonic": "tbnz",
+            "operands": "w30, #7, #0x1650"
+          },
+          {
+            "address": "0x167c",
+            "mnemonic": "b",
+            "operands": "#0x1684"
+          },
+          {
+            "address": "0x1680",
+            "mnemonic": "mov",
+            "operands": "x27, xzr"
+          },
+          {
+            "address": "0x1684",
+            "mnemonic": "add",
+            "operands": "x26, x22, x27"
+          },
+          {
+            "address": "0x1688",
+            "mnemonic": "and",
+            "operands": "x9, x5, #0xff"
+          },
+          {
+            "address": "0x168c",
+            "mnemonic": "str",
+            "operands": "x9, [x6, #0x10]"
+          },
+          {
+            "address": "0x1690",
+            "mnemonic": "b",
+            "operands": "#0x12e4"
+          },
+          {
+            "address": "0x1694",
+            "mnemonic": "ands",
+            "operands": "x8, x26, #3"
+          },
+          {
+            "address": "0x1698",
+            "mnemonic": "eor",
+            "operands": "x8, x8, #3"
+          },
+          {
+            "address": "0x169c",
+            "mnemonic": "add",
+            "operands": "x8, x26, x8"
+          },
+          {
+            "address": "0x16a0",
+            "mnemonic": "csinc",
+            "operands": "x26, x26, x8, eq"
+          },
+          {
+            "address": "0x16a4",
+            "mnemonic": "add",
+            "operands": "x8, x26, #4"
+          },
+          {
+            "address": "0x16a8",
+            "mnemonic": "cmp",
+            "operands": "x8, x24"
+          },
+          {
+            "address": "0x16ac",
+            "mnemonic": "b.hi",
+            "operands": "#0x1704"
+          },
+          {
+            "address": "0x16b0",
+            "mnemonic": "cbz",
+            "operands": "x26, #0x16f0"
+          },
+          {
+            "address": "0x16b4",
+            "mnemonic": "adrp",
+            "operands": "x9, #0x1b000"
+          },
+          {
+            "address": "0x16b8",
+            "mnemonic": "mov",
+            "operands": "w8, #-1"
+          },
+          {
+            "address": "0x16bc",
+            "mnemonic": "add",
+            "operands": "x9, x9, #0x5b8"
+          },
+          {
+            "address": "0x16c0",
+            "mnemonic": "mov",
+            "operands": "x10, x23"
+          },
+          {
+            "address": "0x16c4",
+            "mnemonic": "mov",
+            "operands": "x11, x26"
+          },
+          {
+            "address": "0x16c8",
+            "mnemonic": "ldrb",
+            "operands": "w12, [x10], #1"
+          },
+          {
+            "address": "0x16cc",
+            "mnemonic": "and",
+            "operands": "w13, w8, #0xff"
+          },
+          {
+            "address": "0x16d0",
+            "mnemonic": "subs",
+            "operands": "x11, x11, #1"
+          },
+          {
+            "address": "0x16d4",
+            "mnemonic": "eor",
+            "operands": "w12, w13, w12"
+          },
+          {
+            "address": "0x16d8",
+            "mnemonic": "add",
+            "operands": "x12, x9, w12, uxtw #2"
+          },
+          {
+            "address": "0x16dc",
+            "mnemonic": "ldr",
+            "operands": "w12, [x12, #0x20]"
+          },
+          {
+            "address": "0x16e0",
+            "mnemonic": "eor",
+            "operands": "w8, w12, w8, lsr #8"
+          },
+          {
+            "address": "0x16e4",
+            "mnemonic": "b.ne",
+            "operands": "#0x16c8"
+          },
+          {
+            "address": "0x16e8",
+            "mnemonic": "mvn",
+            "operands": "w8, w8"
+          },
+          {
+            "address": "0x16ec",
+            "mnemonic": "b",
+            "operands": "#0x16f4"
+          },
+          {
+            "address": "0x16f0",
+            "mnemonic": "mov",
+            "operands": "w8, wzr"
+          },
+          {
+            "address": "0x16f4",
+            "mnemonic": "ldr",
+            "operands": "w9, [x23, x26]"
+          },
+          {
+            "address": "0x16f8",
+            "mnemonic": "add",
+            "operands": "x26, x26, #4"
+          },
+          {
+            "address": "0x16fc",
+            "mnemonic": "cmp",
+            "operands": "w8, w9"
+          },
+          {
+            "address": "0x1700",
+            "mnemonic": "b.eq",
+            "operands": "#0x1714"
+          },
+          {
+            "address": "0x1704",
+            "mnemonic": "bl",
+            "operands": "#0x3310"
+          },
+          {
+            "address": "0x1708",
+            "mnemonic": "mov",
+            "operands": "x0, x20"
+          },
+          {
+            "address": "0x170c",
+            "mnemonic": "bl",
+            "operands": "#0x3310"
+          },
+          {
+            "address": "0x1710",
+            "mnemonic": "mov",
+            "operands": "x20, xzr"
+          },
+          {
+            "address": "0x1714",
+            "mnemonic": "ldr",
+            "operands": "x3, [x20, #0x10]"
+          },
+          {
+            "address": "0x1718",
+            "mnemonic": "cmp",
+            "operands": "x3, x21"
+          },
+          {
+            "address": "0x171c",
+            "mnemonic": "b.ls",
+            "operands": "#0x1728"
+          },
+          {
+            "address": "0x1720",
+            "mnemonic": "mov",
+            "operands": "x19, #-0xe"
+          },
+          {
+            "address": "0x1724",
+            "mnemonic": "b",
+            "operands": "#0xfb4"
+          },
+          {
+            "address": "0x1728",
+            "mnemonic": "ldr",
+            "operands": "x8, [x20, #0x18]"
+          },
+          {
+            "address": "0x172c",
+            "mnemonic": "add",
+            "operands": "x23, x23, x26"
+          },
+          {
+            "address": "0x1730",
+            "mnemonic": "sub",
+            "operands": "x22, x24, x26"
+          },
+          {
+            "address": "0x1734",
+            "mnemonic": "cbz",
+            "operands": "x8, #0x1798"
+          },
+          {
+            "address": "0x1738",
+            "mnemonic": "add",
+            "operands": "x24, x8, x3"
+          },
+          {
+            "address": "0x173c",
+            "mnemonic": "mov",
+            "operands": "x0, x24"
+          },
+          {
+            "address": "0x1740",
+            "mnemonic": "bl",
+            "operands": "#0x32f0"
+          },
+          {
+            "address": "0x1744",
+            "mnemonic": "mov",
+            "operands": "x21, x0"
+          },
+          {
+            "address": "0x1748",
+            "mnemonic": "mov",
+            "operands": "x0, x23"
+          },
+          {
+            "address": "0x174c",
+            "mnemonic": "mov",
+            "operands": "x1, x22"
+          },
+          {
+            "address": "0x1750",
+            "mnemonic": "mov",
+            "operands": "x2, x21"
+          },
+          {
+            "address": "0x1754",
+            "mnemonic": "mov",
+            "operands": "x3, x24"
+          },
+          {
+            "address": "0x1758",
+            "mnemonic": "bl",
+            "operands": "#0x181c"
+          },
+          {
+            "address": "0x175c",
+            "mnemonic": "cmp",
+            "operands": "x24, x0"
+          },
+          {
+            "address": "0x1760",
+            "mnemonic": "b.ne",
+            "operands": "#0x1800"
+          },
+          {
+            "address": "0x1764",
+            "mnemonic": "ldp",
+            "operands": "x2, x8, [x20, #0x10]"
+          },
+          {
+            "address": "0x1768",
+            "mnemonic": "ldr",
+            "operands": "x3, [sp]"
+          },
+          {
+            "address": "0x176c",
+            "mnemonic": "mov",
+            "operands": "x0, x20"
+          },
+          {
+            "address": "0x1770",
+            "mnemonic": "add",
+            "operands": "x1, x21, x8"
+          },
+          {
+            "address": "0x1774",
+            "mnemonic": "bl",
+            "operands": "#0x2b24"
+          },
+          {
+            "address": "0x1778",
+            "mnemonic": "mov",
+            "operands": "x0, x21"
+          },
+          {
+            "address": "0x177c",
+            "mnemonic": "bl",
+            "operands": "#0x3310"
+          },
+          {
+            "address": "0x1780",
+            "mnemonic": "ldr",
+            "operands": "x0, [x20]"
+          },
+          {
+            "address": "0x1784",
+            "mnemonic": "ldr",
+            "operands": "x19, [x20, #0x10]"
+          },
+          {
+            "address": "0x1788",
+            "mnemonic": "bl",
+            "operands": "#0x3310"
+          },
+          {
+            "address": "0x178c",
+            "mnemonic": "mov",
+            "operands": "x0, x20"
+          },
+          {
+            "address": "0x1790",
+            "mnemonic": "bl",
+            "operands": "#0x3310"
+          },
+          {
+            "address": "0x1794",
+            "mnemonic": "b",
+            "operands": "#0xfb4"
+          },
+          {
+            "address": "0x1798",
+            "mnemonic": "ldr",
+            "operands": "x19, [sp]"
+          },
+          {
+            "address": "0x179c",
+            "mnemonic": "mov",
+            "operands": "x0, x23"
+          },
+          {
+            "address": "0x17a0",
+            "mnemonic": "mov",
+            "operands": "x1, x22"
+          },
+          {
+            "address": "0x17a4",
+            "mnemonic": "mov",
+            "operands": "x2, x19"
+          },
+          {
+            "address": "0x17a8",
+            "mnemonic": "bl",
+            "operands": "#0x181c"
+          },
+          {
+            "address": "0x17ac",
+            "mnemonic": "ldr",
+            "operands": "x8, [x20, #0x10]"
+          },
+          {
+            "address": "0x17b0",
+            "mnemonic": "cmp",
+            "operands": "x8, x0"
+          },
+          {
+            "address": "0x17b4",
+            "mnemonic": "b.ne",
+            "operands": "#0x1810"
+          },
+          {
+            "address": "0x17b8",
+            "mnemonic": "ldr",
+            "operands": "w8, [x20, #8]"
+          },
+          {
+            "address": "0x17bc",
+            "mnemonic": "cbz",
+            "operands": "w8, #0x1780"
+          },
+          {
+            "address": "0x17c0",
+            "mnemonic": "ldr",
+            "operands": "x9, [x20]"
+          },
+          {
+            "address": "0x17c4",
+            "mnemonic": "mov",
+            "operands": "x2, x0"
+          },
+          {
+            "address": "0x17c8",
+            "mnemonic": "mov",
+            "operands": "w10, #1"
+          },
+          {
+            "address": "0x17cc",
+            "mnemonic": "add",
+            "operands": "x9, x9, #0x14"
+          },
+          {
+            "address": "0x17d0",
+            "mnemonic": "ldr",
+            "operands": "w11, [x9]"
+          },
+          {
+            "address": "0x17d4",
+            "mnemonic": "cbnz",
+            "operands": "w11, #0x17e8"
+          },
+          {
+            "address": "0x17d8",
+            "mnemonic": "cmp",
+            "operands": "x10, x8"
+          },
+          {
+            "address": "0x17dc",
+            "mnemonic": "add",
+            "operands": "x10, x10, #1"
+          },
+          {
+            "address": "0x17e0",
+            "mnemonic": "add",
+            "operands": "x9, x9, #0x318"
+          },
+          {
+            "address": "0x17e4",
+            "mnemonic": "b.lo",
+            "operands": "#0x17d0"
+          },
+          {
+            "address": "0x17e8",
+            "mnemonic": "cbz",
+            "operands": "w11, #0x1780"
+          },
+          {
+            "address": "0x17ec",
+            "mnemonic": "mov",
+            "operands": "x0, x20"
+          },
+          {
+            "address": "0x17f0",
+            "mnemonic": "mov",
+            "operands": "x1, x19"
+          },
+          {
+            "address": "0x17f4",
+            "mnemonic": "mov",
+            "operands": "x3, xzr"
+          },
+          {
+            "address": "0x17f8",
+            "mnemonic": "bl",
+            "operands": "#0x2b24"
+          },
+          {
+            "address": "0x17fc",
+            "mnemonic": "b",
+            "operands": "#0x1780"
+          },
+          {
+            "address": "0x1800",
+            "mnemonic": "mov",
+            "operands": "x0, x21"
+          },
+          {
+            "address": "0x1804",
+            "mnemonic": "bl",
+            "operands": "#0x3310"
+          },
+          {
+            "address": "0x1808",
+            "mnemonic": "mov",
+            "operands": "x19, #-0x10"
+          },
+          {
+            "address": "0x180c",
+            "mnemonic": "b",
+            "operands": "#0xfb4"
+          },
+          {
+            "address": "0x1810",
+            "mnemonic": "mov",
+            "operands": "x19, #-0xf"
+          },
+          {
+            "address": "0x1814",
+            "mnemonic": "b",
+            "operands": "#0xfb4"
+          },
+          {
+            "address": "0x1818",
+            "mnemonic": "bl",
+            "operands": "#0x3320"
+          }
+        ]
+      }
+    ]
+  }
+]
