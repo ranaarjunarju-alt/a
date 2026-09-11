@@ -1,0 +1,367 @@
+# APK TTS static evidence
+
+- SHA-256 verified: `46bb98a05a6c3be31a4557e08668a249fa759b9d140eedadbed38c3b4738452f`
+- APK size: 328,455,327 bytes
+- Package: `com.lemon.lvoverseas`
+- Version: `19.6.0` (19600200)
+- SDK min / target: 23 / 36
+- DEX files: 42
+
+## Permissions
+- `android.permission.KILL_BACKGROUND_PROCESSES`
+- `android.permission.ACCESS_ADSERVICES_ATTRIBUTION`
+- `android.permission.WRITE_CALENDAR`
+- `android.permission.USE_CREDENTIALS`
+- `com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE`
+- `android.permission.READ_EXTERNAL_STORAGE`
+- `com.lemon.lvoverseas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`
+- `android.permission.CAMERA`
+- `android.permission.READ_MEDIA_VIDEO`
+- `android.permission.WRITE_EXTERNAL_STORAGE`
+- `android.permission.WAKE_LOCK`
+- `android.permission.ACCESS_ADSERVICES_TOPICS`
+- `android.permission.POST_NOTIFICATIONS`
+- `android.permission.FOREGROUND_SERVICE`
+- `com.oppo.launcher.permission.WRITE_SETTINGS`
+- `android.permission.ACCESS_NETWORK_STATE`
+- `com.android.launcher.permission.INSTALL_SHORTCUT`
+- `android.permission.ACCESS_WIFI_STATE`
+- `com.samsung.android.mapsagent.permission.READ_APP_INFO`
+- `android.permission.CHANGE_NETWORK_STATE`
+- `android.permission.VIBRATE`
+- `android.permission.RECORD_AUDIO`
+- `com.google.android.c2dm.permission.RECEIVE`
+- `android.permission.HIGH_SAMPLING_RATE_SENSORS`
+- `com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE`
+- `com.android.launcher.permission.UNINSTALL_SHORTCUT`
+- `com.google.android.gms.permission.AD_ID`
+- `android.permission.READ_MEDIA_VISUAL_USER_SELECTED`
+- `android.permission.INTERNET`
+- `android.permission.READ_CALENDAR`
+- `com.android.vending.BILLING`
+- `android.permission.READ_MEDIA_IMAGES`
+- `android.permission.SYSTEM_ALERT_WINDOW`
+- `android.permission.FOREGROUND_SERVICE_DATA_SYNC`
+- `com.orange.update.permission.READ_ATTRIBUTION`
+- `android.permission.WRITE_SYNC_SETTINGS`
+- `com.oppo.launcher.permission.READ_SETTINGS`
+- `android.permission.ACCESS_ADSERVICES_AD_ID`
+- `android.permission.READ_MEDIA_AUDIO`
+- `android.permission.ACCESS_MEDIA_LOCATION`
+
+## Model / voice / TTS file candidates
+- `assets/js_clip128_v1.0.model` — 13,068 bytes
+- `assets/js_translation_v1.0.model` — 12,612 bytes
+
+## Native libraries
+- `lib/arm64-v8a/libAGFX.so` — 755,744 bytes
+- `lib/arm64-v8a/libByteVC1_dec.so` — 478,536 bytes
+- `lib/arm64-v8a/libCepEngine.so` — 362,464 bytes
+- `lib/arm64-v8a/libDex2cPro.so` — 6,039,224 bytes
+- `lib/arm64-v8a/libEncryptor.so` — 83,896 bytes
+- `lib/arm64-v8a/libNPDex2c.so` — 268,688 bytes
+- `lib/arm64-v8a/libTTMStrategyCenter.so` — 395,664 bytes
+- `lib/arm64-v8a/libTTMachineCore.so` — 429,872 bytes
+- `lib/arm64-v8a/libalog.so` — 68,056 bytes
+- `lib/arm64-v8a/libanimax.so` — 657,720 bytes
+- `lib/arm64-v8a/libanimax_bytevc1.so` — 51,184 bytes
+- `lib/arm64-v8a/libanimax_napi.so` — 84,064 bytes
+- `lib/arm64-v8a/libanimax_textra.so` — 83,952 bytes
+- `lib/arm64-v8a/libapplovin-native-crash-reporter.so` — 860,200 bytes
+- `lib/arm64-v8a/libart_sym.so` — 124,720 bytes
+- `lib/arm64-v8a/libaudio_fingerprint_sdk.so` — 116,768 bytes
+- `lib/arm64-v8a/libaudioeffect.so` — 5,083,304 bytes
+- `lib/arm64-v8a/libavmdlbase.so` — 477,128 bytes
+- `lib/arm64-v8a/libavmdlv2.so` — 1,411,344 bytes
+- `lib/arm64-v8a/libbach-sdk-jni.so` — 117,112 bytes
+- `lib/arm64-v8a/libbdhm_native.so` — 599,968 bytes
+- `lib/arm64-v8a/libbdvideouploader.so` — 837,848 bytes
+- `lib/arm64-v8a/libbdzstd.so` — 231,248 bytes
+- `lib/arm64-v8a/libbuffer.so` — 18,184 bytes
+- `lib/arm64-v8a/libbuffer_pgl.so` — 9,000 bytes
+- `lib/arm64-v8a/libbvcparser.so` — 51,416 bytes
+- `lib/arm64-v8a/libbyteVC2dec.so` — 511,360 bytes
+- `lib/arm64-v8a/libbytebench.so` — 641,376 bytes
+- `lib/arm64-v8a/libbytedt.so` — 313,800 bytes
+- `lib/arm64-v8a/libbytehook.so` — 59,064 bytes
+- `lib/arm64-v8a/libbytemonitor.so` — 67,408 bytes
+- `lib/arm64-v8a/libbytenn.so` — 3,147,800 bytes
+- `lib/arm64-v8a/libbytevc0.so` — 548,760 bytes
+- `lib/arm64-v8a/libbytevc1enc.so` — 1,279,016 bytes
+- `lib/arm64-v8a/libc++_shared.so` — 919,888 bytes
+- `lib/arm64-v8a/libcapcut.so` — 2,342,912 bytes
+- `lib/arm64-v8a/libcccreator.so` — 39,876,624 bytes
+- `lib/arm64-v8a/libchoosle.so` — 2,048,376 bytes
+- `lib/arm64-v8a/libclipflow.so` — 4,917,760 bytes
+- `lib/arm64-v8a/libconfigcenter.so` — 51,144 bytes
+- `lib/arm64-v8a/libcore.so` — 9,504 bytes
+- `lib/arm64-v8a/libcybertron_base.so` — 509,816 bytes
+- `lib/arm64-v8a/libdelta.so` — 18,256 bytes
+- `lib/arm64-v8a/libenvguard.so` — 224,680 bytes
+- `lib/arm64-v8a/libfastcv.so` — 1,001,232 bytes
+- `lib/arm64-v8a/libfdk-aac.so` — 625,312 bytes
+- `lib/arm64-v8a/libfile_lock.so` — 18,184 bytes
+- `lib/arm64-v8a/libfile_lock_pgl.so` — 6,312 bytes
+- `lib/arm64-v8a/libfile_recorder.so` — 51,472 bytes
+- `lib/arm64-v8a/libflipped.so` — 7,320 bytes
+- `lib/arm64-v8a/libfly-main-color-lib.so` — 51,024 bytes
+- `lib/arm64-v8a/libgaia_lib.so` — 329,704 bytes
+- `lib/arm64-v8a/libgeckox_bspatch.so` — 119,768 bytes
+- `lib/arm64-v8a/libgifimage.so` — 51,696 bytes
+- `lib/arm64-v8a/libgodzilla-acurate-asan.so` — 160,168 bytes
+- `lib/arm64-v8a/libgodzilla-memsponge.so` — 1,043,056 bytes
+- `lib/arm64-v8a/libgodzilla-sysopt.so` — 164,440 bytes
+- `lib/arm64-v8a/libgodzilla-touphic.so` — 40,016 bytes
+- `lib/arm64-v8a/libhakjnjjjnjjjjjjnnrrdcgmhutok.so` — 268,688 bytes
+- `lib/arm64-v8a/libhelios_bm.so` — 18,424 bytes
+- `lib/arm64-v8a/libiesapplogger.so` — 67,616 bytes
+- `lib/arm64-v8a/libimagepipeline.so` — 264,328 bytes
+- `lib/arm64-v8a/libjato.so` — 362,800 bytes
+- `lib/arm64-v8a/libjazz.so` — 231,840 bytes
+- `lib/arm64-v8a/libjnbnnnsdk.so` — 268,576 bytes
+- `lib/arm64-v8a/libjnidispatch.so` — 165,992 bytes
+- `lib/arm64-v8a/libkeva.so` — 215,680 bytes
+- `lib/arm64-v8a/libkomprese-decompressor.so` — 15,800 bytes
+- `lib/arm64-v8a/libkrypton.so` — 1,674,432 bytes
+- `lib/arm64-v8a/liblens.so` — 3,591,872 bytes
+- `lib/arm64-v8a/liblog.so` — 9,504 bytes
+- `lib/arm64-v8a/liblundd.so` — 268,672 bytes
+- `lib/arm64-v8a/liblundljnhjjjjjennmes.so` — 625,320 bytes
+- `lib/arm64-v8a/liblundnkbaal.so` — 115,240 bytes
+- `lib/arm64-v8a/libluster.so` — 250,720 bytes
+- `lib/arm64-v8a/liblynx-imageloader.so` — 35,168 bytes
+- `lib/arm64-v8a/liblynx.so` — 3,570,952 bytes
+- `lib/arm64-v8a/liblynx_krypton.so` — 51,112 bytes
+- `lib/arm64-v8a/liblynx_markdown.so` — 247,888 bytes
+- `lib/arm64-v8a/liblynx_v8_bridge.so` — 117,008 bytes
+- `lib/arm64-v8a/liblynxbase.so` — 232,080 bytes
+- `lib/arm64-v8a/liblynxsecurity.so` — 51,112 bytes
+- `lib/arm64-v8a/liblynxtrace.so` — 51,200 bytes
+- `lib/arm64-v8a/libmdlttkmedianetloader.so` — 83,560 bytes
+- `lib/arm64-v8a/libmetasec_ov.so` — 1,932,896 bytes
+- `lib/arm64-v8a/libmiddle-bridge.so` — 59,631,736 bytes
+- `lib/arm64-v8a/libmiddleware.so` — 24,908,280 bytes
+- `lib/arm64-v8a/libmonitorcollector-lib.so` — 313,744 bytes
+- `lib/arm64-v8a/libnapi.so` — 247,904 bytes
+- `lib/arm64-v8a/libnative-filters.so` — 34,824 bytes
+- `lib/arm64-v8a/libnativeaudio.so` — 51,528 bytes
+- `lib/arm64-v8a/libnewep.so` — 51,232 bytes
+- `lib/arm64-v8a/libnms.so` — 293,272 bytes
+- `lib/arm64-v8a/libnpth.so` — 181,952 bytes
+- `lib/arm64-v8a/libnpth_bt.so` — 7,344 bytes
+- `lib/arm64-v8a/libnpth_dl.so` — 27,352 bytes
+- `lib/arm64-v8a/libnpth_dumper.so` — 90,384 bytes
+- `lib/arm64-v8a/libnpth_fd_tracker.so` — 39,472 bytes
+- `lib/arm64-v8a/libnpth_fp_unw.so` — 6,112 bytes
+- `lib/arm64-v8a/libnpth_heap_tracker.so` — 43,176 bytes
+
+## TTS class candidates
+- `Landroidx/compose/material/AppBarKt$AppBar$1$1;`
+- `Landroidx/compose/material/AppBarKt$AppBar$1;`
+- `Landroidx/compose/material/AppBarKt$AppBar$2;`
+- `Landroidx/compose/material/AppBarKt$BottomAppBar$1;`
+- `Landroidx/compose/material/AppBarKt$BottomAppBar$2;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$1$2$1;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$1$3;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$1;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$2;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$3;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$4;`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$5;`
+- `Landroidx/compose/material/AppBarKt;`
+- `Landroidx/compose/material/ComposableSingletons$AppBarKt$lambda-1$1;`
+- `Landroidx/compose/material/ComposableSingletons$AppBarKt$lambda-2$1;`
+- `Landroidx/compose/material/ComposableSingletons$AppBarKt;`
+- `Landroidx/compose/material/SnackbarKt$NewLineButtonSnackbar$2;`
+- `Landroidx/compose/material/SnackbarKt$OneRowSnackbar$2$1$4;`
+- `Landroidx/compose/material/SnackbarKt$OneRowSnackbar$2$1;`
+- `Landroidx/compose/material/SnackbarKt$OneRowSnackbar$3;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$1$1$1;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$1$1;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$1;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$2;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$3;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$4;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$actionComposable$1$1;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$actionComposable$1$2;`
+- `Landroidx/compose/material/SnackbarKt$Snackbar$actionComposable$1;`
+- `Landroidx/compose/material/SnackbarKt$TextOnlySnackbar$2$4;`
+- `Landroidx/compose/material/SnackbarKt$TextOnlySnackbar$2;`
+- `Landroidx/compose/material/SnackbarKt$TextOnlySnackbar$3;`
+- `Landroidx/compose/material/SnackbarKt;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$2;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$3;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$4;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$5$1$1;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$5$1;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$6;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$7;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$appBarDragModifier$1$1;`
+- `Landroidx/compose/material3/AppBarKt$BottomAppBar$appBarDragModifier$2$1;`
+- `Landroidx/compose/material3/AppBarKt$CenterAlignedTopAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$LargeTopAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$MediumTopAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$SingleRowTopAppBar$1$1;`
+- `Landroidx/compose/material3/AppBarKt$SingleRowTopAppBar$2;`
+- `Landroidx/compose/material3/AppBarKt$SingleRowTopAppBar$3;`
+- `Landroidx/compose/material3/AppBarKt$SingleRowTopAppBar$actionsRow$1;`
+- `Landroidx/compose/material3/AppBarKt$SingleRowTopAppBar$appBarDragModifier$1$1;`
+- `Landroidx/compose/material3/AppBarKt$SingleRowTopAppBar$appBarDragModifier$2$1;`
+- `Landroidx/compose/material3/AppBarKt$SmallTopAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$TopAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$TopAppBarLayout$1$2;`
+- `Landroidx/compose/material3/AppBarKt$TopAppBarLayout$2$1$1;`
+- `Landroidx/compose/material3/AppBarKt$TopAppBarLayout$2$1;`
+- `Landroidx/compose/material3/AppBarKt$TopAppBarLayout$3;`
+- `Landroidx/compose/material3/AppBarKt$TwoRowsTopAppBar$2$1;`
+- `Landroidx/compose/material3/AppBarKt$TwoRowsTopAppBar$3;`
+- `Landroidx/compose/material3/AppBarKt$TwoRowsTopAppBar$4;`
+- `Landroidx/compose/material3/AppBarKt$TwoRowsTopAppBar$actionsRow$1;`
+- `Landroidx/compose/material3/AppBarKt$TwoRowsTopAppBar$appBarDragModifier$1$1;`
+- `Landroidx/compose/material3/AppBarKt$TwoRowsTopAppBar$appBarDragModifier$2$1;`
+- `Landroidx/compose/material3/AppBarKt$rememberBottomAppBarState$1$1;`
+- `Landroidx/compose/material3/AppBarKt$rememberTopAppBarState$1$1;`
+- `Landroidx/compose/material3/AppBarKt$settleAppBar$1;`
+- `Landroidx/compose/material3/AppBarKt$settleAppBar$2;`
+- `Landroidx/compose/material3/AppBarKt$settleAppBar$3;`
+- `Landroidx/compose/material3/AppBarKt$settleAppBarBottom$1;`
+- `Landroidx/compose/material3/AppBarKt$settleAppBarBottom$2;`
+- `Landroidx/compose/material3/AppBarKt$settleAppBarBottom$3;`
+- `Landroidx/compose/material3/AppBarKt;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-1$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-10$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-11$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-12$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-2$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-3$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-4$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-5$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-6$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-7$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-8$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt$lambda-9$1;`
+- `Landroidx/compose/material3/ComposableSingletons$AppBarKt;`
+- `Landroidx/compose/material3/ComposableSingletons$SnackbarKt$lambda-1$1;`
+- `Landroidx/compose/material3/ComposableSingletons$SnackbarKt;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBar$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBar$2;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$2$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$3$2$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$3$indicator$1$1$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$3$indicator$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$3$indicatorRipple$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$4;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$styledIcon$1$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$styledIcon$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItem$styledLabel$1$1;`
+- `Landroidx/compose/material3/NavigationBarKt$NavigationBarItemLayout$1$2$1;`
+
+## TTS-related invocation evidence (4075 matches; first 100 shown)
+- `LX/31k;->onClick(Landroid/view/View;)V` → `v0, Lcom/vega/audio/tone/tts/debug/ToneDebugActivity;->f1()Lcom/vega/audio/tone/tts/TextToSpeechTaskManager;`
+- `LX/31k;->onClick(Landroid/view/View;)V` → `v1, v0, Lcom/vega/audio/tone/tts/TextToSpeechTaskManager;->b(Z)V`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$4;->invoke(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;` → `v16 ... v28, Landroidx/compose/material/AppBarKt;->a(F I I J J Landroidx/compose/foundation/layout/PaddingValues; Landroidx/compose/foundation/layout/WindowInsets; Landroidx/compose/runtime/Composer; Landroidx/compose/ui/Modifier; Landroidx/compose/ui/graphics/Shape; Lkotlin/jvm/functions/Function3;)V`
+- `Landroidx/compose/material/AppBarKt$TopAppBar$4;->invoke(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;` → `v16 ... v27, Landroidx/compose/material/AppBarKt$TopAppBar$4;-><init>(F I I J J Landroidx/compose/foundation/layout/PaddingValues; Landroidx/compose/foundation/layout/WindowInsets; Landroidx/compose/ui/Modifier; Lkotlin/jvm/functions/Function3;)V`
+- `Lcom/lemon/clipmonetize/biz/commerce_page/lv_oversea/ui/base/price/PriceCardKt;->g(Landroidx/compose/ui/Modifier; Ljava/lang/String; Z Ljava/lang/String; I Ljava/lang/String; Ljava/lang/String; Landroidx/compose/runtime/Composer; I I)V` → `v18 ... v37, Landroidx/compose/ui/text/SpanStyle;-><init>(J J Landroidx/compose/ui/text/font/FontWeight; Landroidx/compose/ui/text/font/FontStyle; Landroidx/compose/ui/text/font/FontSynthesis; Landroidx/compose/ui/text/font/FontFamily; Ljava/lang/String; J Landroidx/compose/ui/text/style/BaselineShift; Landroidx/compose/ui/text/style/TextGeometricTransform; Landroidx/compose/ui/text/intl/LocaleList; J Landroidx/compose/ui/text/style/TextDecoration; Landroidx/compose/ui/graphics/Shadow; I)V`
+- `Lcom/lemon/clipmonetize/biz/commerce_page/lv_oversea/ui/base/price/PriceCardKt;->g(Landroidx/compose/ui/Modifier; Ljava/lang/String; Z Ljava/lang/String; I Ljava/lang/String; Ljava/lang/String; Landroidx/compose/runtime/Composer; I I)V` → `v38 ... v57, Landroidx/compose/ui/text/SpanStyle;-><init>(J J Landroidx/compose/ui/text/font/FontWeight; Landroidx/compose/ui/text/font/FontStyle; Landroidx/compose/ui/text/font/FontSynthesis; Landroidx/compose/ui/text/font/FontFamily; Ljava/lang/String; J Landroidx/compose/ui/text/style/BaselineShift; Landroidx/compose/ui/text/style/TextGeometricTransform; Landroidx/compose/ui/text/intl/LocaleList; J Landroidx/compose/ui/text/style/TextDecoration; Landroidx/compose/ui/graphics/Shadow; I)V`
+- `Lcom/lemon/editor/settiings/OverseaRemoteEditorSetting$$Impl$1;->create(Ljava/lang/Class;)Ljava/lang/Object;` → `v0, Lcom/lemon/lv/config/TextToSpeechConfig;-><init>()V`
+- `Lcom/lemon/lv/config/TextToSpeechConfig;-><init>()V` → `v2, v1, v0, v1, Lcom/lemon/lv/config/TextToSpeechConfig;-><init>(Ljava/lang/String; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V`
+- `Lcom/lemon/lv/config/TextToSpeechConfig;-><init>(Ljava/lang/String; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V` → `v1, v2, Lcom/lemon/lv/config/TextToSpeechConfig;-><init>(Ljava/lang/String;)V`
+- `Lcom/lemon/lv/config/TextToSpeechConfig;->create()Ljava/lang/Object;` → `v2, v1, v0, v1, Lcom/lemon/lv/config/TextToSpeechConfig;-><init>(Ljava/lang/String; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V`
+- `Lcom/service/audio/data/SpeakerInfo;-><init>()V` → `v2, v1, v1, v0, v1, Lcom/service/audio/data/SpeakerInfo;-><init>(Ljava/lang/String; Ljava/lang/String; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V`
+- `Lcom/service/audio/data/SpeakerInfo;-><init>(Ljava/lang/String; Ljava/lang/String; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V` → `v2, v3, v4, Lcom/service/audio/data/SpeakerInfo;-><init>(Ljava/lang/String; Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v3, v1, v0, v2, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;->$values()[Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><clinit>()V` → `v0, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance$Companion;-><init>()V`
+- `Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String; I Lkotlin/jvm/internal/DefaultConstructorMarker;)V` → `v1, v2, v3, v4, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportDigitalHumanEntrance;-><init>(Ljava/lang/String; I Ljava/lang/String;)V`
+- `Lcom/vega/audio/tone/adapter/ToneTypeSelectNewAdapter$enableElevenLabsTone$2;-><clinit>()V` → `v0, Lcom/vega/audio/tone/adapter/ToneTypeSelectNewAdapter$enableElevenLabsTone$2;-><init>()V`
+- `Lcom/vega/audio/tone/adapter/ToneTypeSelectNewAdapter$enableElevenLabsTone$2;->invoke()Ljava/lang/Object;` → `v0, Lcom/lemon/lv/config/BaseClientSetting;->getElevenLabsTonePlatformConfig()Lcom/lemon/lv/config/ElevenLabsTonePlatformConfig;`
+- `Lcom/vega/audio/tone/adapter/ToneTypeSelectNewAdapter$enableElevenLabsTone$2;->invoke()Ljava/lang/Object;` → `v0, Lcom/lemon/lv/config/ElevenLabsTonePlatformConfig;->isEnabled()Z`
+- `Lcom/vega/audio/tone/tts/Operation$Destroy;-><clinit>()V` → `v0, Lcom/vega/audio/tone/tts/Operation$Destroy;-><init>()V`
+- `Lcom/vega/audio/tone/tts/Operation$Destroy;-><init>()V` → `v0, Lcom/vega/audio/tone/tts/Operation;-><init>()V`
+- `Lcom/vega/audio/tone/tts/Operation$StopSaving;-><init>(Ljava/lang/String;)V` → `v1, Lcom/vega/audio/tone/tts/Operation;-><init>()V`
+- `Lcom/vega/audio/tone/tts/core/TextToSpeechTaskScheduler$executeStreamingTask$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v1, v0, v2, Lcom/vega/audio/tone/tts/core/TextToSpeechTaskScheduler;->e(Lcom/vega/audio/tone/tts/core/TextToSpeechTask; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool$getMigrationExecutor$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v1, v0, v2, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechRequestType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;-><clinit>()V` → `v0, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool$Companion;-><init>()V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;-><init>()V` → `v1, v0, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;-><init>(I)V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechRequestType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, Lcom/vega/audio/tone/tts/core/executor/impl/NonStreamingTextToSpeechExecutor;-><init>()V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechRequestType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, v0, v5, Lcom/vega/audio/tone/tts/core/executor/ITextToSpeechExecutor;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechRequestType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, Lcom/vega/audio/tone/tts/core/executor/impl/StreamingTextToSpeechExecutor;-><init>()V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechRequestType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v5, v6, v8, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool$getMigrationExecutor$1;-><init>(Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->b(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v0, Lcom/vega/audio/tone/tts/core/executor/ITextToSpeechExecutor;->c()Z`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->b(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v9, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorFactory;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;)Lcom/vega/audio/tone/tts/core/executor/BaseTextToSpeechExecutor;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->b(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, v7, v5, Lcom/vega/audio/tone/tts/core/executor/ITextToSpeechExecutor;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->b(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v5, v8, v10, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool$getParallelExecutor$1;-><init>(Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->c(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v7, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorFactory;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;)Lcom/vega/audio/tone/tts/core/executor/BaseTextToSpeechExecutor;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->c(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, v0, v5, Lcom/vega/audio/tone/tts/core/executor/ITextToSpeechExecutor;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->c(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v5, v6, v8, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool$getSerialExecutor$1;-><init>(Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;->values()[Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v8, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorFactory;->a(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;)Lcom/vega/audio/tone/tts/core/executor/BaseTextToSpeechExecutor;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, v14, v6, Lcom/vega/audio/tone/tts/core/executor/ITextToSpeechExecutor;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, Lcom/vega/audio/tone/tts/core/executor/impl/StreamingTextToSpeechExecutor;-><init>()V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v1, Lcom/vega/audio/tone/tts/core/executor/impl/NonStreamingTextToSpeechExecutor;-><init>()V`
+- `Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->d(Ljava/lang/String; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;` → `v6, v13, v15, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool$init$1;-><init>(Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/audio/tone/tts/core/queue/TextToSpeechSerialQueue$runTask$1;->create(Ljava/lang/Object; Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;` → `v2, v1, v0, v5, Lcom/vega/audio/tone/tts/core/queue/TextToSpeechSerialQueue$runTask$1;-><init>(Lcom/vega/audio/tone/tts/core/TextToSpeechTask; Lcom/vega/audio/tone/tts/core/queue/TextToSpeechSerialQueue; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/audio/tone/tts/core/queue/TextToSpeechSerialQueue$runTask$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v1, v0, v7, Lcom/vega/audio/tone/tts/core/executor/TextToSpeechExecutorPool;->c(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/audio/tone/tts/core/queue/TextToSpeechSerialQueue$runTask$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v4, v1, v8, v0, Lcom/vega/audio/tone/tts/core/queue/TextToSpeechSerialQueue$runTask$1$1;-><init>(Lcom/vega/audio/tone/tts/core/TextToSpeechTask; Lcom/vega/audio/tone/tts/core/executor/ITextToSpeechExecutor; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/audio/tone/tts/engine/elevenlabs/ElevenLabsToneManager$downloadAudioResources$2$1$task$1$res$1;-><clinit>()V` → `v0, Lcom/vega/audio/tone/tts/engine/elevenlabs/ElevenLabsToneManager$downloadAudioResources$2$1$task$1$res$1;-><init>()V`
+- `Lcom/vega/audio/tone/tts/engine/nonstreaming/NonStreamingToneUtils$WhenMappings;-><clinit>()V` → `Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;->values()[Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType;`
+- `Lcom/vega/audio/tone/tts/engine/nonstreaming/clipflow/NonStreamingTextToSpeechClipflowTask$nodes$5;->invoke(Ljava/lang/Object;)Ljava/lang/Object;` → `v2, v1, v0, Lcom/vega/audio/tone/tts/engine/nonstreaming/clipflow/nodes/DownloadAudioFilesNode$Input;-><init>(Lcom/vega/audio/tone/tts/core/TextToSpeechExecutorType; Ljava/lang/String;)V`
+- `Lcom/vega/audio/tone/tts/engine/server/RemoteSAMICacheManager$audioInfo$3;-><clinit>()V` → `v0, Lcom/vega/audio/tone/tts/engine/server/RemoteSAMICacheManager$audioInfo$3;-><init>()V`
+- `Lcom/vega/audio/tone/tts/engine/server/RemoteSAMIToneUtil$isInMicroTonePreviewExperiment$2;-><clinit>()V` → `v0, Lcom/vega/audio/tone/tts/engine/server/RemoteSAMIToneUtil$isInMicroTonePreviewExperiment$2;-><init>()V`
+- `Lcom/vega/audio/tone/tts/engine/ssml/SSMLCommonPostProcessor;-><clinit>()V` → `v0, Lcom/vega/audio/tone/tts/engine/ssml/SSMLCommonPostProcessor$Companion;-><init>()V`
+- `Lcom/vega/audio/tone/tts/engine/ssml/SSMLCommonPostProcessor;-><init>()V` → `v0, Lcom/vega/audio/tone/tts/engine/ssml/SSMLPostProcessor;-><init>()V`
+- `Lcom/vega/audio/tone/util/TextToSpeechReporter$reportTTSCache$1;->invoke(Ljava/lang/Object;)Ljava/lang/Object;` → `v0, Lcom/vega/aigcapi/materialgenerate/TextToSpeechReportScene;->getInfo()Ljava/lang/String;`
+- `Lcom/vega/cutsameedit/biz/edit/subtitle/base/BaseScriptTemplateSubtitleViewModel$editScriptRegenerate$job$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v5, Lcom/lemon/lv/data/TextAudio;->getSpeakerId()Ljava/lang/String;`
+- `Lcom/vega/edit/tts/TtsUpdateServiceImpl$startSavingMultiToneAudio$6;->create(Ljava/lang/Object; Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;` → `v0 ... v12, Lcom/vega/edit/tts/TtsUpdateServiceImpl$startSavingMultiToneAudio$6;-><init>(Lcom/vega/edit/tts/TtsUpdateServiceImpl; Ljava/util/LinkedHashMap; Lcom/vega/middlebridge/lyrasession/LyraSession; Lcom/vega/container/session/core/ISession; I I Lcom/vega/subscriptionapi/core/Result; Landroid/app/Activity; Lcom/vega/middlebridge/swig/Segment; Lcom/vega/middlebridge/swig/Segment; Lcom/vega/edit/base/tts/TtsUpdateService$CallBack; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/edit/tts/TtsUpdateServiceImpl$startSavingMultiToneAudio$6;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v3 ... v14, Lcom/vega/edit/tts/TtsUpdateServiceImpl;->f(Ljava/util/LinkedHashMap; Lcom/vega/middlebridge/lyrasession/LyraSession; Lcom/vega/container/session/core/ISession; I I Lcom/vega/subscriptionapi/core/Result; Landroid/app/Activity; Lcom/vega/middlebridge/swig/Segment; Lcom/vega/middlebridge/swig/Segment; Lcom/vega/edit/base/tts/TtsUpdateService$CallBack; Lkotlin/coroutines/Continuation;)Ljava/lang/Object;`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v7, v0, v6, v1, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$3$1;-><init>(Ljava/lang/String; Landroidx/compose/runtime/MutableState; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v1, v0, v4, v8, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$4$1;-><init>(Z Landroidx/compose/ui/focus/FocusRequester; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v8, v7, v1, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$keyboardActions$1$1;-><init>(Ljava/lang/String; Lkotlin/jvm/functions/Function1;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v35 ... v40, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$5$1;-><init>(I Ljava/lang/String; Landroidx/compose/ui/focus/FocusRequester; Landroidx/compose/runtime/MutableState; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v4, v6, v0, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$6$1$1$1$1;-><init>(Landroidx/compose/runtime/MutableState; Lkotlin/jvm/functions/Function1;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v8, v6, v5, v0, v1, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$6$1$1$2;-><init>(Ljava/lang/String; Ljava/lang/String; J)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v0, v1, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$6$1$1$3$1;-><init>(Lkotlin/jvm/functions/Function1;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v0, v3, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$6$2$1;-><init>(Lkotlin/jvm/functions/Function0;)V`
+- `Lcom/vega/libmaterialpanel/ui/SearchBarKt;->a(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z Landroidx/compose/runtime/Composer; I I)V` → `v28 ... v39, Lcom/vega/libmaterialpanel/ui/SearchBarKt$SearchBar$7;-><init>(Landroidx/compose/ui/Modifier; Ljava/lang/String; Lkotlin/jvm/functions/Function1; Lkotlin/jvm/functions/Function0; Lkotlin/jvm/functions/Function1; Ljava/lang/String; I Landroidx/compose/foundation/interaction/MutableInteractionSource; Z I I)V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>()V` → `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->new_UpdateSpeakerTtsInfoReqStruct()J`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>()V` → `v3, v1, v2, v0, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>(J Z)V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>(J)V` → `v1, v2, v3, v0, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>(J Z)V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>(J Z)V` → `v3, v4, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->UpdateSpeakerTtsInfoReqStruct_SWIGSmartPtrUpcast(J)J`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;-><init>(J Z)V` → `v0, v3, v4, v5, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct$CustomCleanupWrapper;-><init>(J Z)V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->deleteInner(J)V` → `v0, v1, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->delete_UpdateSpeakerTtsInfoReqStruct(J)V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->delete()V` → `v0, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct$CustomCleanupWrapper;->run()V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->getObjPointer()J` → `v2, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->getCPtr(Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;)J`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->getSentences()Lcom/vega/middlebridge/swig/VectorOfSentenceTtsInfo;` → `v0, v1, v6, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->UpdateSpeakerTtsInfoReqStruct_sentences_get(J Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;)J`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->getSpeaker_id()Ljava/lang/String;` → `v0, v1, v2, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->UpdateSpeakerTtsInfoReqStruct_speaker_id_get(J Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;)Ljava/lang/String;`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->setSentences(Lcom/vega/middlebridge/swig/VectorOfSentenceTtsInfo;)V` → `v0 ... v5, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->UpdateSpeakerTtsInfoReqStruct_sentences_set(J Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct; J Lcom/vega/middlebridge/swig/VectorOfSentenceTtsInfo;)V`
+- `Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct;->setSpeaker_id(Ljava/lang/String;)V` → `v0, v1, v2, v3, Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoModuleJNI;->UpdateSpeakerTtsInfoReqStruct_speaker_id_set(J Lcom/vega/middlebridge/swig/UpdateSpeakerTtsInfoReqStruct; Ljava/lang/String;)V`
+- `Lcom/vega/templatepublish/task/slicevideo/SliceUploadSynthesisManager$createOptions$markVideoCompileCallback$1$1;->create(Ljava/lang/Object; Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;` → `v2, v1, v0, v5, Lcom/vega/templatepublish/task/slicevideo/SliceUploadSynthesisManager$createOptions$markVideoCompileCallback$1$1;-><init>(Lkotlinx/coroutines/CoroutineScope; Lcom/vega/templatepublish/task/slicevideo/ConcurrentUploadByFile; Lkotlin/coroutines/Continuation;)V`
+- `Lcom/vega/templatepublish/task/slicevideo/SliceUploadSynthesisManager$createOptions$markVideoCompileCallback$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;` → `v2, v1, v0, Lcom/vega/templatepublish/task/slicevideo/SliceUploadSynthesisManager$createOptions$markVideoCompileCallback$1$1$1;-><init>(Lcom/vega/templatepublish/task/slicevideo/ConcurrentUploadByFile; Lkotlin/coroutines/Continuation;)V`
+- `LX/31b;->onClick(Landroid/view/View;)V` → `v3, v0, Lcom/vega/audio/tone/tts/debug/ToneDebugActivity$newManagerTest$7$mcIntent1$1;-><init>(Ljava/lang/String;)V`
+- `LX/31b;->onClick(Landroid/view/View;)V` → `v4 ... v42, Lcom/vega/edit/base/tone/TextToSpeechIntent;-><init>(Ljava/lang/String; Lcom/vega/edit/base/tone/TextInfo; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/vega/edit/base/tone/TTSBusinessScene; Lcom/vega/edit/base/tone/TTSBusinessType; Ljava/lang/String; Ljava/lang/String; F I Lcom/vega/aigcapi/materialgenerate/ReadingListener; Ljava/util/Map; Z Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Lkotlin/jvm/functions/Function2; Ljava/lang/String; Lcom/vega/edit/base/tone/EmotionOption; Ljava/lang/String; Ljava/lang/Boolean; Z Ljava/lang/Boolean; Ljava/lang/Boolean; Z Z Z Z Lkotlin/ranges/IntRange; Ljava/util/List; Ljava/util/Map; Lkotlin/jvm/functions/Function0; Z I I)V`
+- `LX/31b;->onClick(Landroid/view/View;)V` → `v1, v0, Lcom/vega/audio/tone/tts/debug/ToneDebugActivity$newManagerTest$7$mcIntent2$1;-><init>(Ljava/lang/String;)V`
+- `LX/31b;->onClick(Landroid/view/View;)V` → `v43 ... v81, Lcom/vega/edit/base/tone/TextToSpeechIntent;-><init>(Ljava/lang/String; Lcom/vega/edit/base/tone/TextInfo; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/vega/edit/base/tone/TTSBusinessScene; Lcom/vega/edit/base/tone/TTSBusinessType; Ljava/lang/String; Ljava/lang/String; F I Lcom/vega/aigcapi/materialgenerate/ReadingListener; Ljava/util/Map; Z Ljava/lang/String; Ljava/lang/String; Z Ljava/lang/String; Ljava/lang/String; Lkotlin/jvm/functions/Function2; Ljava/lang/String; Lcom/vega/edit/base/tone/EmotionOption; Ljava/lang/String; Ljava/lang/Boolean; Z Ljava/lang/Boolean; Ljava/lang/Boolean; Z Z Z Z Lkotlin/ranges/IntRange; Ljava/util/List; Ljava/util/Map; Lkotlin/jvm/functions/Function0; Z I I)V`
+
+## Limits
+Static scan only. A matching SDK, method, hostname, or filename is not proof it is used at runtime.
+No APK execution, listening test, latency benchmark, or network traffic capture was performed.
+Absence of matches does not exclude obfuscated, native, Flutter, JavaScript, or downloaded TTS code.
+Offline capability, actual text transmission, voice quality and supported languages require follow-up evidence.
+Full inventory and method references are in the attached workflow artifact. No arbitrary string dump is logged.
