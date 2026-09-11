@@ -1,0 +1,38 @@
+name: APK TTS static analysis
+on:
+  push:
+    branches: [arena/01a090c6-a]
+    paths:
+      - .github/workflows/apk-tts-analysis.yml
+      - scripts/analyze_apk_tts.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install static parser
+        run: pip install androguard==4.1.3
+      - name: Inspect APK without executing it
+        run: python scripts/analyze_apk_tts.py app-release.apk analysis-report
+      - name: Show bounded report in logs
+        if: always()
+        run: |
+          if test -f analysis-report/report.md; then
+            cat analysis-report/report.md
+            cat analysis-report/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: apk-tts-static-analysis
+          path: analysis-report/
+          retention-days: 7
