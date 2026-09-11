@@ -1,5 +1,7 @@
 # APK TTS analysis — verified static findings
 
+> **Updated by the deeper follow-up:** See [DEEP-TTS-FRAMEWORK-ANALYSIS.md](DEEP-TTS-FRAMEWORK-ANALYSIS.md). The static ElevenLabs base host is now traced to `https://editor-api.capcutapi.com`; sentence segmentation uses `https://feed-api.capcutapi.com/lv/v1/ad_maker/intelligent/cut_sentence`. Earlier “unresolved host” statements below describe the earlier inspection stage. Follow-up also refines Flutter compatibility, Qwen routing, native offline option names, RSA behavior and polling defaults.
+
 ## 1. APK identity aur scan scope
 
 - File: `app-release.apk`

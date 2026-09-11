@@ -1,5 +1,7 @@
 # ElevenLabsTextToSpeechExecutor — exact static API and flow
 
+> **Updated by the deeper follow-up:** See [DEEP-TTS-FRAMEWORK-ANALYSIS.md](DEEP-TTS-FRAMEWORK-ANALYSIS.md). The static ElevenLabs base host is now traced to `https://editor-api.capcutapi.com`; sentence segmentation uses `https://feed-api.capcutapi.com/lv/v1/ad_maker/intelligent/cut_sentence`. Earlier “unresolved host” statements below describe the earlier inspection stage. Follow-up also refines Flutter compatibility, Qwen routing, native offline option names, RSA behavior and polling defaults.
+
 APK: `com.lemon.lvoverseas` 19.6.0, SHA-256 `46bb98a05a6c3be31a4557e08668a249fa759b9d140eedadbed38c3b4738452f`.
 
 Evidence: targeted JADX 1.5.3 output, including instruction dumps for coroutine methods that did not decompile cleanly. These are static findings, not captured successful requests. Generated `UnsupportedOperationException("Method not decompiled...")` placeholders are decompiler artifacts, not proven app behavior.
