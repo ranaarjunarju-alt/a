@@ -6,6 +6,7 @@ on:
       - .github/workflows/deep-tts-analysis.yml
       - scripts/ExtractDeepTts.java
       - scripts/scan_apk_frameworks.py
+      - scripts/analyze_native_libraries.py
 permissions:
   contents: write
 jobs:
@@ -32,11 +33,13 @@ jobs:
           javac -cp "$RUNNER_TEMP/jadx/lib/*" -d "$RUNNER_TEMP" scripts/ExtractDeepTts.java
           java -Xmx5g -cp "$RUNNER_TEMP:$RUNNER_TEMP/jadx/lib/*" ExtractDeepTts app-release.apk analysis-report/deep-source
           python3 scripts/scan_apk_frameworks.py app-release.apk analysis-report/deep-evidence
+          pip install pyelftools==0.32
+          python3 scripts/analyze_native_libraries.py app-release.apk analysis-report/native-evidence
       - name: Publish targeted evidence on session branch
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add analysis-report/deep-source analysis-report/deep-evidence
+          git add analysis-report/deep-source analysis-report/deep-evidence analysis-report/native-evidence
           git diff --cached --quiet || git commit -m 'Save deeper TTS framework and network static evidence'
           git pull --rebase origin arena/01a090c6-a
           git push origin HEAD:arena/01a090c6-a

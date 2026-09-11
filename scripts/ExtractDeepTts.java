@@ -10,7 +10,7 @@ public class ExtractDeepTts {
   args.setThreadsCount(2);
   args.setCommentsLevel(CommentsLevel.DEBUG);
   Path out = Paths.get(argv[1]); Files.createDirectories(out);
-  Set<String> exact = Set.of("com.bytedance.crash.dart.DartCrash", "com.bytedance.crash.dart.DartSummary", "com.bytedance.sdk.bridge.js.spec.IFlutterInterceptorListener", "com.vega.audio.tone.manager.TextToAudioService", "com.vega.audio.tone.manager.TextToAudioServiceHelper", "com.lemon.editor.proxy.AccountImpl", "com.vega.audio.tone.ToneTypeHelper", "com.vega.launcher.start.schedule.tasks.NetworkInitTaskImpl", "com.vega.launcher.debug.AssistConfig", "com.vega.core.context.debug.APIHost", "com.vega.audio.tone.manager.TextToAudioRequest", "com.vega.audio.tone.ToneApiService", "com.vega.audio.tone.tts.engine.server.RemoteSAMIToneManager", "com.vega.launcher.init.config.AssistDevelopSetting", "com.vega.core.context.debug.DevelopSetting", "com.vega.launcher.init.config.AppPropertyImpl", "com.vega.audio.tone.tts.engine.streaming.StreamingReadingToneManager", "com.vega.audio.tone.tts.engine.streaming.StreamingSavingToneManager", "com.vega.audio.tone.tts.engine.sami.SamiTextToSpeechEngine", "com.lemon.lv.editor.proxy.IAccount", "com.vega.audio.tone.tts.engine.nonstreaming.clipflow.nodes.SignTextWithRSANode$runAsync$2", "com.vega.audio.tone.tts.data.StreamingToneSpeakerInfo", "com.vega.materialgenerate.ITtsApiService", "com.vega.materialgenerate.TtsApiServiceFactory", "com.vega.core.context.ContextExtKt", "com.vega.core.net.TimeoutInterceptor", "com.vega.audio.tone.tts.TextToSpeechTaskManager", "com.vega.audio.tone.tts.core.TextToSpeechTaskScheduler", "com.vega.audio.tone.tts.core.TextToSpeechTaskType", "com.vega.audio.tone.tts.cache.DefaultTTSCacheManager", "com.vega.core.net.TypedJson", "com.lemon.lv.data.TextToAudioInfo");
+  Set<String> exact = Set.of("com.vega.edit.base.tone.TextToSpeechIntent", "com.vega.edit.base.tone.TextToAudioUtils", "com.vega.audio.tone.tts.engine.server.RemoteSAMIToneUtil", "com.vega.audio.tone.ToneTypeHelper$fetchEffectToneType$2", "com.vega.launcher.init.core.hook.NetworkInitHook", "com.vega.launcher.start.schedule.tasks.NetworkInitTask", "com.vega.core.app.AppContext", "com.vega.core.utils.FlavorLocale", "com.bytedance.crash.dart.DartCrash", "com.bytedance.crash.dart.DartSummary", "com.bytedance.sdk.bridge.js.spec.IFlutterInterceptorListener", "com.vega.audio.tone.manager.TextToAudioService", "com.vega.audio.tone.manager.TextToAudioServiceHelper", "com.lemon.editor.proxy.AccountImpl", "com.vega.audio.tone.ToneTypeHelper", "com.vega.launcher.start.schedule.tasks.NetworkInitTaskImpl", "com.vega.launcher.debug.AssistConfig", "com.vega.core.context.debug.APIHost", "com.vega.audio.tone.manager.TextToAudioRequest", "com.vega.audio.tone.ToneApiService", "com.vega.audio.tone.tts.engine.server.RemoteSAMIToneManager", "com.vega.launcher.init.config.AssistDevelopSetting", "com.vega.core.context.debug.DevelopSetting", "com.vega.launcher.init.config.AppPropertyImpl", "com.vega.audio.tone.tts.engine.streaming.StreamingReadingToneManager", "com.vega.audio.tone.tts.engine.streaming.StreamingSavingToneManager", "com.vega.audio.tone.tts.engine.sami.SamiTextToSpeechEngine", "com.lemon.lv.editor.proxy.IAccount", "com.vega.audio.tone.tts.engine.nonstreaming.clipflow.nodes.SignTextWithRSANode$runAsync$2", "com.vega.audio.tone.tts.data.StreamingToneSpeakerInfo", "com.vega.materialgenerate.ITtsApiService", "com.vega.materialgenerate.TtsApiServiceFactory", "com.vega.core.context.ContextExtKt", "com.vega.core.net.TimeoutInterceptor", "com.vega.audio.tone.tts.TextToSpeechTaskManager", "com.vega.audio.tone.tts.core.TextToSpeechTaskScheduler", "com.vega.audio.tone.tts.core.TextToSpeechTaskType", "com.vega.audio.tone.tts.cache.DefaultTTSCacheManager", "com.vega.core.net.TypedJson", "com.lemon.lv.data.TextToAudioInfo");
   java.util.regex.Pattern relevant = java.util.regex.Pattern.compile("(?i)flutter|dart|HostEnv|HostConfig|HostSettings|DevelopSettings|TTSEngine.*Config|TtsQwen|TtsV3|TtsSign|SignTextWithRSA|StreamingToneMessageService|StreamingToneRequest|StreamingToneReqPayload|RemoteSAMIRequest|ElevenLabs|Tone.*ApiService|Speaker.*Api|Tts.*Api|Speech.*Api|Net.*Interceptor|Cookie.*Interceptor|Sign.*Interceptor|Auth.*Interceptor|Token.*Interceptor");
   List<String> candidates = new ArrayList<>();
   List<String> routingCandidates = new ArrayList<>();
@@ -28,6 +28,16 @@ public class ExtractDeepTts {
      Files.writeString(out.resolve(name + ".java"), code);
     }
    }
+   List<String> uses = new ArrayList<>();
+   for (JavaClass cls : jadx.getClasses()) {
+    if (cls.getFullName().equals("com.vega.edit.base.tone.TextToSpeechIntent")) {
+     cls.getCode();
+     for (JavaField field : cls.getFields()) {
+      for (JavaNode use : field.getUseIn()) uses.add(field.getFullName() + " <- " + use.getFullName());
+     }
+    }
+   }
+   Files.write(out.resolve("intent-field-usage.txt"), uses);
    Files.write(out.resolve("candidate-classes.txt"), candidates);
    Files.write(out.resolve("routing-candidates.txt"), routingCandidates);
   }
