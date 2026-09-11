@@ -22,6 +22,11 @@ public final class ElevenLabsAudioResource {
     @SerializedName("text_lan")
     public final String textLan;
 
+    /* JADX DEBUG: Multi-variable search result rejected for r1v1, resolved type: java.lang.Object[] */
+    /* JADX DEBUG: Multi-variable search result rejected for r1v2, resolved type: java.lang.Object[] */
+    /* JADX DEBUG: Multi-variable search result rejected for r1v3, resolved type: java.lang.Object[] */
+    /* JADX DEBUG: Multi-variable search result rejected for r1v4, resolved type: java.lang.Object[] */
+    /* JADX DEBUG: Multi-variable search result rejected for r1v5, resolved type: java.lang.Object[] */
     /* JADX WARN: Multi-variable type inference failed */
     public ElevenLabsAudioResource() {
         this(null, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 31, 0 == true ? 1 : 0);
@@ -40,6 +45,13 @@ public final class ElevenLabsAudioResource {
         this.textLan = str5;
     }
 
+    /* JADX DEBUG: Can't inline method, not implemented redirect type for insn: 0x001f: CONSTRUCTOR 
+      (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0004: ARITH (r12v0 int) & (1 int) A[WRAPPED]) != (0 int)) ? ("") : (r7v0 java.lang.String))
+      (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x000b: ARITH (r12v0 int) & (2 int) A[WRAPPED]) != (0 int)) ? ("") : (r8v0 java.lang.String))
+      (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0010: ARITH (r12v0 int) & (4 int) A[WRAPPED]) != (0 int)) ? ("") : (r9v0 java.lang.String))
+      (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x0015: ARITH (r12v0 int) & (8 int) A[WRAPPED]) != (0 int)) ? ("") : (r10v0 java.lang.String))
+      (wrap:java.lang.String:?: TERNARY null = ((wrap:int:0x001a: ARITH (r12v0 int) & (16 int) A[WRAPPED]) == (0 int)) ? (r11v0 java.lang.String) : (""))
+     A[MD:(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void (m)] call: com.vega.audio.tone.tts.engine.elevenlabs.ElevenLabsAudioResource.<init>(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String):void type: THIS */
     public /* synthetic */ ElevenLabsAudioResource(String str, String str2, String str3, String str4, String str5, int i, DefaultConstructorMarker defaultConstructorMarker) {
         this((i & 1) != 0 ? "" : str, (i & 2) != 0 ? "" : str2, (i & 4) != 0 ? "" : str3, (i & 8) != 0 ? "" : str4, (i & 16) == 0 ? str5 : "");
     }

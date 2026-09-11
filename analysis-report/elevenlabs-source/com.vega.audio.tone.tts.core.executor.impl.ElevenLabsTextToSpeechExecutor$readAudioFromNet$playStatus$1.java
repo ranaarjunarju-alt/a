@@ -41,6 +41,8 @@ public final class ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1 
     public final /* synthetic */ Function1<Pair<TextToAudioInfo, ? extends TtsResult>, Unit> w;
     public final /* synthetic */ Pair<TtsResult, TextToAudioInfo> x;
 
+    /* JADX DEBUG: Multi-variable search result rejected for r5v0, resolved type: kotlin.jvm.functions.Function1<? super kotlin.Pair<com.lemon.lv.data.TextToAudioInfo, ? extends com.vega.aigcapi.materialgenerate.TtsResult>, kotlin.Unit> */
+    /* JADX DEBUG: Multi-variable search result rejected for r6v0, resolved type: kotlin.Pair<? extends com.vega.aigcapi.materialgenerate.TtsResult, com.lemon.lv.data.TextToAudioInfo> */
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
     public ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1(ElevenLabsTextToSpeechExecutor elevenLabsTextToSpeechExecutor, TtsResult ttsResult, String str, Function1<? super Pair<TextToAudioInfo, ? extends TtsResult>, Unit> function1, Pair<? extends TtsResult, TextToAudioInfo> pair, Continuation<? super ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1> continuation) {
@@ -57,6 +59,7 @@ public final class ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1 
         return new ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1(this.t, this.u, this.v, this.w, this.x, continuation);
     }
 
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
     @Override // kotlin.jvm.functions.Function2
     public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Boolean> continuation) {
         return ((BaseContinuationImpl) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
@@ -100,12 +103,15 @@ public final class ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1 
                 float f = textToSpeechTask3 != null ? textToSpeechTask3.f74300g : 1.0f;
                 ttsResult.e = System.currentTimeMillis() - elevenLabsTextToSpeechExecutor.f;
                 ThirdPartyPlayer.a(ThirdPartyPlayer.f74363a, str, f, new Function0<Unit>() { // from class: com.vega.audio.tone.tts.core.executor.impl.ElevenLabsTextToSpeechExecutor$readAudioFromNet$playStatus$1$1$1
+                    /* JADX DEBUG: Multi-variable search result rejected for r2v0, resolved type: kotlin.jvm.functions.Function1<? super kotlin.Pair<com.lemon.lv.data.TextToAudioInfo, ? extends com.vega.aigcapi.materialgenerate.TtsResult>, kotlin.Unit> */
+                    /* JADX DEBUG: Multi-variable search result rejected for r3v0, resolved type: kotlin.Pair<? extends com.vega.aigcapi.materialgenerate.TtsResult, com.lemon.lv.data.TextToAudioInfo> */
                     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
                     /* JADX WARN: Multi-variable type inference failed */
                     {
                         super(0);
                     }
 
+                    /* JADX DEBUG: Return type fixed from 'java.lang.Object' to match base method */
                     @Override // kotlin.jvm.functions.Function0
                     public final Unit invoke() {
                         TextToSpeechListener textToSpeechListener3;

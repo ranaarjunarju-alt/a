@@ -55,6 +55,7 @@ public final class ElevenLabsTextToSpeechExecutor$executeTask$2 extends SuspendL
             return new AnonymousClass1(this.r, this.s, continuation);
         }
 
+        /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
         @Override // kotlin.jvm.functions.Function2
         public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Unit> continuation) {
             return ((BaseContinuationImpl) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
@@ -127,6 +128,7 @@ public final class ElevenLabsTextToSpeechExecutor$executeTask$2 extends SuspendL
         return elevenLabsTextToSpeechExecutor$executeTask$2;
     }
 
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
     @Override // kotlin.jvm.functions.Function2
     public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Job> continuation) {
         return ((BaseContinuationImpl) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);

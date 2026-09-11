@@ -42,6 +42,7 @@ public final class ElevenLabsToneManager$downloadAudioResources$2 extends Suspen
         return new ElevenLabsToneManager$downloadAudioResources$2(this.r, this.s, this.t, this.u, this.v, continuation);
     }
 
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
     @Override // kotlin.jvm.functions.Function2
     public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Unit> continuation) {
         return ((BaseContinuationImpl) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);

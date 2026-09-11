@@ -46,11 +46,13 @@ public final class ElevenLabsToneManager$downloadAudioResources$2$1$task$1 exten
         return new ElevenLabsToneManager$downloadAudioResources$2$1$task$1(this.t, this.u, this.v, continuation);
     }
 
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
     @Override // kotlin.jvm.functions.Function2
     public final Object invoke(CoroutineScope coroutineScope, Continuation<? super ElevenLabsSummaryData> continuation) {
         return ((BaseContinuationImpl) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
     }
 
+    /* JADX DEBUG: Class process forced to load method for inline: kotlin.collections.ArraysKt.D(byte[], java.lang.CharSequence, kotlin.jvm.functions.Function1):java.lang.String */
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
     public final Object invokeSuspend(Object obj) throws NoSuchAlgorithmException {
         String strJoinToString$default;
@@ -75,6 +77,8 @@ public final class ElevenLabsToneManager$downloadAudioResources$2$1$task$1 exten
             byte[] bArrDigest = messageDigest.digest(bytes);
             Intrinsics.checkNotNull(bArrDigest);
             strJoinToString$default = ArraysKt___ArraysKt.joinToString$default(bArrDigest, (CharSequence) "", (CharSequence) null, (CharSequence) null, 0, (CharSequence) null, (Function1) new Function1<Byte, CharSequence>() { // from class: com.vega.audio.tone.tts.engine.elevenlabs.ElevenLabsToneManager$downloadAudioResources$2$1$task$1$invokeSuspend$$inlined$md5$1
+                /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object] */
+                /* JADX DEBUG: Return type fixed from 'java.lang.Object' to match base method */
                 @Override // kotlin.jvm.functions.Function1
                 public final CharSequence invoke(Byte b) {
                     String str2 = String.format("%02x", Arrays.copyOf(new Object[]{Byte.valueOf(b.byteValue())}, 1));
@@ -90,6 +94,8 @@ public final class ElevenLabsToneManager$downloadAudioResources$2$1$task$1 exten
             Downloader downloader = Downloader.f79569c;
             String strC2 = this.t.c();
             ElevenLabsToneManager$downloadAudioResources$2$1$task$1$res$1 elevenLabsToneManager$downloadAudioResources$2$1$task$1$res$1 = new Function1<Integer, Unit>() { // from class: com.vega.audio.tone.tts.engine.elevenlabs.ElevenLabsToneManager$downloadAudioResources$2$1$task$1$res$1
+                /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object] */
+                /* JADX DEBUG: Return type fixed from 'java.lang.Object' to match base method */
                 @Override // kotlin.jvm.functions.Function1
                 public final Unit invoke(Integer num) {
                     num.intValue();

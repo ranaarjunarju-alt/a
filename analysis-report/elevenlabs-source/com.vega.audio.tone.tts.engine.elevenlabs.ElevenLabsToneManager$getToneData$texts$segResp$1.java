@@ -34,6 +34,7 @@ public final class ElevenLabsToneManager$getToneData$texts$segResp$1 extends Sus
         return new ElevenLabsToneManager$getToneData$texts$segResp$1(this.q, continuation);
     }
 
+    /* JADX DEBUG: Method arguments types fixed to match base method, original types: [java.lang.Object, java.lang.Object] */
     @Override // kotlin.jvm.functions.Function2
     public final Object invoke(CoroutineScope coroutineScope, Continuation<? super Response<SentenceData>> continuation) {
         return ((BaseContinuationImpl) create(coroutineScope, continuation)).invokeSuspend(Unit.INSTANCE);
