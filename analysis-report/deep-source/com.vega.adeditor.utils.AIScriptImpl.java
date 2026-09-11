@@ -1092,40 +1092,6 @@ public final class AIScriptImpl implements AIScriptApi {
     }
 
     /* JADX DEBUG: Multi-variable search result rejected for r10v1, resolved type: int */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v1, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v2, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v3, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v4, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v5, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v6, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v7, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v8, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r25v9, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v10, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v11, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v12, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v13, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v14, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v15, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v16, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v17, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v18, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v19, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v20, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v21, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v22, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v23, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v24, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v25, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v26, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v27, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v28, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v4, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v5, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v6, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v7, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v8, resolved type: java.lang.Object[] */
-    /* JADX DEBUG: Multi-variable search result rejected for r8v9, resolved type: java.lang.Object[] */
     /* JADX WARN: Multi-variable type inference failed */
     /* JADX WARN: Type inference failed for: r10v0 */
     /* JADX WARN: Type inference failed for: r10v4 */
@@ -1183,10 +1149,7 @@ public final class AIScriptImpl implements AIScriptApi {
         }
         AiScriptVoiceoverToneConfig aiScriptVoiceoverToneConfig = ((BaseClientSetting) SPIService.INSTANCE.getImpl(Reflection.getOrCreateKotlinClass(ClientSetting.class), null)).getAiScriptVoiceoverToneConfig();
         String strE = aiScriptVoiceoverToneConfig.e();
-        String strG = aiScriptVoiceoverToneConfig.g();
-        String strD = aiScriptVoiceoverToneConfig.d();
-        String strF = aiScriptVoiceoverToneConfig.f();
-        BuildersKt__Builders_commonKt.launch$default(CoroutineScopeKt.CoroutineScope(Dispatchers.getIO()), null, null, new AIScriptImpl$genAiScriptSubTitle$1("type", str, this, new ToneType(null, 0 == true ? 1 : 0, strG, 0 == true ? 1 : 0, 0 == true ? 1 : 0, strE, aiScriptVoiceoverToneConfig.c(), 0 == true ? 1 : 0, aiScriptVoiceoverToneConfig.b(), 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, strF, strD, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, false, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0.0d, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, 0 == true ? 1 : 0, -12645, 1023, 0 == true ? 1 : 0), viewModelActivity, scriptItem, function0, function03, lvProgressDialog, null), 3, null).invokeOnCompletion(new Function1<Throwable, Unit>() { // from class: com.vega.adeditor.utils.AIScriptImpl$genAiScriptSubTitle$2
+        BuildersKt__Builders_commonKt.launch$default(CoroutineScopeKt.CoroutineScope(Dispatchers.getIO()), null, null, new AIScriptImpl$genAiScriptSubTitle$1("type", str, this, new ToneType(null, null, aiScriptVoiceoverToneConfig.g(), null, null, strE, aiScriptVoiceoverToneConfig.c(), null, aiScriptVoiceoverToneConfig.b(), null, null, null, aiScriptVoiceoverToneConfig.f(), aiScriptVoiceoverToneConfig.d(), null, null, null, false, null, null, false, false, 0, null, 0.0d, false, null, false, false, null, null, null, false, null, null, null, null, null, false, null, null, false, -12645, 1023, null), viewModelActivity, scriptItem, function0, function03, lvProgressDialog, null), 3, null).invokeOnCompletion(new Function1<Throwable, Unit>() { // from class: com.vega.adeditor.utils.AIScriptImpl$genAiScriptSubTitle$2
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(1);

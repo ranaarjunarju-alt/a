@@ -1036,7 +1036,11 @@
     "bytes": 2342912,
     "compressed_bytes": 2331404,
     "sha256": "74f79987612952d55256a07f95e36fbd4ddebe3b19f308065f655b68cf1e198b",
-    "parse_error": "ELFError: Magic number does not match"
+    "parse_error": "ELFError: Magic number does not match",
+    "prefix_hex": "7f4b4f4d0100000079b8f89988e3a107000d0098f2690098f269e8d918030000",
+    "embedded_elf_offset": -1,
+    "byte_entropy_bits": 7.996063869540297,
+    "is_zip_container": false
   },
   {
     "path": "lib/arm64-v8a/libcccreator.so",
@@ -5997,7 +6001,11 @@
     "bytes": 2457600,
     "compressed_bytes": 2448759,
     "sha256": "68946022f97d3daa2a95c412da9dc991be21d688eaed9ae2698125852e5c001d",
-    "parse_error": "ELFError: Magic number does not match"
+    "parse_error": "ELFError: Magic number does not match",
+    "prefix_hex": "7f4b4f4d0100000079b8f899ec85ad05000b00a0866300a08663f89009030000",
+    "embedded_elf_offset": -1,
+    "byte_entropy_bits": 7.997287565369344,
+    "is_zip_container": false
   },
   {
     "path": "lib/armeabi-v7a/libcccreator.so",
