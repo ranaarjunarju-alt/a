@@ -1,5 +1,6 @@
 """Inspect all packaged ELF libraries without loading or executing them."""
-import hashlib, io, json, re, sys, zipfile
+import hashlib, io, json, re, sys, zipfile, math
+from collections import Counter
 from pathlib import Path
 from elftools.elf.elffile import ELFFile
 src, out = Path(sys.argv[1]), Path(sys.argv[2]); out.mkdir(parents=True,exist_ok=True)
@@ -49,7 +50,15 @@ with zipfile.ZipFile(src) as apk:
                     hits.append({'offset':m.start(),'text':s})
             row['tts_marker_count']=hit_count
             evidence.append({'path':name,'matching_defined_symbols':exports[:250],'matching_undefined_symbols':imports[:250],'jni_symbols_sample':jni[:60],'ascii_marker_total':hit_count,'ascii_markers_sample':hits,'sample_limits':{'symbols':250,'jni':60,'strings':120}})
-        except Exception as e:row['parse_error']=type(e).__name__+': '+str(e)
+        except Exception as e:
+            row['parse_error']=type(e).__name__+': '+str(e)
+            row['prefix_hex']=data[:32].hex()
+            row['embedded_elf_offset']=data.find(b'\x7fELF')
+            row['byte_entropy_bits']=-sum((n/len(data))*math.log2(n/len(data)) for n in Counter(data).values()) if data else 0
+            row['is_zip_container']=zipfile.is_zipfile(io.BytesIO(data))
+            if row['is_zip_container']:
+                with zipfile.ZipFile(io.BytesIO(data)) as inner:row['zip_entries']=inner.namelist()[:100]
+
         rows.append(row)
 (out/'all-libraries.json').write_text(json.dumps(rows,indent=2))
 (out/'native-symbol-evidence.json').write_text(json.dumps(evidence,indent=2))
